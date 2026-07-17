@@ -1,0 +1,61 @@
+---
+import '../styles/global.css';
+
+interface Props {
+  title: string;
+  description: string;
+}
+
+const { title, description } = Astro.props;
+const canonical = Astro.site ? new URL(Astro.url.pathname, Astro.site) : undefined;
+const path = Astro.url.pathname;
+
+const navItems = [
+  { href: '/', label: 'Benchmarks', current: path === '/' || path.startsWith('/benchmarks') || path.startsWith('/categories') },
+  { href: '/about/', label: 'About', current: path.startsWith('/about') },
+  { href: '/search/', label: 'Search', current: path.startsWith('/search') },
+];
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    {canonical && <link rel="canonical" href={canonical} />}
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="sitemap" href="/sitemap-index.xml" />
+    <meta name="generator" content={Astro.generator} />
+    <meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff" />
+    <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#14161c" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:type" content="website" />
+    {canonical && <meta property="og:url" content={canonical} />}
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <div class="container">
+        <a class="site-name" href="/">Quantum Benchmark Zoo</a>
+        <nav class="site-nav" aria-label="Main">
+          {navItems.map((item) => (
+            <a href={item.href} aria-current={item.current ? 'page' : undefined}>{item.label}</a>
+          ))}
+        </nav>
+      </div>
+    </header>
+    <main id="main">
+      <div class="container">
+        <slot />
+      </div>
+    </main>
+    <footer class="site-footer">
+      <div class="container">
+        <p>A community catalog of quantum computing benchmarks.</p>
+        <p><a href="/about/#contributing">Contributions welcome</a></p>
+      </div>
+    </footer>
+  </body>
+</html>

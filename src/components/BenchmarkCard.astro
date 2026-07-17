@@ -1,0 +1,29 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import { categoryLabel } from '../lib/categories';
+
+interface Props {
+  entry: CollectionEntry<'benchmarks'>;
+  headingLevel?: 'h2' | 'h3';
+}
+
+const { entry, headingLevel = 'h3' } = Astro.props;
+const { name, tagline, category, introducedBy, yearIntroduced, aliases } = entry.data;
+const Heading = headingLevel;
+const searchText = [name, ...aliases, tagline, ...introducedBy]
+  .join(' ')
+  .toLowerCase();
+---
+
+<li class="card" data-benchmark data-category={category} data-search={searchText}>
+  <div class="card-head">
+    <Heading class="card-title">
+      <a href={`/benchmarks/${entry.id}/`}>{name}</a>
+    </Heading>
+    <a class={`badge badge-${category}`} href={`/categories/${category}/`}>{categoryLabel(category)}</a>
+  </div>
+  <p class="card-tagline">{tagline}</p>
+  <p class="meta-line">
+    {introducedBy.join(', ')} · {yearIntroduced}{aliases.length > 0 && <> · also known as {aliases.join(', ')}</>}
+  </p>
+</li>

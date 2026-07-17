@@ -1,0 +1,46 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout
+  title="Search — Quantum Benchmark Zoo"
+  description="Full-text search across every benchmark entry in the Quantum Benchmark Zoo."
+>
+  <h1>Search</h1>
+  <p class="lede">Full-text search across every benchmark entry.</p>
+
+  <link rel="stylesheet" href="/pagefind/pagefind-component-ui.css" />
+  <script is:inline type="module" src="/pagefind/pagefind-component-ui.js"></script>
+
+  <div class="search-wrap">
+    <pagefind-input instance="zoo"></pagefind-input>
+    <pagefind-summary instance="zoo"></pagefind-summary>
+    <pagefind-filter-dropdown filter="category" label="Category" instance="zoo"></pagefind-filter-dropdown>
+    <pagefind-results instance="zoo"></pagefind-results>
+  </div>
+
+  <div class="empty-state" id="search-unavailable" hidden>
+    <p>
+      Search isn't available right now. The search index is generated at build time — if you are
+      running the dev server, run <code>pnpm build &amp;&amp; pnpm preview</code> to try it. You can
+      also <a href="/">browse and filter all benchmarks</a>.
+    </p>
+  </div>
+
+  <script is:inline>
+    window.addEventListener('load', () => {
+      if (!window.customElements || !customElements.get('pagefind-input')) {
+        document.getElementById('search-unavailable').hidden = false;
+      }
+    });
+  </script>
+</BaseLayout>
+
+<style>
+  .search-wrap {
+    margin-top: 1.5rem;
+    display: grid;
+    gap: 0.75rem;
+    max-width: 44rem;
+  }
+</style>

@@ -1,0 +1,92 @@
+---
+import { getCollection, getEntries, render } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { categoryLabel } from '../../lib/categories';
+
+export async function getStaticPaths() {
+  const benchmarks = await getCollection('benchmarks');
+  return benchmarks.map((entry) => ({
+    params: { id: entry.id },
+    props: { entry },
+  }));
+}
+
+const { entry } = Astro.props;
+const { name, tagline, category, measures, introducedBy, yearIntroduced, aliases, status, papers, code } =
+  entry.data;
+const { Content } = await render(entry);
+const related = await getEntries(entry.data.related);
+---
+
+<BaseLayout title={`${name} — Quantum Benchmark Zoo`} description={tagline}>
+  <article data-pagefind-body>
+    <header class="entry-header">
+      <p class="breadcrumb"><a href="/">← All benchmarks</a></p>
+      <div class="entry-title-row">
+        <h1>{name}</h1>
+        <a
+          class={`badge badge-${category}`}
+          href={`/categories/${category}/`}
+          data-pagefind-filter="category"
+        >{categoryLabel(category)}</a>
+        {status === 'historical' && <span class="badge">Historical</span>}
+      </div>
+      <p class="lede">{tagline}</p>
+      <dl class="entry-meta">
+        <dt>Measures</dt>
+        <dd>{measures}</dd>
+        <dt>Introduced by</dt>
+        <dd>{introducedBy.join(', ')} ({yearIntroduced})</dd>
+        {aliases.length > 0 && (
+          <>
+            <dt>Also known as</dt>
+            <dd>{aliases.join(', ')}</dd>
+          </>
+        )}
+      </dl>
+    </header>
+
+    <div class="prose">
+      <Content />
+    </div>
+
+    <section aria-labelledby="papers-heading">
+      <h2 id="papers-heading">Key papers</h2>
+      <ul class="ref-list">
+        {papers.map((paper) => (
+          <li>
+            <a href={paper.url}>{paper.title}</a>
+            <span class="ref-byline"> — {paper.authors}, {paper.year}</span>
+          </li>
+        ))}
+      </ul>
+    </section>
+
+    {code.length > 0 && (
+      <section aria-labelledby="code-heading">
+        <h2 id="code-heading">Reference implementations</h2>
+        <ul class="ref-list">
+          {code.map((item) => (
+            <li>
+              <a href={item.url}>{item.name}</a>
+            </li>
+          ))}
+        </ul>
+      </section>
+    )}
+
+    {related.length > 0 && (
+      <section aria-labelledby="related-heading">
+        <h2 id="related-heading">Related benchmarks</h2>
+        <ul class="ref-list">
+          {related.map((rel) => (
+            <li>
+              <a href={`/benchmarks/${rel.id}/`}>{rel.data.name}</a>
+              <span class="ref-byline"> — {rel.data.tagline}</span>
+            </li>
+          ))}
+        </ul>
+      </section>
+    )}
+  </article>
+</BaseLayout>

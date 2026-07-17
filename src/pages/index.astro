@@ -1,0 +1,117 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import BenchmarkCard from '../components/BenchmarkCard.astro';
+import { CATEGORIES } from '../lib/categories';
+
+const benchmarks = (await getCollection('benchmarks')).sort((a, b) =>
+  a.data.name.localeCompare(b.data.name),
+);
+
+const countFor = (id: string) => benchmarks.filter((b) => b.data.category === id).length;
+---
+
+<BaseLayout
+  title="Quantum Benchmark Zoo — a catalog of quantum computing benchmarks"
+  description="A community-maintained catalog of quantum computing benchmarks: what each protocol measures, how it works, key papers, reference implementations, and notable results."
+>
+  <h1>Quantum Benchmark Zoo</h1>
+  <p class="lede">
+    A community-maintained catalog of protocols for measuring quantum computer performance —
+    from single-gate characterization to full application suites. Each entry covers what the
+    benchmark measures, how it works, key papers, and reference implementations.
+  </p>
+
+  <section aria-labelledby="all-benchmarks">
+    <h2 id="all-benchmarks" class="visually-hidden">All benchmarks</h2>
+
+    <form class="toolbar" role="search" data-filter-form>
+      <label class="visually-hidden" for="filter-input">Filter benchmarks by name</label>
+      <input
+        class="filter-input"
+        type="search"
+        id="filter-input"
+        placeholder="Filter by name, alias, or keyword…"
+        autocomplete="off"
+      />
+      <div class="chip-row" role="group" aria-label="Filter by category">
+        <button type="button" class="chip" data-filter-chip="all" aria-pressed="true">
+          All ({benchmarks.length})
+        </button>
+        {CATEGORIES.map((cat) => (
+          <button type="button" class="chip" data-filter-chip={cat.id} aria-pressed="false">
+            {cat.label} ({countFor(cat.id)})
+          </button>
+        ))}
+      </div>
+    </form>
+
+    <p class="result-count" id="result-count" aria-live="polite" hidden></p>
+
+    <ul class="card-list" id="benchmark-list">
+      {benchmarks.map((entry) => (
+        <BenchmarkCard entry={entry} />
+      ))}
+    </ul>
+
+    <div class="empty-state" id="empty-state" hidden>
+      <p>
+        No benchmarks match that filter. Try a different term, or
+        <a href="/about/#contributing">add the one you were looking for</a>.
+      </p>
+    </div>
+  </section>
+
+  <section aria-labelledby="by-category">
+    <h2 id="by-category">Browse by category</h2>
+    <ul class="category-grid">
+      {CATEGORIES.map((cat) => (
+        <li class="card">
+          <h3 class="card-title">
+            <a href={`/categories/${cat.id}/`}>{cat.label}</a>
+          </h3>
+          <p>{cat.description}</p>
+        </li>
+      ))}
+    </ul>
+  </section>
+</BaseLayout>
+
+<script is:inline>
+  (() => {
+    const input = document.getElementById('filter-input');
+    const chips = Array.from(document.querySelectorAll('[data-filter-chip]'));
+    const cards = Array.from(document.querySelectorAll('[data-benchmark]'));
+    const count = document.getElementById('result-count');
+    const empty = document.getElementById('empty-state');
+    let category = 'all';
+
+    function apply() {
+      const text = input.value.trim().toLowerCase();
+      let shown = 0;
+      for (const card of cards) {
+        const matchesCategory = category === 'all' || card.dataset.category === category;
+        const matchesText = text === '' || card.dataset.search.includes(text);
+        card.hidden = !(matchesCategory && matchesText);
+        if (!card.hidden) shown += 1;
+      }
+      const filtering = text !== '' || category !== 'all';
+      count.hidden = !filtering;
+      count.textContent = filtering
+        ? `Showing ${shown} of ${cards.length} benchmarks`
+        : '';
+      empty.hidden = shown !== 0;
+    }
+
+    input.addEventListener('input', apply);
+    for (const chip of chips) {
+      chip.addEventListener('click', () => {
+        category = chip.dataset.filterChip;
+        for (const other of chips) {
+          other.setAttribute('aria-pressed', other === chip ? 'true' : 'false');
+        }
+        apply();
+      });
+    }
+  })();
+</script>

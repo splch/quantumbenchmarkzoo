@@ -1,0 +1,61 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { CATEGORIES } from '../lib/categories';
+---
+
+<BaseLayout
+  title="About — Quantum Benchmark Zoo"
+  description="What the Quantum Benchmark Zoo covers, how entries are organized, and how to contribute a benchmark."
+>
+  <h1>About</h1>
+  <div class="prose">
+    <p>
+      The Quantum Benchmark Zoo is a catalog of protocols for measuring quantum computer
+      performance. Quantum benchmarking is fragmented across papers, vendor documentation, and
+      software repositories; this site collects the protocols in one place, with a consistent
+      structure: what each benchmark measures, how it works, its strengths and limitations, key
+      papers, and reference implementations.
+    </p>
+
+    <h2>How entries are organized</h2>
+    <p>Every benchmark is filed under one of three categories:</p>
+    <ul>
+      {CATEGORIES.map((cat) => (
+        <li>
+          <a href={`/categories/${cat.id}/`}><strong>{cat.label}</strong></a> — {cat.description}
+        </li>
+      ))}
+    </ul>
+    <p>
+      Entries aim for a neutral, cite-your-sources tone: claims about what a benchmark shows —
+      and where it falls short — should trace back to the literature.
+    </p>
+
+    <h2 id="contributing">Contributing</h2>
+    <p>
+      Each benchmark is a single Markdown file with structured frontmatter, validated against a
+      schema at build time — a malformed entry fails the build rather than shipping. To add a
+      benchmark: copy an existing file in <code>src/content/benchmarks/</code>, fill in the
+      frontmatter and body, and open a pull request on
+      <a href="https://github.com/splch/quantumbenchmarkzoo">GitHub</a>. The repository's
+      <a href="https://github.com/splch/quantumbenchmarkzoo/blob/main/CONTRIBUTING.md">CONTRIBUTING.md</a>
+      has the full field reference.
+    </p>
+
+    <h2>Related resources</h2>
+    <ul>
+      <li>
+        <a href="https://metriq.info/">Metriq</a> — a Unitary Foundation platform for submitting
+        and tracking quantum benchmark <em>results</em> over time.
+      </li>
+      <li>
+        <a href="https://errorcorrectionzoo.org/">Error Correction Zoo</a> — a catalog of
+        classical and quantum error-correcting codes.
+      </li>
+      <li>
+        <a href="https://quantumalgorithmzoo.org/">Quantum Algorithm Zoo</a> — a catalog of
+        quantum algorithms and their speedups.
+      </li>
+    </ul>
+  </div>
+</BaseLayout>

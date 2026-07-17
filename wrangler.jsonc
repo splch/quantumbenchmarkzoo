@@ -1,0 +1,9 @@
+// Cloudflare Workers configuration (static assets only — no Worker script).
+// Deploy with: pnpm build && pnpm dlx wrangler@latest deploy
+{
+  "name": "quantumbenchmarkzoo",
+  "compatibility_date": "2026-07-16",
+  "assets": {
+    "directory": "./dist"
+  }
+}

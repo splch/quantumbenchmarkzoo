@@ -1,0 +1,35 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import BenchmarkCard from '../../components/BenchmarkCard.astro';
+import { CATEGORIES } from '../../lib/categories';
+
+export async function getStaticPaths() {
+  return CATEGORIES.map((cat) => ({
+    params: { category: cat.id },
+    props: { cat },
+  }));
+}
+
+const { cat } = Astro.props;
+const entries = (await getCollection('benchmarks', ({ data }) => data.category === cat.id)).sort(
+  (a, b) => a.data.name.localeCompare(b.data.name),
+);
+---
+
+<BaseLayout
+  title={`${cat.label} benchmarks — Quantum Benchmark Zoo`}
+  description={cat.description}
+>
+  <p class="breadcrumb"><a href="/">← All benchmarks</a></p>
+  <h1>{cat.label} benchmarks</h1>
+  <p class="lede">{cat.description}</p>
+  <p class="meta-line">
+    {entries.length} {entries.length === 1 ? 'entry' : 'entries'}
+  </p>
+  <ul class="card-list">
+    {entries.map((entry) => (
+      <BenchmarkCard entry={entry} headingLevel="h2" />
+    ))}
+  </ul>
+</BaseLayout>
