@@ -32,7 +32,7 @@ Quantum Volume (QV) is a holistic benchmark introduced by IBM to compare quantum
 
 ## How it works
 
-A QV test on `m` qubits runs random "model circuits" that are square: `m` layers deep on `m` qubits. Each layer applies a random permutation of the qubits followed by random two-qubit unitaries (drawn from SU(4)) on paired qubits. For each circuit, the ideal output distribution is computed classically, and the *heavy outputs* — bitstrings whose ideal probability is above the median — are identified.
+A QV test on `m` qubits runs random "model circuits" that are square: `m` layers deep on `m` qubits. Each layer applies a random permutation of the qubits followed by random two-qubit unitaries (drawn from SU(4)) on paired qubits. For each circuit, the ideal output distribution is computed classically, and the *heavy outputs* (bitstrings whose ideal probability is above the median) are identified.
 
 The device passes at width `m` if it produces heavy outputs more than two-thirds of the time, with 97.5% statistical confidence. The quantum volume is `2^m` for the largest `m` the device passes. Full compiler optimization is allowed, so QV measures the whole stack, not just the hardware.
 
@@ -40,7 +40,7 @@ The device passes at width `m` if it produces heavy outputs more than two-thirds
 
 QV's strength is that it is hard to game with any single spec: adding qubits without fidelity, or fidelity without connectivity, does not raise the score. That made it an early de facto standard for cross-platform comparison.
 
-Its main limitations are structural. Verifying heavy outputs requires classically simulating the ideal circuit, which becomes intractable beyond roughly 30–40 qubits, capping how far the benchmark can scale. The square-circuit shape also under-rewards devices whose qubit count far exceeds their usable depth (or vice versa) — one reason IBM itself has shifted emphasis toward per-layer error metrics such as [layer fidelity / error per layered gate (EPLG)](/benchmarks/layer-fidelity/) for its larger processors, and why the [volumetric benchmarking framework](/benchmarks/volumetric-benchmarking/) generalizes QV to rectangular circuit shapes. The [Baldwin et al. re-examination](https://arxiv.org/abs/2110.14808) analyzes the test's statistical assumptions and pass criteria in detail.
+Its main limitations are structural. Verifying heavy outputs requires classically simulating the ideal circuit, which becomes intractable beyond roughly 30–40 qubits, capping how far the benchmark can scale. The square-circuit shape also under-rewards devices whose qubit count far exceeds their usable depth (or vice versa), one reason IBM itself has shifted emphasis toward per-layer error metrics such as [layer fidelity / error per layered gate (EPLG)](/benchmarks/layer-fidelity/) for its larger processors, and why the [volumetric benchmarking framework](/benchmarks/volumetric-benchmarking/) generalizes QV to rectangular circuit shapes. The [Baldwin et al. re-examination](https://arxiv.org/abs/2110.14808) analyzes the test's statistical assumptions and pass criteria in detail.
 
 ## Notable results
 

@@ -1,6 +1,6 @@
 ---
 name: Cross-Entropy Benchmarking
-tagline: Estimates circuit fidelity by checking how often a device samples the high-probability bitstrings of random quantum circuits — the metric behind Google's quantum supremacy claim.
+tagline: Estimates circuit fidelity by checking how often a device samples the high-probability bitstrings of random quantum circuits, the metric behind Google's quantum supremacy claim.
 category: system-level
 measures: Linear cross-entropy fidelity, F_XEB = 2^n · ⟨p_ideal(x)⟩ − 1, averaged over sampled bitstrings x
 introducedBy:
@@ -50,10 +50,10 @@ where the average runs over the bitstrings `x` the device actually produced, and
 
 ## Strengths and limitations
 
-XEB works on circuits far too entangled for tomography and needs only sampled bitstrings plus classical simulation — which is also its central limitation: computing `p_ideal` is exponentially hard, so XEB is directly verifiable only up to circuit sizes a classical supercomputer can still simulate. Beyond that regime, quoted fidelities rest on extrapolation.
+XEB works on circuits far too entangled for tomography and needs only sampled bitstrings plus classical simulation. That simulation is also its central limitation: computing `p_ideal` is exponentially hard, so XEB is directly verifiable only up to circuit sizes a classical supercomputer can still simulate. Beyond that regime, quoted fidelities rest on extrapolation.
 
 The metric's adversarial robustness is an active research area. Tensor-network "spoofing" results, notably [Pan, Chen & Zhang (2022)](https://arxiv.org/abs/2111.03011), cut the classical cost of matching Sycamore's XEB scores by orders of magnitude, and later theoretical work showed that under a constant noise rate, polynomial-time classical algorithms can achieve nontrivial XEB values. High XEB on its own is therefore weaker evidence of quantum advantage than originally hoped, though it remains a standard, sensitive full-stack calibration signal.
 
 ## Notable results
 
-Google's 53-qubit Sycamore processor reported `F_XEB ≈ 0.2%` at depth 20 in the [2019 Nature experiment](https://www.nature.com/articles/s41586-019-1666-5) — small in absolute terms, but statistically far from classical spoofing baselines at the time. Follow-up random-circuit-sampling experiments by Google (67–70 qubits, 2023–24) and USTC's Zuchongzhi processors pushed the verifiable and extrapolated regimes further while the classical-simulation frontier advanced in parallel.
+Google's 53-qubit Sycamore processor reported `F_XEB ≈ 0.2%` at depth 20 in the [2019 Nature experiment](https://www.nature.com/articles/s41586-019-1666-5): small in absolute terms, but statistically far from classical spoofing baselines at the time. Follow-up random-circuit-sampling experiments by Google (67–70 qubits, 2023–24) and USTC's Zuchongzhi processors pushed the verifiable and extrapolated regimes further while the classical-simulation frontier advanced in parallel.

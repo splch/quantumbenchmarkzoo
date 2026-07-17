@@ -2,7 +2,7 @@
 name: rQOPS
 tagline: "Microsoft's proposed FLOPS analogue for fault-tolerant quantum computers: logical qubits times logical clock frequency, qualified by a maximum tolerable logical error rate."
 category: error-correction
-measures: Logical qubits × logical clock frequency (Hz) at a stated maximum logical error rate — a projected, not measured, throughput figure
+measures: Logical qubits × logical clock frequency (Hz) at a stated maximum logical error rate; a projected, not measured, throughput figure
 introducedBy:
   - Microsoft Azure Quantum (Krysta Svore)
 yearIntroduced: 2023
@@ -37,15 +37,15 @@ related:
   - clops
 ---
 
-rQOPS — reliable Quantum Operations Per Second — is Microsoft's proposed figure of merit for fault-tolerant quantum computers, introduced by Krysta Svore at Microsoft Azure Quantum's [June 21, 2023 roadmap announcement](https://azure.microsoft.com/en-us/blog/quantum/2023/06/21/microsoft-achieves-first-milestone-towards-a-quantum-supercomputer/) and positioned as the quantum analogue of FLOPS. It multiplies the number of logical qubits by the logical clock frequency, qualified by a maximum tolerable logical error rate. Microsoft set at least 1 million rQOPS at a logical error rate of 10^-12 as its bar for a "quantum supercomputer" — and rated every machine of the day at an rQOPS of zero.
+rQOPS (reliable Quantum Operations Per Second) is Microsoft's proposed figure of merit for fault-tolerant quantum computers, introduced by Krysta Svore at Microsoft Azure Quantum's [June 21, 2023 roadmap announcement](https://azure.microsoft.com/en-us/blog/quantum/2023/06/21/microsoft-achieves-first-milestone-towards-a-quantum-supercomputer/) and positioned as the quantum analogue of FLOPS. It multiplies the number of logical qubits by the logical clock frequency, qualified by a maximum tolerable logical error rate. Microsoft set at least 1 million rQOPS at a logical error rate of 10^-12 as its bar for a "quantum supercomputer" and rated every machine of the day at an rQOPS of zero.
 
 ## How it works
 
-There is no measurement protocol: rQOPS is a formula applied to a machine's (so far, always projected) fault-tolerant specifications — a named metric rather than a runnable benchmark. Pick an architecture and QEC code, work out how many logical qubits it yields and the logical clock speed (the rate of logical operations, set by syndrome extraction and decoding), multiply, and state the logical error rate at which the count holds. In practice values came from resource estimation: the classic [Azure Quantum Resource Estimator](https://arxiv.org/abs/2311.05801) reported projected rQOPS in its results summary, building on the [Beverland et al. framework](https://arxiv.org/abs/2211.07629) — which predates and never uses the term.
+rQOPS has no measurement protocol: it is a formula applied to a machine's (so far, always projected) fault-tolerant specifications, a named metric rather than a runnable benchmark. Pick an architecture and QEC code, work out how many logical qubits it yields and the logical clock speed (the rate of logical operations, set by syndrome extraction and decoding), multiply, and state the logical error rate at which the count holds. In practice values came from resource estimation: the classic [Azure Quantum Resource Estimator](https://arxiv.org/abs/2311.05801) reported projected rQOPS in its results summary, building on the [Beverland et al. framework](https://arxiv.org/abs/2211.07629), which predates and never uses the term.
 
 ## Strengths and limitations
 
-The metric usefully shifts attention from raw qubit counts to reliable logical throughput, in units roughly comparable across architectures — a fault-tolerant-era counterpart to speed benchmarks like [CLOPS](/benchmarks/clops/). But it is estimated, never measured: no protocol specifies how to obtain the logical clock frequency or error rate on hardware, the headline thresholds are Microsoft roadmap targets rather than community standards, and no arXiv or journal paper defines the metric — the defining paper cited as "in preparation, 2024" in [arXiv:2311.05801](https://arxiv.org/abs/2311.05801) never appeared. The [QLOPS](/benchmarks/qlops/) authors additionally fault it for ignoring decoder throughput, latency, and code rate.
+The metric usefully shifts attention from raw qubit counts to reliable logical throughput, in units roughly comparable across architectures, a fault-tolerant-era counterpart to speed benchmarks like [CLOPS](/benchmarks/clops/). But it is estimated, never measured: no protocol specifies how to obtain the logical clock frequency or error rate on hardware, the headline thresholds are Microsoft roadmap targets rather than community standards, and no arXiv or journal paper defines the metric: the defining paper cited as "in preparation, 2024" in [arXiv:2311.05801](https://arxiv.org/abs/2311.05801) never appeared. The [QLOPS](/benchmarks/qlops/) authors additionally fault it for ignoring decoder throughput, latency, and code rate.
 
 ## Notable results
 

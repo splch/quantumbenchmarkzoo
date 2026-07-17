@@ -1,6 +1,6 @@
 ---
 name: QOBLIB
-tagline: Open library of ten classically hard, practically motivated optimization problem classes — the Intractable Decathlon — with common reporting rules for quantum and classical solvers.
+tagline: Open library of ten classically hard, practically motivated optimization problem classes (the Intractable Decathlon) with common reporting rules for quantum and classical solvers.
 category: application-level
 measures: Best feasible objective value, success rate, and wall-clock time-to-solution per instance across ten hard optimization problem classes
 introducedBy:
@@ -12,7 +12,7 @@ aliases:
   - Intractable Decathlon
 status: active
 papers:
-  - title: Quantum Optimization Benchmarking Library — The Intractable Decathlon
+  - title: "Quantum Optimization Benchmarking Library: The Intractable Decathlon"
     authors: Koch, Bernal Neira, Chen, Cortiana, Egger et al.
     year: 2025
     url: https://arxiv.org/abs/2504.03832
@@ -31,7 +31,7 @@ related:
   - qb-gsee-benchmark
 ---
 
-QOBLIB, the Quantum Optimization Benchmarking Library, is an open instance library and reporting standard for tracking whether quantum methods are gaining ground on classically hard optimization. The Quantum Optimization Working Group — Koch and 26 co-authors spanning the Zuse Institute Berlin, IBM Quantum, and some fifteen partner organizations — released it on [arXiv in April 2025](https://arxiv.org/abs/2504.03832) and published it in [Nature Computational Science in June 2026](https://www.nature.com/articles/s43588-026-00991-1).
+QOBLIB, the Quantum Optimization Benchmarking Library, is an open instance library and reporting standard for tracking whether quantum methods are gaining ground on classically hard optimization. The Quantum Optimization Working Group (Koch and 26 co-authors spanning the Zuse Institute Berlin, IBM Quantum, and some fifteen partner organizations) released it on [arXiv in April 2025](https://arxiv.org/abs/2504.03832) and published it in [Nature Computational Science in June 2026](https://www.nature.com/articles/s43588-026-00991-1).
 
 ## How it works
 
@@ -39,7 +39,7 @@ The library curates instances from ten problem classes, dubbed the Intractable D
 
 ## Strengths and limitations
 
-QOBLIB is model- and hardware-independent, with classical solvers competing on the same instances — which keeps quantum-advantage claims honest. It deliberately produces no single device score: results are per-instance track records rather than one aggregate number like [Q-score](/benchmarks/q-score/), and it supplies instances plus reporting conventions rather than an execution harness (frameworks like [QUARK](/benchmarks/quark/) handle orchestration). "Intractable" means classically hard, not quantum-advantaged: classical baselines currently lead, and the library exists to track progress toward advantage. Note the arXiv v1 title said "Benchmark Library"; v2 and the journal version say "Benchmarking Library".
+QOBLIB is model- and hardware-independent, with classical solvers competing on the same instances, which keeps quantum-advantage claims honest. It deliberately produces no single device score: results are per-instance track records rather than one aggregate number like [Q-score](/benchmarks/q-score/), and it supplies instances plus reporting conventions rather than an execution harness (frameworks like [QUARK](/benchmarks/quark/) handle orchestration). "Intractable" means classically hard, not quantum-advantaged: classical baselines currently lead, and the library exists to track progress toward advantage. Note the arXiv v1 title said "Benchmark Library"; v2 and the journal version say "Benchmarking Library".
 
 ## Notable results
 

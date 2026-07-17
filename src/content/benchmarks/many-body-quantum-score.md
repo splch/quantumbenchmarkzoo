@@ -19,7 +19,7 @@ related:
   - analog-process-fidelity
 ---
 
-The Many-body Quantum Score (MBQS) benchmarks a processor on a physically meaningful simulation task: reproducing the correlation dynamics of a quenched quantum magnet. Proposed in January 2026 by Erbin, Burdeau, Bertrand, Ayral & Misguich of Eviden Quantum Lab and IPhT (Université Paris-Saclay) ([arXiv:2601.03461](https://arxiv.org/abs/2601.03461)), it is defined "in the spirit of" Eviden's [Q-score](/benchmarks/q-score/) — the score is the largest size passing an error threshold — but it measures many-body simulation accuracy rather than optimization performance, and it runs on analog as well as gate-based machines.
+The Many-body Quantum Score (MBQS) benchmarks a processor on a physically meaningful simulation task: reproducing the correlation dynamics of a quenched quantum magnet. Proposed in January 2026 by Erbin, Burdeau, Bertrand, Ayral & Misguich of Eviden Quantum Lab and IPhT (Université Paris-Saclay) ([arXiv:2601.03461](https://arxiv.org/abs/2601.03461)), it is defined "in the spirit of" Eviden's [Q-score](/benchmarks/q-score/) (the score is the largest size passing an error threshold), but it measures many-body simulation accuracy rather than optimization performance, and it runs on analog as well as gate-based machines.
 
 ## How it works
 
@@ -27,7 +27,7 @@ Prepare a product state (the paper defines initial-state variants MBQS₊ and MB
 
 ## Strengths and limitations
 
-Classically checkable references let the benchmark scale with no simulability cap — but for the same reason it certifies simulation accuracy, not quantum advantage. It is restricted to 1D geometry, measurement cost grows with system size as correlation peaks shrink, and the score is parameterized: quoted values must state both ε and the initial state. Applicability to analog devices, where few standardized benchmarks exist (compare [analog process fidelity](/benchmarks/analog-process-fidelity/)), is a distinguishing feature. Despite the name and shared Eviden provenance, MBQS is not a Q-score variant, and no public reference implementation exists.
+Classically checkable references let the benchmark scale with no simulability cap, but for the same reason it certifies simulation accuracy, not quantum advantage. It is restricted to 1D geometry, measurement cost grows with system size as correlation peaks shrink, and the score is parameterized: quoted values must state both ε and the initial state. Applicability to analog devices, where few standardized benchmarks exist (compare [analog process fidelity](/benchmarks/analog-process-fidelity/)), is a distinguishing feature. Despite the name and shared Eviden provenance, MBQS is not a Q-score variant, and no public reference implementation exists.
 
 ## Notable results
 

@@ -38,7 +38,7 @@ related:
   - gate-set-tomography
 ---
 
-ACES (averaged circuit eigenvalue sampling) is a characterization protocol introduced by Steven Flammia at the AWS Center for Quantum Computing that estimates the Pauli error rates of every gate and measurement on a processor at once. Where [randomized benchmarking](/benchmarks/randomized-benchmarking/) and its interleaved and simultaneous variants each isolate one gate or qubit subset at a time, ACES strictly generalizes them into whole-device noise metrology — a detailed noise model rather than a headline score, sitting in the QCVV toolbox alongside [gate set tomography](/benchmarks/gate-set-tomography/) and [cycle benchmarking](/benchmarks/cycle-benchmarking/).
+ACES (averaged circuit eigenvalue sampling) is a characterization protocol introduced by Steven Flammia at the AWS Center for Quantum Computing that estimates the Pauli error rates of every gate and measurement on a processor at once. Where [randomized benchmarking](/benchmarks/randomized-benchmarking/) and its interleaved and simultaneous variants each isolate one gate or qubit subset at a time, ACES strictly generalizes them into whole-device noise metrology: a detailed noise model rather than a headline score, sitting in the QCVV toolbox alongside [gate set tomography](/benchmarks/gate-set-tomography/) and [cycle benchmarking](/benchmarks/cycle-benchmarking/).
 
 ## How it works
 
@@ -46,7 +46,7 @@ The device runs a small set of shallow random Clifford circuits. Under Pauli noi
 
 ## Strengths and limitations
 
-ACES recovers a full Pauli noise model of a processor from remarkably few circuits, strictly generalizing component-level randomized benchmarks. It reconstructs stochastic Pauli noise: implementations typically tailor noise with Pauli twirling (the IBM-device demonstration characterized Pauli channels without twirling), so coherent errors enter only through their averaged Pauli-channel effect. Two bibliographic traps: the primary paper appeared as a six-page extended abstract in Proc. TQC 2022 — the ACES paper published in the journal Quantum is the 2026 fermionic extension — and follow-up work spells the name both "averaged" and "average".
+ACES recovers a full Pauli noise model of a processor from remarkably few circuits, strictly generalizing component-level randomized benchmarks. It reconstructs stochastic Pauli noise: implementations typically tailor noise with Pauli twirling (the IBM-device demonstration characterized Pauli channels without twirling), so coherent errors enter only through their averaged Pauli-channel effect. Two bibliographic traps: the primary paper appeared as a six-page extended abstract in Proc. TQC 2022 (the ACES paper published in the journal Quantum is the 2026 fermionic extension), and follow-up work spells the name both "averaged" and "average".
 
 ## Notable results
 

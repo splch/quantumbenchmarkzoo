@@ -22,7 +22,7 @@ related:
   - mirror-randomized-benchmarking
 ---
 
-Binary randomized benchmarking (BiRB) strips randomized benchmarking down to its minimum: circuits made almost entirely of independent, identically distributed random layers of native gates, with each shot scored pass or fail. Introduced by Hines, Proctor and colleagues (Sandia / UC Berkeley) in 2023 and published in PRX Quantum in 2024, it removes the motion-reversal structure — the inversion or mirroring step — that earlier scalable RB variants relied on, simplifying both the experiment and the theory behind it.
+Binary randomized benchmarking (BiRB) strips randomized benchmarking down to its minimum: circuits made almost entirely of independent, identically distributed random layers of native gates, with each shot scored pass or fail. Introduced by Hines, Proctor and colleagues (Sandia / UC Berkeley) in 2023 and published in PRX Quantum in 2024, it removes the motion-reversal structure (the inversion or mirroring step) that earlier scalable RB variants relied on, simplifying both the experiment and the theory behind it.
 
 ## How it works
 

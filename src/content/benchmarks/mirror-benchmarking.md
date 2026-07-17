@@ -33,11 +33,11 @@ related:
   - quantum-volume
 ---
 
-Mirror benchmarking (MB) is Honeywell Quantum Solutions' (now Quantinuum) system-level benchmark, introduced by Mayer and colleagues in 2021 and built on self-inverting random circuits spanning the whole processor. Despite the near-identical name it is a distinct protocol from Sandia's [randomized mirror circuits](/benchmarks/randomized-mirror-circuits/) — the paper credits the mirror-circuit construction to Proctor et al. — and from [mirror RB](/benchmarks/mirror-randomized-benchmarking/). Its contribution is the theory: when the survival probability of such circuits must decay exponentially, and what the rate means.
+Mirror benchmarking (MB) is Honeywell Quantum Solutions' (now Quantinuum) system-level benchmark, introduced by Mayer and colleagues in 2021 and built on self-inverting random circuits spanning the whole processor. Despite the near-identical name it is a distinct protocol from Sandia's [randomized mirror circuits](/benchmarks/randomized-mirror-circuits/) (the paper credits the mirror-circuit construction to Proctor et al.) and from [mirror RB](/benchmarks/mirror-randomized-benchmarking/). Its contribution is the theory: when the survival probability of such circuits must decay exponentially, and what the rate means.
 
 ## How it works
 
-Circuits are built from layers of random single-qubit Cliffords plus native two-qubit gates on random all-to-all qubit pairings — a natural fit for trapped ions — followed by the inverse of each layer in reverse order, with Pauli randomized compiling. The fraction of shots returning the ideal bitstring — the survival probability — is measured versus depth and fit to an exponential. The [theory](https://arxiv.org/abs/2108.10431) shows that if the twirling group forms a 2-design, then under a uniform-noise assumption the decay is exponential, with a rate quadratic in the error channel — equal to the unitarity for certain noise — so the same data also estimates how coherent the noise is.
+Circuits are built from layers of random single-qubit Cliffords plus native two-qubit gates on random all-to-all qubit pairings (a natural fit for trapped ions), followed by the inverse of each layer in reverse order, with Pauli randomized compiling. The fraction of shots returning the ideal bitstring, the survival probability, is measured versus depth and fit to an exponential. The [theory](https://arxiv.org/abs/2108.10431) shows that if the twirling group forms a 2-design, then under a uniform-noise assumption the decay is exponential, with a rate quadratic in the error channel (equal to the unitarity for certain noise), so the same data also estimates how coherent the noise is.
 
 ## Strengths and limitations
 

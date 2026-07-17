@@ -40,7 +40,7 @@ related:
   - interleaved-randomized-benchmarking
 ---
 
-Mid-circuit measurement benchmarking — the "mcm-rb suite" of Govia, Jurcevic and colleagues at IBM Quantum — was the first randomized-benchmarking-based benchmark for measurements performed partway through a circuit. Mid-circuit measurements (MCMs) are the primitive behind error correction and dynamic circuits, and terminal-readout metrics miss both of their failure modes: the extra error a measurement adds to the measured qubit, and the backaction — dephasing and crosstalk — it inflicts on unmeasured neighbors.
+Mid-circuit measurement benchmarking (the "mcm-rb suite" of Govia, Jurcevic and colleagues at IBM Quantum) was the first randomized-benchmarking-based benchmark for measurements performed partway through a circuit. Mid-circuit measurements (MCMs) are the primitive behind error correction and dynamic circuits, and terminal-readout metrics miss both of their failure modes: the extra error a measurement adds to the measured qubit, and the backaction (dephasing and crosstalk) it inflicts on unmeasured neighbors.
 
 ## How it works
 
@@ -48,7 +48,7 @@ The suite compares exponential decays from three sequence types run on an ancill
 
 ## Strengths and limitations
 
-The suite extends RB's SPAM-robust decay-comparison logic to a neglected primitive and yields actionable per-qubit and per-pair rates — component-level numbers, not a whole-processor score. The name is also used as a generic topic label: this entry anchors on the IBM suite, but distinct MCM benchmarks now exist, including Sandia and Quantinuum's [scalable many-qubit MCM RB](https://arxiv.org/abs/2410.16706) (Nat. Commun. 16, 5761 (2025)), a [generalized cycle benchmarking for MCMs](https://arxiv.org/abs/2406.02669) (PRX Quantum 6, 010310 (2025)), and [Pauli noise learning for MCMs](https://arxiv.org/abs/2406.09299) (PRL 134, 020602 (2025)). It was demonstrated on superconducting hardware but is not platform-specific in principle, and it is distinct from the same group's [dynamic-circuits RB](https://arxiv.org/abs/2408.07677), which additionally benchmarks feedforward.
+The suite extends RB's SPAM-robust decay-comparison logic to a neglected primitive and yields actionable per-qubit and per-pair rates: component-level numbers, not a whole-processor score. The name is also used as a generic topic label: this entry anchors on the IBM suite, but distinct MCM benchmarks now exist, including Sandia and Quantinuum's [scalable many-qubit MCM RB](https://arxiv.org/abs/2410.16706) (Nat. Commun. 16, 5761 (2025)), a [generalized cycle benchmarking for MCMs](https://arxiv.org/abs/2406.02669) (PRX Quantum 6, 010310 (2025)), and [Pauli noise learning for MCMs](https://arxiv.org/abs/2406.09299) (PRL 134, 020602 (2025)). It was demonstrated on superconducting hardware but is not platform-specific in principle, and it is distinct from the same group's [dynamic-circuits RB](https://arxiv.org/abs/2408.07677), which additionally benchmarks feedforward.
 
 ## Notable results
 

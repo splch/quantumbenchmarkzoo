@@ -1,6 +1,6 @@
 ---
 name: FTPrimitiveBench
-tagline: Stim-based suite that scores logical error rates of surface-code Clifford primitives — memory, lattice surgery, transversal Hadamard, and the S gate — under hardware-motivated biased noise.
+tagline: Stim-based suite that scores logical error rates of surface-code Clifford primitives (memory, lattice surgery, transversal Hadamard, and the S gate) under hardware-motivated biased noise.
 category: error-correction
 measures: Logical error rates of surface-code Clifford primitives under structured, hardware-motivated noise families, via noisy stabilizer simulation
 introducedBy:
@@ -21,11 +21,11 @@ related:
   - decoder-bench
 ---
 
-FTPrimitiveBench is a proposed benchmark suite that extends quantum error correction benchmarking from passive memory experiments to the logical operations a fault-tolerant computation actually executes. Posted in May 2026 by Shuwen Kan and colleagues, it scores combinations of code, decoder, and noise model — in HPC-scale simulation — on the primitives from which surface-code Clifford circuits are built. Nothing physical is measured: it is co-design tooling for hardware-aware QEC, catalogued with error-correction benchmarks because that is the stack it evaluates.
+FTPrimitiveBench is a proposed benchmark suite that extends quantum error correction benchmarking from passive memory experiments to the logical operations a fault-tolerant computation actually executes. Posted in May 2026 by Shuwen Kan and colleagues, it scores combinations of code, decoder, and noise model, in HPC-scale simulation, on the primitives from which surface-code Clifford circuits are built. Nothing physical is measured: it is co-design tooling for hardware-aware QEC, catalogued with error-correction benchmarks because that is the stack it evaluates.
 
 ## How it works
 
-Four surface-code primitives are benchmarked: logical memory, lattice surgery, the transversal logical Hadamard, and the logical phase (S) gate implemented via lattice surgery. Each is simulated with Stim under structured noise families motivated by real hardware — Pauli bias, measurement bias, spatial non-uniformity, and spatio-temporal non-uniformity — rather than the uniform depolarizing noise of textbook memory studies. The output for each primitive, noise family, and decoder combination is a logical error rate, so the suite can answer questions like how much a given bias structure degrades lattice surgery relative to idle memory.
+Four surface-code primitives are benchmarked: logical memory, lattice surgery, the transversal logical Hadamard, and the logical phase (S) gate implemented via lattice surgery. Each is simulated with Stim under structured noise families motivated by real hardware (Pauli bias, measurement bias, spatial non-uniformity, and spatio-temporal non-uniformity) rather than the uniform depolarizing noise of textbook memory studies. The output for each primitive, noise family, and decoder combination is a logical error rate, so the suite can answer questions like how much a given bias structure degrades lattice surgery relative to idle memory.
 
 ## Strengths and limitations
 

@@ -38,11 +38,11 @@ related:
   - quantum-state-tomography
 ---
 
-Cross-platform verification is a randomized-measurement protocol from Elben, Vermersch and colleagues in the Innsbruck ion-trap and theory groups for estimating the fidelity between quantum states prepared on two different — possibly remote — devices. No quantum link and no full tomography are required: the platforms exchange only classical descriptions of random unitaries and measurement outcomes. Its output is a pairwise fidelity between two specific preparations, a characterization result rather than a standalone device score.
+Cross-platform verification is a randomized-measurement protocol from Elben, Vermersch and colleagues in the Innsbruck ion-trap and theory groups for estimating the fidelity between quantum states prepared on two different, possibly remote, devices. No quantum link and no full tomography are required: the platforms exchange only classical descriptions of random unitaries and measurement outcomes. Its output is a pairwise fidelity between two specific preparations, a characterization result rather than a standalone device score.
 
 ## How it works
 
-Both devices prepare nominally the same state, apply the same random local unitaries — sampled from a unitary 2-design and shared classically — and measure in the computational basis. Cross-correlating the two outcome distributions estimates the overlap Tr(rho1 rho2), and the same data yield each state's purity; the reported figure is the max-normalized overlap F_max = Tr(rho1 rho2) / max{Tr(rho1^2), Tr(rho2^2)}. The measurement budget scales as roughly 2^(bN) with b ≈ 0.6–0.8 — far below the b ≥ 2 of full [quantum state tomography](/benchmarks/quantum-state-tomography/) but still exponential, so direct whole-state comparisons top out around 10–15 qubits; larger devices are compared through subsystem fidelities.
+Both devices prepare nominally the same state, apply the same random local unitaries (sampled from a unitary 2-design and shared classically), and measure in the computational basis. Cross-correlating the two outcome distributions estimates the overlap Tr(rho1 rho2), and the same data yield each state's purity; the reported figure is the max-normalized overlap F_max = Tr(rho1 rho2) / max{Tr(rho1^2), Tr(rho2^2)}. The measurement budget scales as roughly 2^(bN) with b ≈ 0.6–0.8, far below the b ≥ 2 of full [quantum state tomography](/benchmarks/quantum-state-tomography/) but still exponential, so direct whole-state comparisons top out around 10–15 qubits; larger devices are compared through subsystem fidelities.
 
 ## Strengths and limitations
 

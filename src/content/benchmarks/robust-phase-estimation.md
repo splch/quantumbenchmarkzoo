@@ -2,7 +2,7 @@
 name: Robust phase estimation
 tagline: Heisenberg-limited calibration protocol that pins down individual gate rotation angles and axes from geometrically growing gate repetitions, with provable robustness to SPAM error.
 category: characterization
-measures: Specific gate phases — over-/under-rotation and rotation-axis errors, in radians — to Heisenberg-limited precision, robust to SPAM errors below fixed thresholds
+measures: Specific gate phases (over-/under-rotation and rotation-axis errors, in radians) to Heisenberg-limited precision, robust to SPAM errors below fixed thresholds
 introducedBy:
   - Kimmel, Low & Yoder
 yearIntroduced: 2015
@@ -38,11 +38,11 @@ related:
   - randomized-benchmarking
 ---
 
-Robust phase estimation (RPE) is a calibration and characterization protocol, introduced by [Kimmel, Low & Yoder in 2015](https://arxiv.org/abs/1502.02677), that measures specific rotation angles of individual gates — over-/under-rotations and rotation-axis errors — rather than scoring a device. It adapts Higgins et al.'s adaptive-measurement-free phase estimation ([arXiv:0904.3426](https://arxiv.org/abs/0904.3426)) into an ancilla-free gate-calibration routine, and should not be confused with the textbook quantum phase estimation algorithm. The "robust" is a theorem: estimates remain accurate under state-preparation and measurement (SPAM) and additive errors, provided they stay below fixed thresholds.
+Robust phase estimation (RPE) is a calibration and characterization protocol, introduced by [Kimmel, Low & Yoder in 2015](https://arxiv.org/abs/1502.02677), that measures specific rotation angles of individual gates (over-/under-rotations and rotation-axis errors) rather than scoring a device. It adapts Higgins et al.'s adaptive-measurement-free phase estimation ([arXiv:0904.3426](https://arxiv.org/abs/0904.3426)) into an ancilla-free gate-calibration routine, and should not be confused with the textbook quantum phase estimation algorithm. The "robust" is a theorem: estimates remain accurate under state-preparation and measurement (SPAM) and additive errors, provided they stay below fixed thresholds.
 
 ## How it works
 
-RPE runs non-adaptive sequences that repeat the target gate a geometrically growing number of times (1, 2, 4, ..., 2^K), with two measurement settings per length to read out the accumulated phase. Each generation of sequences halves the ambiguity left by the previous one, so the phase estimate converges with error shrinking as roughly 1/(number of gate applications) — the Heisenberg limit — instead of the 1/sqrt(N) shot-noise scaling of naive parameter fits. A handful of such phases suffices to calibrate a universal single-qubit gate set.
+RPE runs non-adaptive sequences that repeat the target gate a geometrically growing number of times (1, 2, 4, ..., 2^K), with two measurement settings per length to read out the accumulated phase. Each generation of sequences halves the ambiguity left by the previous one, so the phase estimate converges with error shrinking as roughly 1/(number of gate applications), the Heisenberg limit, instead of the 1/sqrt(N) shot-noise scaling of naive parameter fits. A handful of such phases suffices to calibrate a universal single-qubit gate set.
 
 ## Strengths and limitations
 

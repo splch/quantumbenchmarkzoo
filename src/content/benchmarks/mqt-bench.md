@@ -28,7 +28,7 @@ related:
   - veriqbench
 ---
 
-MQT Bench is a benchmark circuit library from the Chair for Design Automation at the Technical University of Munich, part of the Munich Quantum Toolkit (MQT). Introduced by Quetschlich, Burgholzer & Wille in 2022, it supplies the standard workloads on which quantum software — compilers, simulators, verifiers — is evaluated. Its organizing idea is that a benchmark suite for software tools must provide the same circuit at whichever abstraction level each tool actually consumes.
+MQT Bench is a benchmark circuit library from the Chair for Design Automation at the Technical University of Munich, part of the Munich Quantum Toolkit (MQT). Introduced by Quetschlich, Burgholzer & Wille in 2022, it supplies the standard workloads on which quantum software (compilers, simulators, verifiers) is evaluated. Its organizing idea is that a benchmark suite for software tools must provide the same circuit at whichever abstraction level each tool actually consumes.
 
 ## How it works
 
@@ -38,7 +38,7 @@ The library holds 70,000+ benchmark circuits spanning 2 to 130 qubits, each prov
 
 The four-level structure distinguishes it from single-level circuit suites such as [QASMBench](/benchmarks/qasmbench/): each stage of the design-automation stack can be isolated and tested on identical workloads ([Quetschlich, Burgholzer & Wille 2022](https://arxiv.org/abs/2204.13719)). The authors position [RevLib](/benchmarks/revlib/), the reversible-circuit-era library, as its inadequate predecessor for quantum tooling.
 
-The flip side: MQT Bench supplies workloads, not scores. It defines no timing harness, pass criterion, or headline number — timed harnesses such as [Benchpress](/benchmarks/benchpress/) exist precisely to add that layer. And as a software-stack suite it says nothing directly about quantum hardware performance.
+The flip side: MQT Bench supplies workloads, not scores. It defines no timing harness, pass criterion, or headline number; timed harnesses such as [Benchpress](/benchmarks/benchpress/) exist precisely to add that layer. And as a software-stack suite it says nothing directly about quantum hardware performance.
 
 ## Notable results
 

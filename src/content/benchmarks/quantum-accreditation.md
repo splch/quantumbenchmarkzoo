@@ -35,7 +35,7 @@ related:
   - randomized-mirror-circuits
 ---
 
-Quantum accreditation is a verification protocol from Ferracin, Kapourniotis & Datta at the University of Warwick that certifies the outputs of a single quantum computation: an accept/reject verdict plus an upper bound, at user-chosen confidence and accuracy, on the total variation distance between a target circuit's noisy output distribution and its ideal one. It is a certification protocol rather than a device benchmark — the [2025 NPL-led metrics review](https://arxiv.org/abs/2502.06717) catalogues its output as metric M4.4, "upper bound on the variation distance".
+Quantum accreditation is a verification protocol from Ferracin, Kapourniotis & Datta at the University of Warwick that certifies the outputs of a single quantum computation: an accept/reject verdict plus an upper bound, at user-chosen confidence and accuracy, on the total variation distance between a target circuit's noisy output distribution and its ideal one. It is a certification protocol rather than a device benchmark: the [2025 NPL-led metrics review](https://arxiv.org/abs/2502.06717) catalogues its output as metric M4.4, "upper bound on the variation distance".
 
 ## How it works
 

@@ -37,7 +37,7 @@ related:
   - quantum-volume
 ---
 
-Randomized mirror circuits are the Sandia Quantum Performance Lab's scalable whole-processor benchmark, introduced by Proctor, Rudinger, Young, Nielsen and Blume-Kohout in 2020 and published as Nature Physics 18, 75 (2022). They attack the scaling wall of [Quantum Volume](/benchmarks/quantum-volume/)-style tests — verifying a generic random circuit's output requires classical simulation — by making every test circuit undo itself, so the ideal output is a known bitstring at any size.
+Randomized mirror circuits are the Sandia Quantum Performance Lab's scalable whole-processor benchmark, introduced by Proctor, Rudinger, Young, Nielsen and Blume-Kohout in 2020 and published as Nature Physics 18, 75 (2022). They attack the scaling wall of [Quantum Volume](/benchmarks/quantum-volume/)-style tests (verifying a generic random circuit's output requires classical simulation) by making every test circuit undo itself, so the ideal output is a known bitstring at any size.
 
 ## How it works
 
@@ -45,7 +45,7 @@ Each mirror circuit is a random circuit followed by a uniformly random Pauli lay
 
 ## Strengths and limitations
 
-Because no classical simulation is needed, the benchmark scales to any width, and running full-width layers makes the score reflect crosstalk and contextual errors rather than isolated gate specs. The flagship demonstration on [twelve IBM and Rigetti processors](https://arxiv.org/abs/2008.11294) found structured periodic circuits failing at sizes up to an order of magnitude smaller than random ones — so capability regions depend on the ensemble sampled, and random-circuit results alone can overstate practical capability. Polarization is a rescaled success probability, not a fidelity, and can be zero or negative under coherent errors. The name also needs care: [mirror RB](/benchmarks/mirror-randomized-benchmarking/) is a separate RB-style protocol spun out of this construction, and Quantinuum's [mirror benchmarking](/benchmarks/mirror-benchmarking/) is an independently developed relative.
+Because no classical simulation is needed, the benchmark scales to any width, and running full-width layers makes the score reflect crosstalk and contextual errors rather than isolated gate specs. The flagship demonstration on [twelve IBM and Rigetti processors](https://arxiv.org/abs/2008.11294) found structured periodic circuits failing at sizes up to an order of magnitude smaller than random ones, so capability regions depend on the ensemble sampled, and random-circuit results alone can overstate practical capability. Polarization is a rescaled success probability, not a fidelity, and can be zero or negative under coherent errors. The name also needs care: [mirror RB](/benchmarks/mirror-randomized-benchmarking/) is a separate RB-style protocol spun out of this construction, and Quantinuum's [mirror benchmarking](/benchmarks/mirror-benchmarking/) is an independently developed relative.
 
 ## Notable results
 

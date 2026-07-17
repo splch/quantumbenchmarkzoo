@@ -29,24 +29,24 @@ papers:
     year: 2025
     url: https://arxiv.org/abs/2408.12064
 code:
-  - name: Cirq — cirq.experiments.purity_from_probabilities
+  - name: Cirq (cirq.experiments.purity_from_probabilities)
     url: https://github.com/quantumlib/Cirq/blob/main/cirq-core/cirq/experiments/purity_estimation.py
-  - name: ReCirq — XEB benchmarks with speckle purity
+  - name: ReCirq (XEB benchmarks with speckle purity)
     url: https://github.com/quantumlib/ReCirq
 related:
   - unitarity-randomized-benchmarking
   - cross-entropy-benchmarking
 ---
 
-Speckle purity benchmarking (SPB) estimates how much of a gate's error is decoherence, using no data beyond what [cross-entropy benchmarking (XEB)](/benchmarks/cross-entropy-benchmarking/) already collects. It was defined in the two-qubit gate metrology section of the [supplementary information](https://arxiv.org/abs/1910.11333) to Google's 2019 quantum-supremacy experiment, and — as an estimator applied to XEB measurement data rather than a standalone circuit protocol — it has become a standard ingredient of Google-style error budgeting.
+Speckle purity benchmarking (SPB) estimates how much of a gate's error is decoherence, using no data beyond what [cross-entropy benchmarking (XEB)](/benchmarks/cross-entropy-benchmarking/) already collects. It was defined in the two-qubit gate metrology section of the [supplementary information](https://arxiv.org/abs/1910.11333) to Google's 2019 quantum-supremacy experiment, and, as an estimator applied to XEB measurement data rather than a standalone circuit protocol, it has become a standard ingredient of Google-style error budgeting.
 
 ## How it works
 
-Deep random circuits ideally produce bitstring probabilities following the Porter-Thomas distribution, whose wide spread makes a histogram of measured probabilities look "speckled." Decoherence mixes the output toward the uniform distribution and washes the speckle out. SPB models the output as a depolarized pure state, ρ = p·|ψ⟩⟨ψ| + (1 − p)·I/D, whose purity is p², and extracts p from the speckle contrast — the variance of measured bitstring probabilities relative to the ideal Porter-Thomas variance. Fitting p against circuit depth turns an XEB dataset into a per-cycle purity decay: the fidelity the device would show if decoherence were its only error, with no experiments beyond XEB itself.
+Deep random circuits ideally produce bitstring probabilities following the Porter-Thomas distribution, whose wide spread makes a histogram of measured probabilities look "speckled." Decoherence mixes the output toward the uniform distribution and washes the speckle out. SPB models the output as a depolarized pure state, ρ = p·|ψ⟩⟨ψ| + (1 − p)·I/D, whose purity is p², and extracts p from the speckle contrast: the variance of measured bitstring probabilities relative to the ideal Porter-Thomas variance. Fitting p against circuit depth turns an XEB dataset into a per-cycle purity decay: the fidelity the device would show if decoherence were its only error, with no experiments beyond XEB itself.
 
 ## Strengths and limitations
 
-The comparison it enables is the point: the gap between speckle purity and the measured XEB fidelity is attributed to coherent control error — the same coherent-versus-incoherent split as [unitarity randomized benchmarking](/benchmarks/unitarity-randomized-benchmarking/), but obtained from XEB data instead of Clifford-sequence purity measurements. Its limits follow from its assumptions: it is a statistical estimator, not a tomographic purity, valid when ideal outputs are Porter-Thomas and errors act like a depolarizing mixture, and it is by design insensitive to coherent errors. Many papers report the same quantity simply as "XEB purity" or "purity XEB," without the word speckle.
+The comparison it enables is the point: the gap between speckle purity and the measured XEB fidelity is attributed to coherent control error, the same coherent-versus-incoherent split as [unitarity randomized benchmarking](/benchmarks/unitarity-randomized-benchmarking/), but obtained from XEB data instead of Clifford-sequence purity measurements. Its limits follow from its assumptions: it is a statistical estimator, not a tomographic purity, valid when ideal outputs are Porter-Thomas and errors act like a depolarizing mixture, and it is by design insensitive to coherent errors. Many papers report the same quantity simply as "XEB purity" or "purity XEB," without the word speckle.
 
 ## Notable results
 

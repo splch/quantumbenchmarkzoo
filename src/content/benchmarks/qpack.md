@@ -36,7 +36,7 @@ QPack is a benchmark suite from TU Delft that treats variational algorithms as e
 
 ## How it works
 
-The [2021 paper](https://arxiv.org/abs/2103.17193) defines scalable QAOA workloads on MaxCut, dominating-set, and traveling-salesman problems, run at increasing problem sizes through a hardware-agnostic stack (a cross-platform XACC implementation targets multiple vendors' backends). The [2022 QPack Scores paper](https://arxiv.org/abs/2205.12142) added VQE workloads and supplied the actual scoring: execution data — job timings, solution quality, and how both degrade with problem size — are converted into four sub-scores: runtime, accuracy, scalability, and capacity (the largest problem size the system can solve).
+The [2021 paper](https://arxiv.org/abs/2103.17193) defines scalable QAOA workloads on MaxCut, dominating-set, and traveling-salesman problems, run at increasing problem sizes through a hardware-agnostic stack (a cross-platform XACC implementation targets multiple vendors' backends). The [2022 QPack Scores paper](https://arxiv.org/abs/2205.12142) added VQE workloads and supplied the actual scoring: execution data (job timings, solution quality, and how both degrade with problem size) are converted into four sub-scores: runtime, accuracy, scalability, and capacity (the largest problem size the system can solve).
 
 ## Strengths and limitations
 
@@ -44,4 +44,4 @@ QPack scores the whole hybrid pipeline on genuine optimization workloads, closer
 
 ## Notable results
 
-QPack is now of historical interest: both public implementations have been dormant since late 2021, though the suite is still cited in benchmarking surveys. Its scoring approach was folded into [QuAS (2024)](https://arxiv.org/abs/2406.03905), an application score co-designed by QPack's lead author with the TNO [Q-score](/benchmarks/q-score/) team that integrates the strong points of both — an integration rather than a formal replacement. Among application-oriented suites, the [QED-C benchmarks](/benchmarks/qed-c-benchmarks/) fill a similar role today.
+QPack is now of historical interest: both public implementations have been dormant since late 2021, though the suite is still cited in benchmarking surveys. Its scoring approach was folded into [QuAS (2024)](https://arxiv.org/abs/2406.03905), an application score co-designed by QPack's lead author with the TNO [Q-score](/benchmarks/q-score/) team that integrates the strong points of both rather than formally replacing QPack. Among application-oriented suites, the [QED-C benchmarks](/benchmarks/qed-c-benchmarks/) fill a similar role today.

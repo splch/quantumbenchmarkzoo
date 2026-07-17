@@ -30,7 +30,7 @@ related:
   - cross-entropy-benchmarking
 ---
 
-Bell sampling is a benchmarking and verification protocol introduced by Dominik Hangleiter and Michael Gullans in 2023: prepare the output state of an n-qubit circuit twice in parallel and measure the two copies against each other in the Bell basis. The samples estimate the output-state fidelity directly, and — unlike [cross-entropy benchmarking](/benchmarks/cross-entropy-benchmarking/), whose verification requires classical simulation — the protocol stays efficient beyond the classically simulable regime, and so is positioned as XEB's successor. The [paper](https://arxiv.org/abs/2306.00083) was published as Phys. Rev. Lett. 133, 020601 (2024).
+Bell sampling is a benchmarking and verification protocol introduced by Dominik Hangleiter and Michael Gullans in 2023: prepare the output state of an n-qubit circuit twice in parallel and measure the two copies against each other in the Bell basis. The samples estimate the output-state fidelity directly, and verification stays efficient beyond the classically simulable regime where [cross-entropy benchmarking](/benchmarks/cross-entropy-benchmarking/) needs classical simulation, so the protocol is positioned as XEB's successor. The [paper](https://arxiv.org/abs/2306.00083) was published as Phys. Rev. Lett. 133, 020601 (2024).
 
 ## How it works
 
@@ -38,7 +38,7 @@ Two identical copies of the circuit's output state are prepared side by side, oc
 
 ## Strengths and limitations
 
-Verification is sample-efficient with no exponential classical cost, and one dataset yields several diagnostics at once. The price is hardware: an n-qubit benchmark occupies 2n qubits plus a transversal two-qubit measurement layer, doubling the requirements of single-copy schemes like XEB. It produces fidelity estimates and property tests rather than a single branded score, and it is not yet a routine vendor-reported number the way XEB or [Quantum Volume](/benchmarks/quantum-volume/) are. The name predates the benchmark — [Montanaro (2017)](https://arxiv.org/abs/1707.04012) used "Bell sampling" for learning stabilizer states, a result the 2023 protocol builds on — and the naive extension to qudits fails, requiring a [modified unitary](https://arxiv.org/abs/2510.06848). No public reference implementation was found.
+Verification is sample-efficient with no exponential classical cost, and one dataset yields several diagnostics at once. The price is hardware: an n-qubit benchmark occupies 2n qubits plus a transversal two-qubit measurement layer, doubling the requirements of single-copy schemes like XEB. It produces fidelity estimates and property tests rather than a single branded score, and it is not yet a routine vendor-reported number the way XEB or [Quantum Volume](/benchmarks/quantum-volume/) are. The name predates the benchmark: [Montanaro (2017)](https://arxiv.org/abs/1707.04012) used "Bell sampling" for learning stabilizer states, a result the 2023 protocol builds on. The naive extension to qudits also fails, requiring a [modified unitary](https://arxiv.org/abs/2510.06848). No public reference implementation was found.
 
 ## Notable results
 

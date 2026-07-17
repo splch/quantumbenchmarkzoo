@@ -1,6 +1,6 @@
 ---
 name: Mirror randomized benchmarking
-tagline: Scalable RB variant built from mirror circuits — motion-reversal sequences with random Pauli layers — that avoids compiling expensive inversion gates and extends layer-error estimates to many-qubit widths.
+tagline: Scalable RB variant built from mirror circuits (motion-reversal sequences with random Pauli layers) that avoids compiling expensive inversion gates and extends layer-error estimates to many-qubit widths.
 category: component-level
 measures: Average infidelity of a many-qubit layer of native Clifford gates, from the effective-polarization decay of mirror circuits
 introducedBy:
@@ -29,7 +29,7 @@ Mirror randomized benchmarking (mirror RB) makes randomized benchmarking scalabl
 
 ## How it works
 
-A mirror RB circuit applies random layers of native Clifford gates for half its depth, then the inverse of each layer in reverse order, with layers of uniformly random Pauli gates interleaved throughout (as in randomized compiling) and random single-qubit gates at the start and end. Ideally the circuit maps its input to one known target bit string. Rather than raw success probability, each circuit's results are summarized by the effective polarization — a Hamming-distance-weighted statistic that discounts outcomes that land near the target by luck — and its decay against benchmark depth is fit to estimate the average infidelity of a random layer. The interleaved Pauli layers twirl the noise so the decay is a reliable single exponential.
+A mirror RB circuit applies random layers of native Clifford gates for half its depth, then the inverse of each layer in reverse order, with layers of uniformly random Pauli gates interleaved throughout (as in randomized compiling) and random single-qubit gates at the start and end. Ideally the circuit maps its input to one known target bit string. Rather than raw success probability, the effective polarization (a Hamming-distance-weighted statistic that discounts outcomes that land near the target by luck) summarizes each circuit's results, and a fit of its decay against benchmark depth estimates the average infidelity of a random layer. The interleaved Pauli layers twirl the noise so the decay is a reliable single exponential.
 
 ## Strengths and limitations
 

@@ -1,8 +1,8 @@
 ---
 name: HamLib
-tagline: More than 1.5 million pre-encoded qubit Hamiltonians — spin models, chemistry, and combinatorial optimization — supplying standardized problem instances for application-level quantum benchmarking.
+tagline: More than 1.5 million pre-encoded qubit Hamiltonians (spin models, chemistry, and combinatorial optimization) supplying standardized problem instances for application-level quantum benchmarking.
 category: application-level
-measures: Nothing itself — supplies standardized, pre-encoded Hamiltonian problem instances (2–1000 qubits) that downstream benchmarks score against
+measures: "Nothing itself: supplies standardized, pre-encoded Hamiltonian problem instances (2–1000 qubits) that downstream benchmarks score against"
 introducedBy:
   - Sawaya & colleagues (Intel Labs, LBNL/NERSC, Sandia, NASA Ames, Oxford & others)
 yearIntroduced: 2023
@@ -35,15 +35,15 @@ related:
   - qb-gsee-benchmark
 ---
 
-HamLib is a problem-instance library, not a benchmark protocol: it defines no circuits and produces no score. It earns a place in an application-level catalog because it has become a standard source of inputs for benchmarks that do — most visibly the [QED-C Application-Oriented Benchmarks](/benchmarks/qed-c-benchmarks/), whose Hamiltonian-simulation benchmark draws its Hamiltonians from HamLib. Assembled by Sawaya and 15 co-authors across Intel Labs, Lawrence Berkeley National Laboratory, Sandia, NASA Ames, Oxford, and other institutions, the dataset packages more than 1.5 million pre-encoded qubit Hamiltonians for benchmarking quantum algorithms and hardware ([arXiv:2306.13126](https://arxiv.org/abs/2306.13126); published in Quantum 8, 1559 (2024)).
+HamLib is a problem-instance library, not a benchmark protocol: it defines no circuits and produces no score. It earns a place in an application-level catalog because it has become a standard source of inputs for benchmarks that do: most visibly the [QED-C Application-Oriented Benchmarks](/benchmarks/qed-c-benchmarks/), whose Hamiltonian-simulation benchmark draws its Hamiltonians from HamLib. Assembled by Sawaya and 15 co-authors across Intel Labs, Lawrence Berkeley National Laboratory, Sandia, NASA Ames, Oxford, and other institutions, the dataset packages more than 1.5 million pre-encoded qubit Hamiltonians for benchmarking quantum algorithms and hardware ([arXiv:2306.13126](https://arxiv.org/abs/2306.13126); published in Quantum 8, 1559 (2024)).
 
 ## How it works
 
-The library spans condensed-matter models (transverse-field Ising, Heisenberg, Fermi–Hubbard, Bose–Hubbard), electronic- and vibrational-structure chemistry, and combinatorial optimization (MaxCut, Max-k-SAT, Max-k-Cut, QMaxCut, traveling salesperson), at sizes from 2 to 1000 qubits. Every instance is already mapped to qubit operators — with Jordan–Wigner, parity, and Bravyi–Kitaev fermionic mappings and unary/Gray/binary encodings where relevant — and distributed as zipped HDF5 files from a NERSC-hosted portal. A benchmark built on HamLib picks instances, runs an algorithm or device on them, and applies its own figure of merit: the QED-C Hamiltonian-simulation benchmark, for example, uses five HamLib models (TFIM, Heisenberg, Fermi–Hubbard, Bose–Hubbard, Max3SAT).
+The library spans condensed-matter models (transverse-field Ising, Heisenberg, Fermi–Hubbard, Bose–Hubbard), electronic- and vibrational-structure chemistry, and combinatorial optimization (MaxCut, Max-k-SAT, Max-k-Cut, QMaxCut, traveling salesperson), at sizes from 2 to 1000 qubits. Every instance is already mapped to qubit operators (with Jordan–Wigner, parity, and Bravyi–Kitaev fermionic mappings and unary/Gray/binary encodings where relevant) and distributed as zipped HDF5 files from a NERSC-hosted portal. A benchmark built on HamLib picks instances, runs an algorithm or device on them, and applies its own figure of merit: the QED-C Hamiltonian-simulation benchmark, for example, uses five HamLib models (TFIM, Heisenberg, Fermi–Hubbard, Bose–Hubbard, Max3SAT).
 
 ## Strengths and limitations
 
-HamLib's value is standardization — it removes instance-preparation work and makes results reproducible and comparable across papers, the role a shared instance library also plays for the [QB GSEE Benchmark](/benchmarks/qb-gsee-benchmark/) in chemistry. The flip side: "the HamLib benchmark" is a common misnomer, since the scoring protocols live elsewhere. Dataset versioning is informal (the paper notes "small changes in v1.1 of dataset"), so instance-level reproducibility across revisions is worth checking, and generic web searches collide with the unrelated Hamlib amateur-radio library.
+HamLib's value is standardization: it removes instance-preparation work and makes results reproducible and comparable across papers, the role a shared instance library also plays for the [QB GSEE Benchmark](/benchmarks/qb-gsee-benchmark/) in chemistry. The flip side: "the HamLib benchmark" is a common misnomer, since the scoring protocols live elsewhere. Dataset versioning is informal (the paper notes "small changes in v1.1 of dataset"), so instance-level reproducibility across revisions is worth checking, and generic web searches collide with the unrelated Hamlib amateur-radio library.
 
 ## Notable results
 

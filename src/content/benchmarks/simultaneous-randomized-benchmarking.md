@@ -22,7 +22,7 @@ related:
   - layer-fidelity
 ---
 
-Simultaneous randomized benchmarking (SRB) measures how much qubits degrade when their neighbors are driven at the same time. Introduced by Gambetta and colleagues at IBM in 2012 to quantify "addressability", it remains the canonical protocol for measuring crosstalk — the [Sandia benchmarking review](https://arxiv.org/abs/2407.08828) treats it as the standard tool for the job.
+Simultaneous randomized benchmarking (SRB) measures how much qubits degrade when their neighbors are driven at the same time. Introduced by Gambetta and colleagues at IBM in 2012 to quantify "addressability", it remains the canonical protocol for measuring crosstalk: the [Sandia benchmarking review](https://arxiv.org/abs/2407.08828) treats it as the standard tool for the job.
 
 ## How it works
 
@@ -30,6 +30,6 @@ Standard [randomized benchmarking](/benchmarks/randomized-benchmarking/) is firs
 
 ## Strengths and limitations
 
-SRB is model-free and operationally meaningful: it reports crosstalk as users experience it — extra error under realistic parallel operation — rather than as a Hamiltonian parameter, and it needs nothing beyond ordinary RB machinery. "Isolated versus simultaneous" error tables built on it are now routine in hardware papers, and the idea underpins scaled-up layer benchmarks: IBM's [layer fidelity](/benchmarks/layer-fidelity/) is measured by running direct RB simultaneously across chains of qubits.
+SRB is model-free and operationally meaningful: it reports crosstalk as users experience it (extra error under realistic parallel operation) rather than as a Hamiltonian parameter, and it needs nothing beyond ordinary RB machinery. "Isolated versus simultaneous" error tables built on it are now routine in hardware papers, and the idea underpins scaled-up layer benchmarks: IBM's [layer fidelity](/benchmarks/layer-fidelity/) runs direct RB simultaneously across chains of qubits.
 
 Its limitations are those of sampling. A device has combinatorially many subsets that could be driven together, so any one SRB experiment probes crosstalk only under the specific parallel load chosen, and a clean result does not rule out crosstalk under other loads. The protocol also quantifies crosstalk without identifying its physical mechanism, and single-number summaries can hide strongly non-uniform behavior across a chip.

@@ -7,7 +7,7 @@ becomes the URL slug: `quantum-volume.md` → `/benchmarks/quantum-volume/`.
 
 1. Copy an existing entry as a starting point.
 2. Fill in the frontmatter (field reference below) and body.
-3. Run `pnpm build` — the schema in `src/content.config.ts` validates every entry, and the build
+3. Run `pnpm build`: the schema in `src/content.config.ts` validates every entry, and the build
    fails with a pointed error if something is missing or malformed.
 4. Open a pull request. CI runs the same build.
 
@@ -41,9 +41,11 @@ Opening paragraph: what it is and why it matters, no heading.
 
 ## Style
 
-- Neutral, cite-your-sources tone: claims about what a benchmark shows — or where it falls
-  short — should link to the literature.
+- Neutral, cite-your-sources tone: claims about what a benchmark shows, or where it falls
+  short, should link to the literature.
 - Front-load: the first sentence of the entry and of each section should carry the point.
 - Prefer primary sources (arXiv, journals, official docs) over press coverage; use press links
   only for records/announcements with no better source.
 - Plain-text math (e.g. `F = 2^n · ⟨p(x)⟩ − 1`); the site does not render LaTeX.
+- Go easy on dashes: at most one per entry (the site keeps them under 0.25% of words). Prefer
+  commas, colons, parentheses, or a new sentence.

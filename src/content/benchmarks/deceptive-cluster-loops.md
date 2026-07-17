@@ -15,7 +15,7 @@ papers:
     authors: Mandrà & Katzgraber
     year: 2017
     url: https://arxiv.org/abs/1711.01368
-  - title: Chook — A comprehensive suite for generating binary optimization problems with planted solutions
+  - title: "Chook: A comprehensive suite for generating binary optimization problems with planted solutions"
     authors: Perera, Akpabio, Hamze, Mandrà, Rose, Aramon & Katzgraber
     year: 2020
     url: https://arxiv.org/abs/2005.14344
@@ -36,11 +36,11 @@ Deceptive cluster loops (DCL) are the adversarial refinement of [frustrated clus
 
 ## How it works
 
-DCL instances are FCL problems on the Chimera graph with one extra dial: intra-cell couplers keep magnitude 1, while every inter-cell coupler is scaled by a factor λ. Small λ collapses each K4,4 cell into a single virtual spin, so cluster-style algorithms win; large λ makes chains across cells dominate, favoring chain-aware mappings; intermediate λ defeats both shortcuts while leaving the planted problem intact. Performance is scored as [time-to-solution](/benchmarks/time-to-solution/) at 99% success probability against state-of-the-art classical heuristics — the Hamze–de Freitas–Selby algorithm and parallel tempering with isoenergetic cluster moves.
+DCL instances are FCL problems on the Chimera graph with one extra dial: intra-cell couplers keep magnitude 1, while every inter-cell coupler is scaled by a factor λ. Small λ collapses each K4,4 cell into a single virtual spin, so cluster-style algorithms win; large λ makes chains across cells dominate, favoring chain-aware mappings; intermediate λ defeats both shortcuts while leaving the planted problem intact. Performance is scored as [time-to-solution](/benchmarks/time-to-solution/) at 99% success probability against state-of-the-art classical heuristics: the Hamze–de Freitas–Selby algorithm and parallel tempering with isoenergetic cluster moves.
 
 ## Strengths and limitations
 
-DCL directly probes whether an annealer's edge survives once structure exploitation is off the table, and near λ ≈ 7 the D-Wave 2000Q outperformed all classical heuristics then known. That headline is easy to overread: the advantage was a constant factor only, with the authors stating that a scaling improvement "remains elusive" — yet DCL is often miscited as a demonstrated quantum speedup. Like its parent class, it names a planted-instance problem family scored via time-to-solution comparisons, not a fixed protocol producing a single-number score.
+DCL directly probes whether an annealer's edge survives once structure exploitation is off the table, and near λ ≈ 7 the D-Wave 2000Q outperformed all classical heuristics then known. That headline is easy to overread: the advantage was a constant factor only, with the authors stating that a scaling improvement "remains elusive", yet DCL is often miscited as a demonstrated quantum speedup. Like its parent class, it names a planted-instance problem family scored via time-to-solution comparisons, not a fixed protocol producing a single-number score.
 
 ## Notable results
 

@@ -19,7 +19,7 @@ export const CATEGORIES: Category[] = [
     id: 'component-level',
     label: 'Component-level',
     description:
-      'Characterize individual gates, qubits, and operations in isolation — error rates, coherence, and calibration quality. Home of the randomized benchmarking family.',
+      'Characterize individual gates, qubits, and operations in isolation: error rates, coherence, and calibration quality. Home of the randomized benchmarking family.',
   },
   {
     id: 'system-level',
@@ -43,7 +43,7 @@ export const CATEGORIES: Category[] = [
     id: 'software-stack',
     label: 'Software stack',
     description:
-      'Benchmark the classical software around the QPU — compilers, transpilers, SDKs, and verification tools — on circuit corpora with known baselines or optima.',
+      'Benchmark the classical software around the QPU (compilers, transpilers, SDKs, and verification tools) on circuit corpora with known baselines or optima.',
   },
   {
     id: 'platform-specific',
@@ -55,7 +55,7 @@ export const CATEGORIES: Category[] = [
     id: 'characterization',
     label: 'Characterization',
     description:
-      'Diagnostic protocols that reconstruct what a device actually does — tomography, fidelity estimation, and noise learning — the toolbox that score-style benchmarks build on.',
+      'Diagnostic protocols (tomography, fidelity estimation, noise learning) that reconstruct what a device actually does: the toolbox that score-style benchmarks build on.',
   },
 ];
 

@@ -16,7 +16,7 @@ papers:
     year: 2025
     url: https://arxiv.org/abs/2512.19413
 code:
-  - name: EQCB — European Quantum Computing Benchmarks
+  - name: EQCB (European Quantum Computing Benchmarks)
     url: https://gitlab.com/qcpi/eqcb
 related:
   - clifford-volume
@@ -28,7 +28,7 @@ Free Fermion Volume (FFV) is the proposed companion of [Clifford Volume](/benchm
 
 ## How it works
 
-Random free-fermion circuits — random SO(2n) rotations of the device's Majorana modes, compiled into Givens rotations under the Jordan–Wigner mapping — are run at width n. Free-fermion dynamics are efficiently classically simulable, so the ideal transformation of every Majorana operator is known exactly; the test checks that measured Majorana-operator expectation values match it, requiring parallel combinations to stay above a 1/e-style threshold while orthogonal combinations stay near zero. The score is the largest n passed, reported as the raw qubit count rather than 2^n.
+Random free-fermion circuits (random SO(2n) rotations of the device's Majorana modes, compiled into Givens rotations under the Jordan–Wigner mapping) are run at width n. Free-fermion dynamics are efficiently classically simulable, so the ideal transformation of every Majorana operator is known exactly; the test checks that measured Majorana-operator expectation values match it, requiring parallel combinations to stay above a 1/e-style threshold while orthogonal combinations stay near zero. The score is the largest n passed, reported as the raw qubit count rather than 2^n.
 
 ## Strengths and limitations
 

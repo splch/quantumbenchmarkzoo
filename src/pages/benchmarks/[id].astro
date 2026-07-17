@@ -18,7 +18,7 @@ const { Content } = await render(entry);
 const related = await getEntries(entry.data.related);
 ---
 
-<BaseLayout title={`${name} — Quantum Benchmark Zoo`} description={tagline}>
+<BaseLayout title={`${name} · Quantum Benchmark Zoo`} description={tagline}>
   <article data-pagefind-body>
     <header class="entry-header">
       <p class="breadcrumb"><a href="/">← All benchmarks</a></p>
@@ -56,7 +56,7 @@ const related = await getEntries(entry.data.related);
         {papers.map((paper) => (
           <li>
             <a href={paper.url}>{paper.title}</a>
-            <span class="ref-byline"> — {paper.authors}, {paper.year}</span>
+            <span class="ref-byline"> ({paper.authors}, {paper.year})</span>
           </li>
         ))}
       </ul>
@@ -82,7 +82,7 @@ const related = await getEntries(entry.data.related);
           {related.map((rel) => (
             <li>
               <a href={`/benchmarks/${rel.id}/`}>{rel.data.name}</a>
-              <span class="ref-byline"> — {rel.data.tagline}</span>
+              <span class="ref-byline">: {rel.data.tagline}</span>
             </li>
           ))}
         </ul>

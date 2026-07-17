@@ -32,11 +32,11 @@ related:
   - qml-benchmarks
 ---
 
-The qBAS score is one of the earliest application-level benchmarks for hybrid quantum-classical machines, introduced in 2018 by Benedetti, Perdomo-Ortiz and colleagues. Rather than isolating gates or qubits, it deliberately scores the whole hybrid stack — quantum device, circuit ansatz, and classical optimizer trained together — on a representative generative-modeling task: learning to sample bars-and-stripes (BAS) images.
+The qBAS score is one of the earliest application-level benchmarks for hybrid quantum-classical machines, introduced in 2018 by Benedetti, Perdomo-Ortiz and colleagues. Rather than isolating gates or qubits, it deliberately scores the whole hybrid stack (quantum device, circuit ansatz, and classical optimizer trained together) on a representative generative-modeling task: learning to sample bars-and-stripes (BAS) images.
 
 ## How it works
 
-A shallow parameterized circuit is trained by data-driven quantum circuit learning (DDQCL) to sample the uniform distribution over n-by-m bars-and-stripes images. The trained circuit is then measured within a fixed read budget — canonically N_reads = N_BAS × H(N_BAS), the coupon-collector expectation for the 2^n + 2^m − 2 valid patterns — and scored by F1: the harmonic mean of precision (the fraction of samples that are valid BAS patterns) and recall (the fraction of all BAS patterns observed). qBAS22 denotes the 2×2 instance on four qubits, first demonstrated on a University of Maryland trapped-ion device in the [original paper](https://arxiv.org/abs/1801.07686).
+A shallow parameterized circuit is trained by data-driven quantum circuit learning (DDQCL) to sample the uniform distribution over n-by-m bars-and-stripes images. The trained circuit is then measured within a fixed read budget (canonically N_reads = N_BAS × H(N_BAS), the coupon-collector expectation for the 2^n + 2^m − 2 valid patterns) and scored by F1: the harmonic mean of precision (the fraction of samples that are valid BAS patterns) and recall (the fraction of all BAS patterns observed). qBAS22 denotes the 2×2 instance on four qubits, first demonstrated on a University of Maryland trapped-ion device in the [original paper](https://arxiv.org/abs/1801.07686).
 
 ## Strengths and limitations
 

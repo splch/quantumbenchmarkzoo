@@ -23,7 +23,7 @@ related:
   - direct-randomized-benchmarking
 ---
 
-Interleaved randomized benchmarking (IRB) is the standard protocol for attaching an error rate to one specific gate rather than to a whole gate set. Introduced in 2012 by Magesan and colleagues at IBM and Raytheon BBN, it is the source of most per-gate fidelities quoted on hardware spec sheets — in particular the two-qubit gate fidelities that headline platform comparisons.
+Interleaved randomized benchmarking (IRB) is the standard protocol for attaching an error rate to one specific gate rather than to a whole gate set. Introduced in 2012 by Magesan and colleagues at IBM and Raytheon BBN, it is the source of most per-gate fidelities quoted on hardware spec sheets, in particular the two-qubit gate fidelities that headline platform comparisons.
 
 ## How it works
 
@@ -31,6 +31,6 @@ IRB is a two-part experiment. First, standard [randomized benchmarking](/benchma
 
 ## Strengths and limitations
 
-IRB inherits standard RB's insensitivity to state-preparation and measurement errors and needs only one extra set of decay curves, which is why it became the default way to report single- and two-qubit gate fidelities across superconducting, trapped-ion, and spin-qubit platforms.
+IRB inherits standard RB's insensitivity to state-preparation and measurement errors and needs only one extra set of decay curves; hence it became the default way to report single- and two-qubit gate fidelities across superconducting, trapped-ion, and spin-qubit platforms.
 
-Its key weakness is that the point estimate assumes the target gate's error composes with the random Cliffords' in a roughly depolarizing way. When errors are coherent, the true gate error can lie anywhere within systematic bounds that are often loose — in unfavorable cases spanning orders of magnitude around the estimate. See the bounds in [Magesan et al.](https://arxiv.org/abs/1203.4550) and the worked comparison of IRB's assumptions and failure modes in [Hashim et al., Table IV](https://arxiv.org/abs/2408.12064). The target must also be a Clifford gate. For putting error bars on a whole multi-qubit cycle rather than one inserted gate, [cycle benchmarking](/benchmarks/cycle-benchmarking/) is the closely related alternative, and [direct randomized benchmarking](/benchmarks/direct-randomized-benchmarking/) benchmarks native-gate layers without Clifford compilation.
+Its key weakness is that the point estimate assumes the target gate's error composes with the random Cliffords' in a roughly depolarizing way. When errors are coherent, the true gate error can lie anywhere within systematic bounds that are often loose, in unfavorable cases spanning orders of magnitude around the estimate. See the bounds in [Magesan et al.](https://arxiv.org/abs/1203.4550) and the worked comparison of IRB's assumptions and failure modes in [Hashim et al., Table IV](https://arxiv.org/abs/2408.12064). The target must also be a Clifford gate. For putting error bars on a whole multi-qubit cycle rather than one inserted gate, [cycle benchmarking](/benchmarks/cycle-benchmarking/) is the closely related alternative, and [direct randomized benchmarking](/benchmarks/direct-randomized-benchmarking/) benchmarks native-gate layers without Clifford compilation.

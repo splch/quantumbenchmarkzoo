@@ -19,7 +19,7 @@ papers:
     year: 2025
     url: https://arxiv.org/abs/2512.19653
 code:
-  - name: EQCB — European Quantum Computing Benchmarks
+  - name: EQCB (European Quantum Computing Benchmarks)
     url: https://gitlab.com/qcpi/eqcb
 related:
   - quantum-volume
@@ -27,15 +27,15 @@ related:
   - volumetric-benchmarking
 ---
 
-Clifford Volume (CLV) is a volumetric whole-device benchmark introduced in December 2025 by [Portik, Kálmán, Monz and Zimborás](https://arxiv.org/abs/2512.19413) within the EU Quantum Flagship's benchmarking work. It keeps the random-circuit, whole-stack spirit of [Quantum Volume](/benchmarks/quantum-volume/) but swaps the circuit family for Clifford circuits, which the stabilizer formalism simulates efficiently at any size — removing the classical-verification ceiling that caps Quantum Volume near 30–40 qubits.
+Clifford Volume (CLV) is a volumetric whole-device benchmark introduced in December 2025 by [Portik, Kálmán, Monz and Zimborás](https://arxiv.org/abs/2512.19413) within the EU Quantum Flagship's benchmarking work. It keeps the random-circuit, whole-stack spirit of [Quantum Volume](/benchmarks/quantum-volume/) but swaps the circuit family for Clifford circuits, which the stabilizer formalism simulates efficiently at any size; that removes the classical-verification ceiling that caps Quantum Volume near 30–40 qubits.
 
 ## How it works
 
-The device runs random n-qubit Clifford circuits. Because each ideal output is a stabilizer state, its stabilizer group is classically computable at any width; the test measures expectation values of the output state's stabilizer and destabilizer operators. The device passes at width n if measured stabilizer expectation values stay above 1/e while destabilizer values stay near zero (below a threshold of 1/(2e)), with statistical margins. The score is the largest n passed, reported as the raw qubit count — not 2^n as in Quantum Volume. Compilation is deliberately unprescribed, so the compiler and the rest of the stack are scored along with the hardware.
+The device runs random n-qubit Clifford circuits. Because each ideal output is a stabilizer state, its stabilizer group is classically computable at any width; the test measures expectation values of the output state's stabilizer and destabilizer operators. The device passes at width n if measured stabilizer expectation values stay above 1/e while destabilizer values stay near zero (below a threshold of 1/(2e)), with statistical margins. The score is the largest n passed, reported as the raw qubit count, not 2^n as in Quantum Volume. Compilation is deliberately unprescribed, so the compiler and the rest of the stack are scored along with the hardware.
 
 ## Strengths and limitations
 
-Verification scales: where Quantum Volume's heavy-output test needs classical simulation of the ideal circuit, CLV can certify faithful execution at widths far beyond the simulable regime. The flip side is that Clifford circuits are themselves classically simulable, so a high CLV certifies faithful large-circuit execution and scalable verification — not quantum advantage. CLV and QV numbers are not comparable (raw n versus 2^m), compiler quality is folded into the score, and the benchmark is distinct from Clifford-group [randomized benchmarking](/benchmarks/randomized-benchmarking/), which targets components rather than whole devices. As of July 2026 no independent third-party hardware scores had been published. Its companion, [Free Fermion Volume](/benchmarks/free-fermion-volume/), probes a complementary circuit family.
+Verification scales: where Quantum Volume's heavy-output test needs classical simulation of the ideal circuit, CLV can certify faithful execution at widths far beyond the simulable regime. The flip side is that Clifford circuits are themselves classically simulable, so a high CLV certifies faithful large-circuit execution and scalable verification, not quantum advantage. CLV and QV numbers are not comparable (raw n versus 2^m), compiler quality is folded into the score, and the benchmark is distinct from Clifford-group [randomized benchmarking](/benchmarks/randomized-benchmarking/), which targets components rather than whole devices. As of July 2026 no independent third-party hardware scores had been published. Its companion, [Free Fermion Volume](/benchmarks/free-fermion-volume/), probes a complementary circuit family.
 
 ## Notable results
 

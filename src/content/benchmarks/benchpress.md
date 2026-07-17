@@ -1,6 +1,6 @@
 ---
 name: Benchpress
-tagline: IBM's open-source suite of 1,000+ timed tests comparing how fast quantum SDKs construct, manipulate, and transpile circuits — and the quality of the compiled output.
+tagline: IBM's open-source suite of 1,000+ timed tests comparing how fast quantum SDKs construct, manipulate, and transpile circuits, plus the quality of the compiled output.
 category: software-stack
 measures: Speed of circuit construction, manipulation, and transpilation across quantum SDKs, plus compiled-output quality such as two-qubit gate counts
 introducedBy:
@@ -25,7 +25,7 @@ related:
   - ftcircuitbench
 ---
 
-Benchpress is IBM Quantum's open-source suite for benchmarking quantum software: how fast SDKs and compilers construct, manipulate, and transpile quantum circuits, and how good the compiled output is. Introduced by Nation and colleagues in 2024, it replaced scattered, per-paper compiler comparisons — including Red Queen, the earlier Qiskit-community compiler benchmark it superseded — with one reproducible harness. Despite the shared vocabulary, it measures the classical software stack, not any quantum hardware.
+Benchpress is IBM Quantum's open-source suite for benchmarking quantum software: how fast SDKs and compilers construct, manipulate, and transpile quantum circuits, and how good the compiled output is. Introduced by Nation and colleagues in 2024, it replaced scattered, per-paper compiler comparisons (including Red Queen, the earlier Qiskit-community compiler benchmark it superseded) with one reproducible harness. Despite the shared vocabulary, it measures the classical software stack, not any quantum hardware.
 
 ## How it works
 
@@ -35,7 +35,7 @@ The suite comprises 1,000+ standardized timed tests covering circuit constructio
 
 Its coverage and openness set the standard for SDK benchmarking: tests, workloads, and configuration are all Apache-2.0 on GitHub, so any reported ranking can be rerun. Unlike [QUEKO](/benchmarks/queko/), whose circuits have known-optimal depth, Benchpress scores tools relative to one another, so results are snapshots that shift as SDK versions evolve.
 
-The provenance caveat is real: IBM authored the suite, and IBM's Qiskit topped the headline results — [IBM's September 2024 announcement](https://www.ibm.com/quantum/blog/qiskit-performance) claimed roughly 13× faster transpilation with about 24% fewer two-qubit gates than second-place Tket. Open source makes the numbers independently reproducible, but readers should note who publishes them. The arXiv and journal titles also differ: the journal version appends "for quantum circuit creation, manipulation and compilation."
+The provenance caveat is real: IBM authored the suite, and IBM's Qiskit topped the headline results; [IBM's September 2024 announcement](https://www.ibm.com/quantum/blog/qiskit-performance) claimed roughly 13× faster transpilation with about 24% fewer two-qubit gates than second-place Tket. Open source makes the numbers independently reproducible, but readers should note who publishes them. The arXiv and journal titles also differ: the journal version appends "for quantum circuit creation, manipulation and compilation."
 
 ## Notable results
 
