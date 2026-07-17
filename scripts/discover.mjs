@@ -105,6 +105,13 @@ function buildQuery(cfg) {
   return `(${cats}) AND (${terms})`;
 }
 
+// arXiv asks automated clients to identify themselves, and it throttles busy
+// shared IPs (like CI runners) with 503s, so back off long and honor Retry-After.
+const ARXIV_UA =
+  'quantumbenchmarkzoo-discovery/1.0 (+https://github.com/splch/quantumbenchmarkzoo)';
+const ATTEMPTS = 6;
+const BACKOFF_MS = [3_000, 8_000, 20_000, 45_000, 90_000];
+
 async function fetchFeedPage(query, start, pageSize) {
   const url = new URL('https://export.arxiv.org/api/query');
   url.searchParams.set('search_query', query);
@@ -114,26 +121,37 @@ async function fetchFeedPage(query, start, pageSize) {
   url.searchParams.set('sortOrder', 'descending');
 
   let lastError = null;
-  for (let attempt = 1; attempt <= 4; attempt++) {
-    if (attempt > 1) await sleep(3000 * 2 ** (attempt - 2));
+  for (let attempt = 1; attempt <= ATTEMPTS; attempt++) {
+    let delayMs = BACKOFF_MS[Math.min(attempt, BACKOFF_MS.length) - 1];
     try {
-      const res = await fetch(url, { signal: AbortSignal.timeout(60_000) });
+      const res = await fetch(url, {
+        signal: AbortSignal.timeout(60_000),
+        headers: { 'user-agent': ARXIV_UA },
+      });
       if (!res.ok) {
         lastError = new Error(`arXiv API returned HTTP ${res.status}`);
-        continue;
+        const retryAfter = Number(res.headers.get('retry-after'));
+        if (Number.isFinite(retryAfter) && retryAfter > 0) {
+          delayMs = Math.min(retryAfter, 120) * 1000;
+        }
+      } else {
+        const feed = parseFeed(await res.text());
+        // arXiv occasionally returns a transiently empty feed; retry those.
+        if (feed.entries.length === 0 && feed.total !== null && feed.total > start) {
+          lastError = new Error('arXiv API returned an empty page unexpectedly');
+        } else {
+          return feed;
+        }
       }
-      const feed = parseFeed(await res.text());
-      // arXiv occasionally returns a transiently empty feed; retry those.
-      if (feed.entries.length === 0 && feed.total !== null && feed.total > start) {
-        lastError = new Error('arXiv API returned an empty page unexpectedly');
-        continue;
-      }
-      return feed;
     } catch (err) {
       lastError = err;
     }
+    if (attempt < ATTEMPTS) {
+      console.warn(`  arXiv attempt ${attempt} failed (${lastError.message}), retrying in ${delayMs / 1000}s`);
+      await sleep(delayMs);
+    }
   }
-  throw new Error(`arXiv fetch failed after 4 attempts: ${lastError?.message}`);
+  throw new Error(`arXiv fetch failed after ${ATTEMPTS} attempts: ${lastError?.message}`);
 }
 
 async function harvest(cfg, days) {
