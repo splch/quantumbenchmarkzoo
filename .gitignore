@@ -1,5 +1,7 @@
 # build output
 dist/
+# benchmark discovery run output
+discovery-report.md
 # generated types
 .astro/
 
