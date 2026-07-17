@@ -31,6 +31,9 @@ code:
 related:
   - quantum-volume
   - randomized-benchmarking
+  - speckle-purity-benchmarking
+  - loschmidt-echo-benchmark
+  - quantum-echoes
 ---
 
 Cross-entropy benchmarking (XEB) scores a device on random circuit sampling: run a random circuit many times, then ask whether the observed bitstrings are biased toward the outputs the ideal circuit makes likely. It is both a practical calibration tool (per-gate-pair XEB is core to Google's tune-up workflow) and the headline metric of the 2019 quantum supremacy experiment.
@@ -43,7 +46,7 @@ For a random circuit on `n` qubits, ideal output probabilities follow the expone
 F_XEB = 2^n · ⟨ p_ideal(x) ⟩ − 1
 ```
 
-where the average runs over the bitstrings `x` the device actually produced, and `p_ideal` is computed by classical simulation. A perfect device gives `F_XEB ≈ 1`; a device emitting uniform noise gives `F_XEB ≈ 0`. Under a white-noise (depolarizing) model, `F_XEB` estimates total circuit fidelity, and small variants of the estimator trade statistical efficiency for robustness. The [Cirq XEB documentation](https://quantumai.google/cirq/noise/qcvv/xeb_theory) walks through the theory and a reference implementation.
+where the average runs over the bitstrings `x` the device actually produced, and `p_ideal` is computed by classical simulation. A perfect device gives `F_XEB ≈ 1`; a device emitting uniform noise gives `F_XEB ≈ 0`. (The [2016 proposal](https://arxiv.org/abs/1608.00263) scored the logarithmic cross-entropy; the linear estimator above arrived with the 2019 supremacy experiment and is now the standard form.) Under a white-noise (depolarizing) model, `F_XEB` estimates total circuit fidelity, and small variants of the estimator trade statistical efficiency for robustness. The [Cirq XEB documentation](https://quantumai.google/cirq/noise/qcvv/xeb_theory) walks through the theory and a reference implementation.
 
 ## Strengths and limitations
 

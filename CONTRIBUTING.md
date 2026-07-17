@@ -17,7 +17,7 @@ becomes the URL slug: `quantum-volume.md` → `/benchmarks/quantum-volume/`.
 | ---------------- | -------- | --------------------------------------------------------------------- |
 | `name`           | yes      | Display name, e.g. `Quantum Volume`.                                  |
 | `tagline`        | yes      | One sentence (max 220 chars); shown on cards and in search results.   |
-| `category`       | yes      | `component-level`, `system-level`, or `application-level`.            |
+| `category`       | yes      | One of the ids in `src/lib/categories.ts`: `component-level`, `system-level`, `application-level`, `error-correction`, `software-stack`, `platform-specific`, `characterization`. |
 | `measures`       | yes      | The figure of merit, in one line.                                     |
 | `introducedBy`   | yes      | List of people/organizations.                                         |
 | `yearIntroduced` | yes      | Year of the first paper or announcement.                              |
@@ -25,7 +25,7 @@ becomes the URL slug: `quantum-volume.md` → `/benchmarks/quantum-volume/`.
 | `aliases`        | no       | Alternative names/acronyms; used by the on-page filter.               |
 | `code`           | no       | Reference implementations: `name`, `url`.                             |
 | `related`        | no       | Slugs of related entries; validated against the collection at build.  |
-| `status`         | no       | `active` (default) or `historical`.                                   |
+| `status`         | no       | `active` (default), `proposal` (paper-only so far), `superseded` (named successor exists), or `historical`. |
 
 ## Body structure
 

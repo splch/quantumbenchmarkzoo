@@ -18,6 +18,9 @@ code:
   - name: SupermarQ (in Infleqtion's client-superstaq)
     url: https://github.com/Infleqtion/client-superstaq
 related:
+  - qed-c-benchmarks
+  - qasmbench
+  - ghz-state-fidelity
   - quantum-volume
 ---
 

@@ -1,4 +1,11 @@
-export type CategoryId = 'component-level' | 'system-level' | 'application-level';
+export type CategoryId =
+  | 'component-level'
+  | 'system-level'
+  | 'application-level'
+  | 'error-correction'
+  | 'software-stack'
+  | 'platform-specific'
+  | 'characterization';
 
 export interface Category {
   id: CategoryId;
@@ -6,12 +13,13 @@ export interface Category {
   description: string;
 }
 
+/** Display order. Keep in sync with the enum in src/content.config.ts. */
 export const CATEGORIES: Category[] = [
   {
     id: 'component-level',
     label: 'Component-level',
     description:
-      'Characterize individual gates, qubits, and operations in isolation — error rates, coherence, and calibration quality.',
+      'Characterize individual gates, qubits, and operations in isolation — error rates, coherence, and calibration quality. Home of the randomized benchmarking family.',
   },
   {
     id: 'system-level',
@@ -24,6 +32,30 @@ export const CATEGORIES: Category[] = [
     label: 'Application-level',
     description:
       'Measure end-to-end performance on programs representative of real workloads, from algorithm subroutines to full application suites.',
+  },
+  {
+    id: 'error-correction',
+    label: 'Error correction',
+    description:
+      'Score the error-corrected layer: how fast logical errors fall as codes scale, what logical qubits and fault-tolerant primitives cost, and whether decoders keep up.',
+  },
+  {
+    id: 'software-stack',
+    label: 'Software stack',
+    description:
+      'Benchmark the classical software around the QPU — compilers, transpilers, SDKs, and verification tools — on circuit corpora with known baselines or optima.',
+  },
+  {
+    id: 'platform-specific',
+    label: 'Platform-specific',
+    description:
+      'Benchmarks built for hardware outside the digital gate model: quantum annealers, photonic samplers, and analog quantum simulators.',
+  },
+  {
+    id: 'characterization',
+    label: 'Characterization',
+    description:
+      'Diagnostic protocols that reconstruct what a device actually does — tomography, fidelity estimation, and noise learning — the toolbox that score-style benchmarks build on.',
   },
 ];
 

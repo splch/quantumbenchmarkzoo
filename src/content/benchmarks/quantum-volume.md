@@ -22,6 +22,9 @@ code:
   - name: Qiskit Experiments (QuantumVolume)
     url: https://github.com/qiskit-community/qiskit-experiments
 related:
+  - volumetric-benchmarking
+  - clops
+  - layer-fidelity
   - cross-entropy-benchmarking
 ---
 
@@ -37,7 +40,7 @@ The device passes at width `m` if it produces heavy outputs more than two-thirds
 
 QV's strength is that it is hard to game with any single spec: adding qubits without fidelity, or fidelity without connectivity, does not raise the score. That made it an early de facto standard for cross-platform comparison.
 
-Its main limitations are structural. Verifying heavy outputs requires classically simulating the ideal circuit, which becomes intractable beyond roughly 30–40 qubits, capping how far the benchmark can scale. The square-circuit shape also under-rewards devices whose qubit count far exceeds their usable depth (or vice versa) — one reason IBM itself has shifted emphasis toward per-layer error metrics such as layer fidelity / errors per layered gate (EPLG) for its larger processors. The [Baldwin et al. re-examination](https://arxiv.org/abs/2110.14808) analyzes the test's statistical assumptions and pass criteria in detail.
+Its main limitations are structural. Verifying heavy outputs requires classically simulating the ideal circuit, which becomes intractable beyond roughly 30–40 qubits, capping how far the benchmark can scale. The square-circuit shape also under-rewards devices whose qubit count far exceeds their usable depth (or vice versa) — one reason IBM itself has shifted emphasis toward per-layer error metrics such as [layer fidelity / error per layered gate (EPLG)](/benchmarks/layer-fidelity/) for its larger processors, and why the [volumetric benchmarking framework](/benchmarks/volumetric-benchmarking/) generalizes QV to rectangular circuit shapes. The [Baldwin et al. re-examination](https://arxiv.org/abs/2110.14808) analyzes the test's statistical assumptions and pass criteria in detail.
 
 ## Notable results
 

@@ -37,7 +37,13 @@ code:
   - name: Cirq experiments module
     url: https://quantumai.google/cirq/noise/qcvv
 related:
+  - interleaved-randomized-benchmarking
+  - direct-randomized-benchmarking
+  - mirror-randomized-benchmarking
+  - cycle-benchmarking
+  - unitarity-randomized-benchmarking
   - cross-entropy-benchmarking
+  - gate-set-tomography
 ---
 
 Randomized benchmarking (RB) is the workhorse protocol for characterizing gate error rates. Vendors' quoted single- and two-qubit fidelities are, more often than not, RB numbers. Its key virtue is separating gate error from state-preparation and measurement (SPAM) error, which plagues naive fidelity estimates.
@@ -48,9 +54,24 @@ The standard protocol samples random sequences of `m` Clifford gates, appends th
 
 Clifford gates are used because they form a unitary 2-design — averaging over them twirls arbitrary noise into an effective depolarizing channel, which is what makes the simple exponential model valid — and because Clifford circuits are efficiently classically simulable, so the inversion gate is cheap to compute.
 
-## Variants
+## The RB family
 
-A large family of protocols extends the idea: **interleaved RB** inserts a specific gate between random Cliffords to estimate that gate's individual error; **simultaneous RB** runs RB on neighboring qubits concurrently to expose crosstalk; **direct RB**, **mirror RB**, and **cycle benchmarking** scale the approach to wider circuits and native (non-Clifford) gate sets. See [Helsen et al.'s framework paper](https://www.nature.com/articles/s41534-019-0182-7) for a unified treatment.
+RB is a family of protocols, not a single benchmark. Named variants with their own entries in this catalog:
+
+- [Interleaved RB](/benchmarks/interleaved-randomized-benchmarking/) — the error of one specific gate.
+- [Simultaneous RB](/benchmarks/simultaneous-randomized-benchmarking/) — crosstalk and addressability between subsystems.
+- [Direct RB](/benchmarks/direct-randomized-benchmarking/) — layers of native gates, without Clifford compilation.
+- [Mirror RB](/benchmarks/mirror-randomized-benchmarking/) — motion-reversal circuits that scale to many qubits.
+- [Binary RB](/benchmarks/binary-randomized-benchmarking/) — low-overhead layer errors from pass/fail outcomes.
+- [Character RB](/benchmarks/character-randomized-benchmarking/) — gate groups beyond the Cliffords, via character theory.
+- [Cycle benchmarking](/benchmarks/cycle-benchmarking/) — process fidelity of a whole cycle of parallel gates.
+- [Unitarity RB](/benchmarks/unitarity-randomized-benchmarking/) — how coherent the noise is, from purity decay.
+- [Leakage RB](/benchmarks/leakage-randomized-benchmarking/) — leakage out of the computational subspace.
+- [Matchgate benchmarking](/benchmarks/matchgate-benchmarking/) — continuous matchgate (free-fermion) gate sets.
+- [Mid-circuit measurement benchmarking](/benchmarks/mid-circuit-measurement-benchmarking/) — errors added by mid-circuit measurements.
+- [Logical RB](/benchmarks/logical-randomized-benchmarking/) — RB run on encoded, error-corrected qubits.
+
+Further named variants — filtered, real, dihedral, iterative, and error-specific RB — are unified by [Helsen, Roth, Onorati, Werner & Eisert's general framework](https://arxiv.org/abs/2010.07974) (PRX Quantum 2022), and [Hashim et al.'s tutorial](https://arxiv.org/abs/2408.12064) tabulates and compares thirteen of them side by side.
 
 ## Strengths and limitations
 

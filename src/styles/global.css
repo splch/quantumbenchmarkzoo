@@ -17,6 +17,14 @@
   --badge-system-bg: #e5e3fa;
   --badge-application-text: #7c4a03;
   --badge-application-bg: #fcedcd;
+  --badge-error-correction-text: #8f1d3d;
+  --badge-error-correction-bg: #fbe4ec;
+  --badge-software-text: #0d4f7a;
+  --badge-software-bg: #d9edfb;
+  --badge-platform-text: #2d5d16;
+  --badge-platform-bg: #e2f3d4;
+  --badge-characterization-text: #47505f;
+  --badge-characterization-bg: #e6e9ef;
 
   color-scheme: light dark;
 }
@@ -39,6 +47,14 @@
     --badge-system-bg: #262357;
     --badge-application-text: #edc078;
     --badge-application-bg: #3a2c11;
+    --badge-error-correction-text: #f2a8c0;
+    --badge-error-correction-bg: #431425;
+    --badge-software-text: #93cff3;
+    --badge-software-bg: #11344a;
+    --badge-platform-text: #abd98d;
+    --badge-platform-bg: #1f3a0e;
+    --badge-characterization-text: #b8c1cf;
+    --badge-characterization-bg: #2b303b;
   }
 }
 
@@ -281,6 +297,35 @@ a.badge:hover {
 .badge-application-level {
   color: var(--badge-application-text);
   background: var(--badge-application-bg);
+}
+
+.badge-error-correction {
+  color: var(--badge-error-correction-text);
+  background: var(--badge-error-correction-bg);
+}
+
+.badge-software-stack {
+  color: var(--badge-software-text);
+  background: var(--badge-software-bg);
+}
+
+.badge-platform-specific {
+  color: var(--badge-platform-text);
+  background: var(--badge-platform-bg);
+}
+
+.badge-characterization {
+  color: var(--badge-characterization-text);
+  background: var(--badge-characterization-bg);
+}
+
+/* Status badge (proposal / superseded / historical) */
+
+.badge-status {
+  color: var(--muted);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  text-transform: capitalize;
 }
 
 /* Benchmark cards */

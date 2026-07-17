@@ -18,7 +18,7 @@ import { CATEGORIES } from '../lib/categories';
     </p>
 
     <h2>How entries are organized</h2>
-    <p>Every benchmark is filed under one of three categories:</p>
+    <p>Every benchmark is filed under one of seven categories:</p>
     <ul>
       {CATEGORIES.map((cat) => (
         <li>
@@ -30,6 +30,55 @@ import { CATEGORIES } from '../lib/categories';
       Entries aim for a neutral, cite-your-sources tone: claims about what a benchmark shows —
       and where it falls short — should trace back to the literature.
     </p>
+
+    <h2>Scope</h2>
+    <p>
+      An entry is a <em>named</em> benchmark, protocol, or suite with a defined procedure that
+      yields a score or diagnostic — the kind of thing a paper or spec introduces and others can
+      reproduce. A few adjacent kinds of things are deliberately not catalogued:
+    </p>
+    <ul>
+      <li>
+        <strong>Bare device metrics</strong> — T1, T2, single-number gate or readout fidelities,
+        and qubit counts. They are measurement <em>results</em>, not protocols; the protocols
+        that produce them (randomized benchmarking, tomography) are catalogued instead.
+      </li>
+      <li>
+        <strong>Results platforms and leaderboards</strong> — e.g.
+        <a href="https://metriq.info/">Metriq</a>, which tracks benchmark results over time
+        rather than defining benchmarks.
+      </li>
+      <li>
+        <strong>Datasets and trackers</strong> without a scoring protocol, with the exception of
+        problem libraries (such as HamLib) that the field uses directly as benchmark sets.
+      </li>
+      <li>
+        <strong>Benchmarks of AI coding assistants</strong> on quantum programming tasks (Qiskit
+        HumanEval and friends) — they measure language models, not quantum computers or their
+        software stacks.
+      </li>
+    </ul>
+
+    <h2>Further reading</h2>
+    <p>Four recent surveys anchor the field and informed this catalog's coverage:</p>
+    <ul>
+      <li>
+        <a href="https://arxiv.org/abs/2407.08828">Benchmarking quantum computers</a> — Proctor,
+        Young, Baczewski &amp; Blume-Kohout, Nature Reviews Physics 7, 105–118 (2025).
+      </li>
+      <li>
+        <a href="https://arxiv.org/abs/2408.12064">A Practical Introduction to Benchmarking and
+        Characterization of Quantum Computers</a> — Hashim et al., PRX Quantum 6, 030202 (2025).
+      </li>
+      <li>
+        <a href="https://arxiv.org/abs/2502.06717">Quantum computer benchmarking: a collection of
+        metrics</a> — Lall et al., the NPL-led QCMet collection (2025).
+      </li>
+      <li>
+        <a href="https://arxiv.org/abs/2509.03078">A systematic literature review of quantum
+        benchmarks</a> — Rohe et al. (2025), covering 329 studies.
+      </li>
+    </ul>
 
     <h2 id="contributing">Contributing</h2>
     <p>
