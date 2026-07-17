@@ -13,6 +13,10 @@
   `prefers-color-scheme`). Keep text contrast >= 4.5:1 on every surface in both themes.
 - No client framework. The only scripts are the inline filter on the index page and Pagefind UI
   on `/search/`.
+- `scripts/discover.mjs` powers the weekly benchmark discovery workflow
+  (`.github/workflows/discover.yml`): it harvests arXiv, dedups against catalog frontmatter and
+  `.github/discovery/seen.json`, triages with the Claude API, and files a GitHub issue. Config
+  and rubric live in `.github/discovery/`.
 
 ## Development
 

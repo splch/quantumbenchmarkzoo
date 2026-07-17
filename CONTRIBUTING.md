@@ -49,3 +49,13 @@ Opening paragraph: what it is and why it matters, no heading.
 - Plain-text math (e.g. `F = 2^n · ⟨p(x)⟩ − 1`); the site does not render LaTeX.
 - Go easy on dashes: at most one per entry (the site keeps them under 0.25% of words). Prefer
   commas, colons, parentheses, or a new sentence.
+
+## Automated discovery
+
+A weekly workflow (`.github/workflows/discover.yml`) searches arXiv for papers that may
+introduce new benchmarks, has Claude triage them against this catalog, and opens an issue
+labeled `benchmark-discovery` with the shortlist. Add worthwhile candidates as entries, then
+check them off; rejected papers are remembered in `.github/discovery/seen.json` and will not
+resurface. Tune the search in `.github/discovery/config.json` and the rubric in
+`.github/discovery/triage-prompt.md`. Run it locally with `pnpm discover` (needs
+`ANTHROPIC_API_KEY`; pass `--skip-triage` to only harvest).

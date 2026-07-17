@@ -1,0 +1,14 @@
+{
+  "arxiv": {
+    "categories": ["quant-ph", "cs.ET", "cs.PF"],
+    "terms": ["benchmark", "benchmarks", "benchmarking", "benchmarked"],
+    "lookbackDays": 10,
+    "pageSize": 100,
+    "maxPages": 10
+  },
+  "triage": {
+    "model": "claude-opus-4-8",
+    "maxCandidatesPerRun": 60,
+    "concurrency": 2
+  }
+}
