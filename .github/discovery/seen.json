@@ -300,6 +300,36 @@
       "triagedAt": "2026-07-17",
       "verdict": "not-a-benchmark",
       "title": "Towards logical entanglement creation in trivalent planar architectures"
+    },
+    "2607.15343": {
+      "triagedAt": "2026-07-20",
+      "verdict": "not-a-benchmark",
+      "title": "Non-Hermitian Quantum Adiabatic Algorithm"
+    },
+    "2607.15543": {
+      "triagedAt": "2026-07-20",
+      "verdict": "not-a-benchmark",
+      "title": "Benchmarking Hybrid Quantum-Classical Algorithms for Power Grid Optimization Problems"
+    },
+    "2607.15781": {
+      "triagedAt": "2026-07-20",
+      "verdict": "not-a-benchmark",
+      "title": "AgentFAIR: A Multi-Agent Collaborative Framework for FAIRness Evaluation of Geospatial Datasets"
+    },
+    "2607.15815": {
+      "triagedAt": "2026-07-20",
+      "verdict": "new-benchmark",
+      "title": "The Fourier Wall: Why Public Tabular Datasets Refuse Quantum Advantage, and a Certified Recipe for W"
+    },
+    "2607.15950": {
+      "triagedAt": "2026-07-20",
+      "verdict": "not-a-benchmark",
+      "title": "Conditional Euclidean-Hamiltonian reductions for sign-problem toy models"
+    },
+    "2607.16116": {
+      "triagedAt": "2026-07-20",
+      "verdict": "not-a-benchmark",
+      "title": "Quantum-classical crossover in fault-tolerant quantum dynamics simulation"
     }
   }
 }
