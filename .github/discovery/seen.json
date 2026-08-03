@@ -330,6 +330,281 @@
       "triagedAt": "2026-07-20",
       "verdict": "not-a-benchmark",
       "title": "Quantum-classical crossover in fault-tolerant quantum dynamics simulation"
+    },
+    "2607.22516": {
+      "triagedAt": "2026-08-03",
+      "verdict": "not-a-benchmark",
+      "title": "Quantum Spectral Model: Data Reuploading with Input-Conditioned Frequency Support"
+    },
+    "2607.22522": {
+      "triagedAt": "2026-08-03",
+      "verdict": "not-a-benchmark",
+      "title": "Exact Neural-Network Representations of the Motzkin States"
+    },
+    "2607.22818": {
+      "triagedAt": "2026-08-03",
+      "verdict": "not-a-benchmark",
+      "title": "Practical advantage beyond the quadratic speedup limit with fully-quantum walks"
+    },
+    "2607.22863": {
+      "triagedAt": "2026-08-03",
+      "verdict": "not-a-benchmark",
+      "title": "Universal scaling framework for parameterized quantum evolutions at criticality"
+    },
+    "2607.23044": {
+      "triagedAt": "2026-08-03",
+      "verdict": "new-benchmark",
+      "title": "Characterizing Arbitrary Lindbladian Dynamics with a Few Pauli Measurements"
+    },
+    "2607.23276": {
+      "triagedAt": "2026-08-03",
+      "verdict": "not-a-benchmark",
+      "title": "Performance of Krotov, PRONTO and PINN for optimal control of quantum gates"
+    },
+    "2607.23319": {
+      "triagedAt": "2026-08-03",
+      "verdict": "not-a-benchmark",
+      "title": "BHARATI: Morphology-Aware Tokenizers for Classical Indian Languages with Subword Fertility Analysis"
+    },
+    "2607.23324": {
+      "triagedAt": "2026-08-03",
+      "verdict": "not-a-benchmark",
+      "title": "Gravitational acceleration encoded in Jaynes Cummings exchange frequencies: Quantum Fisher informati"
+    },
+    "2607.23407": {
+      "triagedAt": "2026-08-03",
+      "verdict": "not-a-benchmark",
+      "title": "Performance Analysis of QAOA Across Distributed Quantum Network Topologies Using SwitchQNet"
+    },
+    "2607.23574": {
+      "triagedAt": "2026-08-03",
+      "verdict": "new-benchmark",
+      "title": "Generalized Mermin Inequalities for Benchmarking Large-Scale GHZ States"
+    },
+    "2607.23590": {
+      "triagedAt": "2026-08-03",
+      "verdict": "not-a-benchmark",
+      "title": "An Integrated DFT-Wannier-Quantum Embedding Pipeline for Strongly Correlated Materials: Scaling Benc"
+    },
+    "2607.23619": {
+      "triagedAt": "2026-08-03",
+      "verdict": "not-a-benchmark",
+      "title": "The Atoms of the Score: Record-Level versus In-Engine Composite Evaluation of Clinical Quality Langu"
+    },
+    "2607.23683": {
+      "triagedAt": "2026-08-03",
+      "verdict": "not-a-benchmark",
+      "title": "Qutrit-Based Neural Quantum Kernels for Classification Tasks"
+    },
+    "2607.23761": {
+      "triagedAt": "2026-08-03",
+      "verdict": "not-a-benchmark",
+      "title": "Bridging AQFP Technology Legalization and Physical Design: Layout-Aware Buffer and Splitter Insertio"
+    },
+    "2607.23806": {
+      "triagedAt": "2026-08-03",
+      "verdict": "not-a-benchmark",
+      "title": "A Frozen 12B Beats Frontier Models on Verified Work: 100% Accuracy, 0 Tokens, Bit-Exact, Forever"
+    },
+    "2607.24065": {
+      "triagedAt": "2026-08-03",
+      "verdict": "not-a-benchmark",
+      "title": "Variational Quantum Conditional Boltzmann Machines for Time-Series Forecasting: Architectures, Symme"
+    },
+    "2607.24127": {
+      "triagedAt": "2026-08-03",
+      "verdict": "not-a-benchmark",
+      "title": "Tree Tensor Network Reservoir Computing: Hierarchical Ensemble with Invariant Phase Boundaries"
+    },
+    "2607.24429": {
+      "triagedAt": "2026-08-03",
+      "verdict": "not-a-benchmark",
+      "title": "QuantumFCS.jl: Efficient Full-Counting Statistics for Open Quantum Systems"
+    },
+    "2607.24714": {
+      "triagedAt": "2026-08-03",
+      "verdict": "not-a-benchmark",
+      "title": "Efficient LLM-Generated Shuttling Compilers for Complex Trapped-Ion Architectures"
+    },
+    "2607.24725": {
+      "triagedAt": "2026-08-03",
+      "verdict": "not-a-benchmark",
+      "title": "Pulse engineering via projection of response functions at infinite nonlinear order"
+    },
+    "2607.25029": {
+      "triagedAt": "2026-08-03",
+      "verdict": "not-a-benchmark",
+      "title": "Quantum detection of CP violation in the $t\\bar{t}$ system: production"
+    },
+    "2607.25145": {
+      "triagedAt": "2026-08-03",
+      "verdict": "not-a-benchmark",
+      "title": "Agentic AI for Scientific Reasoning in Autonomous Quantum Sensing Experiments"
+    },
+    "2607.25162": {
+      "triagedAt": "2026-08-03",
+      "verdict": "not-a-benchmark",
+      "title": "Quantum Transformer BSDE Solver via Multi-Layer Fully-Connected Variational Quantum Circuits"
+    },
+    "2607.25678": {
+      "triagedAt": "2026-08-03",
+      "verdict": "not-a-benchmark",
+      "title": "Engineering a Quantum Thermal Diode with Floquet Driving"
+    },
+    "2607.25702": {
+      "triagedAt": "2026-08-03",
+      "verdict": "not-a-benchmark",
+      "title": "Benchmarking Optical Receivers for Quantum Communication and Randomness Certification"
+    },
+    "2607.25941": {
+      "triagedAt": "2026-08-03",
+      "verdict": "new-benchmark",
+      "title": "Sampling hard circuits with verifiably high fidelity"
+    },
+    "2607.25998": {
+      "triagedAt": "2026-08-03",
+      "verdict": "new-benchmark",
+      "title": "Observable Estimation in the Absence of Classical Verification"
+    },
+    "2607.26293": {
+      "triagedAt": "2026-08-03",
+      "verdict": "not-a-benchmark",
+      "title": "Optimal Interaction Free Localization with Multipath Interferometers"
+    },
+    "2607.26438": {
+      "triagedAt": "2026-08-03",
+      "verdict": "not-a-benchmark",
+      "title": "Quantum Optical Reinforcement Learning via Spectrum-Resolved Hong-Ou-Mandel Interference"
+    },
+    "2607.26771": {
+      "triagedAt": "2026-08-03",
+      "verdict": "not-a-benchmark",
+      "title": "Hybrid quantum-classical end-to-end pipeline for solving MILPs: a vehicle routing case study"
+    },
+    "2607.27009": {
+      "triagedAt": "2026-08-03",
+      "verdict": "not-a-benchmark",
+      "title": "Embedded quantum computing for many-body surface reaction"
+    },
+    "2607.27067": {
+      "triagedAt": "2026-08-03",
+      "verdict": "not-a-benchmark",
+      "title": "A Degenerate Singlet-Triplet Qubit with All-Electrical Orthogonal Control"
+    },
+    "2607.27075": {
+      "triagedAt": "2026-08-03",
+      "verdict": "not-a-benchmark",
+      "title": "Adaptive Multi-Backend Simulation of Near-Clifford Quantum Circuits via Spatial Stabilizer-Frame Par"
+    },
+    "2607.27140": {
+      "triagedAt": "2026-08-03",
+      "verdict": "not-a-benchmark",
+      "title": "Investigating reservoir computing for branch predictionin pipelined processors using emerging CMOS m"
+    },
+    "2607.27204": {
+      "triagedAt": "2026-08-03",
+      "verdict": "not-a-benchmark",
+      "title": "Fault-Tolerant Logical Operations and Efficient State Preparation in Modular Quantum Architectures w"
+    },
+    "2607.27509": {
+      "triagedAt": "2026-08-03",
+      "verdict": "not-a-benchmark",
+      "title": "Quantum Interference as a Proposal Mechanism for Combinatorial Optimization"
+    },
+    "2607.27883": {
+      "triagedAt": "2026-08-03",
+      "verdict": "not-a-benchmark",
+      "title": "Trainability and Mode Separation of Mixed IQP-QCBMs"
+    },
+    "2607.27907": {
+      "triagedAt": "2026-08-03",
+      "verdict": "not-a-benchmark",
+      "title": "A Quantum Mechanical Approach to the Computation of Rovibrational Spectra of Diatomic Molecules in S"
+    },
+    "2607.27945": {
+      "triagedAt": "2026-08-03",
+      "verdict": "not-a-benchmark",
+      "title": "Complementary Matrix-Gated QKAN Fast-Weight Programmers for Quantum Dynamics Forecasting"
+    },
+    "2607.27971": {
+      "triagedAt": "2026-08-03",
+      "verdict": "not-a-benchmark",
+      "title": "Optimizing Memory Efficiency and Index Ordering to Simulate Quantum Circuits Using Tensor Decision D"
+    },
+    "2607.28364": {
+      "triagedAt": "2026-08-03",
+      "verdict": "not-a-benchmark",
+      "title": "Noise-aware emulation and cross-device validation of neutral atom analog quantum processing units"
+    },
+    "2607.28369": {
+      "triagedAt": "2026-08-03",
+      "verdict": "not-a-benchmark",
+      "title": "Performance Benchmarking: Software for the Density Matrix Renormalization Group"
+    },
+    "2607.28422": {
+      "triagedAt": "2026-08-03",
+      "verdict": "not-a-benchmark",
+      "title": "QAdapt: A Noise-Adaptive Neural Pre-Decoding Framework for Quantum Error Correction"
+    },
+    "2607.28499": {
+      "triagedAt": "2026-08-03",
+      "verdict": "not-a-benchmark",
+      "title": "Structure-Preserving Quantum Simulation of Wave Equations on a Trapped-Ion Processor"
+    },
+    "2607.28541": {
+      "triagedAt": "2026-08-03",
+      "verdict": "not-a-benchmark",
+      "title": "A Provable Oracle-Free Quantum Algorithm for Nonlinear Dynamics on Hybrid Oscillator-Qubit Processor"
+    },
+    "2607.28548": {
+      "triagedAt": "2026-08-03",
+      "verdict": "not-a-benchmark",
+      "title": "Quantum Computing Enabled ab initio Molecular Dynamics Simulations"
+    },
+    "2607.28570": {
+      "triagedAt": "2026-08-03",
+      "verdict": "not-a-benchmark",
+      "title": "Benchmarking Quantum Simulations of the Lipkin-Meshkov-Glick Model Using Large Tensor Networks"
+    },
+    "2607.28572": {
+      "triagedAt": "2026-08-03",
+      "verdict": "new-benchmark",
+      "title": "Quantum Fidelity-per-Cost: A Metric for Evaluation of Quantum Computing Systems"
+    },
+    "2607.28688": {
+      "triagedAt": "2026-08-03",
+      "verdict": "not-a-benchmark",
+      "title": "Reflected UAS: Corrected Deterministic Stability and Direct CTMC Drift Calculation"
+    },
+    "2607.29050": {
+      "triagedAt": "2026-08-03",
+      "verdict": "not-a-benchmark",
+      "title": "Finite-size reliability of homothetic quantum Otto engines"
+    },
+    "2607.29134": {
+      "triagedAt": "2026-08-03",
+      "verdict": "new-benchmark",
+      "title": "InferQ: A Database-Oriented Benchmark for Quantum Circuits Simulation"
+    },
+    "2607.29145": {
+      "triagedAt": "2026-08-03",
+      "verdict": "not-a-benchmark",
+      "title": "Transpiler Autotuning with Predictive Models for Quantum Circuit Optimization"
+    },
+    "2607.29342": {
+      "triagedAt": "2026-08-03",
+      "verdict": "not-a-benchmark",
+      "title": "Information limits of photonic lantern wavefront sensing: a Fisher- and quantum-Fisher-information f"
+    },
+    "2607.29397": {
+      "triagedAt": "2026-08-03",
+      "verdict": "not-a-benchmark",
+      "title": "Studying quantization trade-offs for efficient inference deployment in machine translation"
+    },
+    "2607.29418": {
+      "triagedAt": "2026-08-03",
+      "verdict": "not-a-benchmark",
+      "title": "A Variational Framework for Time-Dependent Quantum Systems with Applications to Floquet Hamiltonians"
     }
   }
 }
