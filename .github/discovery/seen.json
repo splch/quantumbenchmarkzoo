@@ -605,6 +605,261 @@
       "triagedAt": "2026-08-03",
       "verdict": "not-a-benchmark",
       "title": "A Variational Framework for Time-Dependent Quantum Systems with Applications to Floquet Hamiltonians"
+    },
+    "2608.00139": {
+      "triagedAt": "2026-08-10",
+      "verdict": "not-a-benchmark",
+      "title": "A Quantum Reservoir for Neurodynamical Forecasting"
+    },
+    "2608.00168": {
+      "triagedAt": "2026-08-10",
+      "verdict": "not-a-benchmark",
+      "title": "Lossless Compression Performance for PETRA III Datasets"
+    },
+    "2608.00200": {
+      "triagedAt": "2026-08-10",
+      "verdict": "not-a-benchmark",
+      "title": "TRACE-TS: Attribution-Grounded and Traceable Sensor-Language Reasoning for Human Activity Understand"
+    },
+    "2608.00524": {
+      "triagedAt": "2026-08-10",
+      "verdict": "not-a-benchmark",
+      "title": "Cooperative Platoon Routing and Dispatching via Edge-Assisted Hybrid Quantum Optimization"
+    },
+    "2608.00560": {
+      "triagedAt": "2026-08-10",
+      "verdict": "not-a-benchmark",
+      "title": "Adaptive operator-generated subspaces for effective many-body Hamiltonians"
+    },
+    "2608.00638": {
+      "triagedAt": "2026-08-10",
+      "verdict": "not-a-benchmark",
+      "title": "Work Statistics of Autonomous Quantum Energy Pumps"
+    },
+    "2608.00927": {
+      "triagedAt": "2026-08-10",
+      "verdict": "not-a-benchmark",
+      "title": "AgriJetsonBench: External-Power-Referenced TensorRT Benchmarking of Agricultural Vision Models on Je"
+    },
+    "2608.01111": {
+      "triagedAt": "2026-08-10",
+      "verdict": "not-a-benchmark",
+      "title": "Fault-tolerant quantum computing with a microwave Cat Bus"
+    },
+    "2608.01192": {
+      "triagedAt": "2026-08-10",
+      "verdict": "not-a-benchmark",
+      "title": "A Unified Benchmark for Privacy-preserving Vector Search"
+    },
+    "2608.01194": {
+      "triagedAt": "2026-08-10",
+      "verdict": "not-a-benchmark",
+      "title": "Hybrid Quantum Neural Networks: Theory, Implementations, and Applications"
+    },
+    "2608.01788": {
+      "triagedAt": "2026-08-10",
+      "verdict": "new-benchmark",
+      "title": "Validation and calibration of quantum hardware through the many-body quantum Mpemba effect"
+    },
+    "2608.01791": {
+      "triagedAt": "2026-08-10",
+      "verdict": "not-a-benchmark",
+      "title": "PICopilot: An LLM-based Agentic Framework for Assisting Photonic Integrated Circuit Design via Scrip"
+    },
+    "2608.01939": {
+      "triagedAt": "2026-08-10",
+      "verdict": "new-benchmark",
+      "title": "Oraqle: An Empirical Analysis of Qubit Readout and Discriminators in Quantum Error Correction"
+    },
+    "2608.02049": {
+      "triagedAt": "2026-08-10",
+      "verdict": "new-benchmark",
+      "title": "Adaptive Reconstruction of Bosonic Quantum States"
+    },
+    "2608.02086": {
+      "triagedAt": "2026-08-10",
+      "verdict": "not-a-benchmark",
+      "title": "Adaptive Spectroscopy of Fast Two-Level-System Dynamics in Superconducting Qubits"
+    },
+    "2608.02245": {
+      "triagedAt": "2026-08-10",
+      "verdict": "not-a-benchmark",
+      "title": "Quantum computer-based simulation of Stark many-body localization in a 1D Fermi-Hubbard model"
+    },
+    "2608.02424": {
+      "triagedAt": "2026-08-10",
+      "verdict": "not-a-benchmark",
+      "title": "In-Network Market Prediction Using Machine Learning and Limit Order Books"
+    },
+    "2608.02439": {
+      "triagedAt": "2026-08-10",
+      "verdict": "not-a-benchmark",
+      "title": "Detecting high-dimensional entanglement with simple measurements"
+    },
+    "2608.02648": {
+      "triagedAt": "2026-08-10",
+      "verdict": "not-a-benchmark",
+      "title": "Intent-Level Quantum Programming with Assertion-Guided Execution and Inspectable Intermediate Repres"
+    },
+    "2608.02672": {
+      "triagedAt": "2026-08-10",
+      "verdict": "not-a-benchmark",
+      "title": "Security-First Evaluation of Text-to-Terraform: Benchmarking LLMs and SLMs for Secure IaC Generation"
+    },
+    "2608.02733": {
+      "triagedAt": "2026-08-10",
+      "verdict": "not-a-benchmark",
+      "title": "High-Frequency Gravitational Wave Detection with Superconducting Qubits"
+    },
+    "2608.03029": {
+      "triagedAt": "2026-08-10",
+      "verdict": "not-a-benchmark",
+      "title": "Physics-Informed Quantum Machine Learning with Hard Constraint Embedding for Nonlinear Differential "
+    },
+    "2608.03188": {
+      "triagedAt": "2026-08-10",
+      "verdict": "not-a-benchmark",
+      "title": "Factorization of Exclusive-Sum-Of-Products Expressions with Rectangle Covering to Reduce Quantum Cir"
+    },
+    "2608.03315": {
+      "triagedAt": "2026-08-10",
+      "verdict": "not-a-benchmark",
+      "title": "Harvest: Resource-Aware Quantum Compilation for Magic State Protocols"
+    },
+    "2608.03860": {
+      "triagedAt": "2026-08-10",
+      "verdict": "not-a-benchmark",
+      "title": "SciRet: A Compute-Aware Empirical Study of Retrieval and Reranking for Scientific RAG"
+    },
+    "2608.03880": {
+      "triagedAt": "2026-08-10",
+      "verdict": "not-a-benchmark",
+      "title": "Evaluating MFU as a Proxy for GPU Power for Energy-Aware Simulation of LLM Training"
+    },
+    "2608.04112": {
+      "triagedAt": "2026-08-10",
+      "verdict": "not-a-benchmark",
+      "title": "Poled-fibre phase modulator for efficient high-dimensional quantum measurements"
+    },
+    "2608.04476": {
+      "triagedAt": "2026-08-10",
+      "verdict": "not-a-benchmark",
+      "title": "Heralded Non-Gaussian Squeezed-State Inputs for Parity-Detection SU(1,1) Interferometry"
+    },
+    "2608.04481": {
+      "triagedAt": "2026-08-10",
+      "verdict": "not-a-benchmark",
+      "title": "Impact of molecular orbital localization on quantum computational resources for Hamiltonian simulati"
+    },
+    "2608.04489": {
+      "triagedAt": "2026-08-10",
+      "verdict": "not-a-benchmark",
+      "title": "Engineering Nanodiamonds for Quantum Sensing: Material Constraints at the Nanoscale"
+    },
+    "2608.04696": {
+      "triagedAt": "2026-08-10",
+      "verdict": "not-a-benchmark",
+      "title": "Single-eigenstate test of eigenstate thermalization hypothesis via perturbed eigenstate quench"
+    },
+    "2608.04780": {
+      "triagedAt": "2026-08-10",
+      "verdict": "not-a-benchmark",
+      "title": "Demonstrating advantages of dynamic quantum circuits on a hybrid superconducting qubit-cavity proces"
+    },
+    "2608.05115": {
+      "triagedAt": "2026-08-10",
+      "verdict": "not-a-benchmark",
+      "title": "Robust and Efficient Motion Reasoning for Privacy-Aware Classroom Incident Recognition"
+    },
+    "2608.05202": {
+      "triagedAt": "2026-08-10",
+      "verdict": "not-a-benchmark",
+      "title": "Quantum Error Management in Practice: A Cross-Stack Benchmark"
+    },
+    "2608.05314": {
+      "triagedAt": "2026-08-10",
+      "verdict": "not-a-benchmark",
+      "title": "Machine learning for sample-based quantum diagonalization: generative configuration recovery and the"
+    },
+    "2608.05382": {
+      "triagedAt": "2026-08-10",
+      "verdict": "not-a-benchmark",
+      "title": "Quantum Error Mitigation with Diffusion-Like Models"
+    },
+    "2608.05427": {
+      "triagedAt": "2026-08-10",
+      "verdict": "not-a-benchmark",
+      "title": "School network reorganization under educational and spatial constraints using classical and quantum "
+    },
+    "2608.05435": {
+      "triagedAt": "2026-08-10",
+      "verdict": "not-a-benchmark",
+      "title": "Experimental demonstration of the Quantum Fourier Transform on up to 100 qubits using a convolutiona"
+    },
+    "2608.05491": {
+      "triagedAt": "2026-08-10",
+      "verdict": "not-a-benchmark",
+      "title": "A Quantum Circuit Framework for Protein Ensemble-Level Energetics"
+    },
+    "2608.05595": {
+      "triagedAt": "2026-08-10",
+      "verdict": "not-a-benchmark",
+      "title": "How Much Reconstruction Does Quantum Machine Learning Need? Late Fusion of Independently Trained Qua"
+    },
+    "2608.05888": {
+      "triagedAt": "2026-08-10",
+      "verdict": "not-a-benchmark",
+      "title": "An Open-Source Power Measurement Platform for System-Level Semiconductor Testing"
+    },
+    "2608.06138": {
+      "triagedAt": "2026-08-10",
+      "verdict": "not-a-benchmark",
+      "title": "A platform for nuclear symmetry-violation searches with laser-coolable molecules carrying spinful nu"
+    },
+    "2608.06168": {
+      "triagedAt": "2026-08-10",
+      "verdict": "not-a-benchmark",
+      "title": "Neural Flux Attachment: From Bose Condensates to Chiral Topological Matter"
+    },
+    "2608.06212": {
+      "triagedAt": "2026-08-10",
+      "verdict": "not-a-benchmark",
+      "title": "Warm-Starting MaxCut Relaxation via Low-Depth Quantum Approximate Optimization Algorithm"
+    },
+    "2608.06318": {
+      "triagedAt": "2026-08-10",
+      "verdict": "not-a-benchmark",
+      "title": "Breaking Memory Bottlenecks in Quantum Control Systems for More Precise Experiments and Higher Throu"
+    },
+    "2608.06554": {
+      "triagedAt": "2026-08-10",
+      "verdict": "not-a-benchmark",
+      "title": "Newton-Schulz Retraction-Based Inference Enables Hidden Quantum Markov Models to Outperform Classica"
+    },
+    "2608.06711": {
+      "triagedAt": "2026-08-10",
+      "verdict": "not-a-benchmark",
+      "title": "Conditions for Quantum Advantage in AC Power Flow"
+    },
+    "2608.06892": {
+      "triagedAt": "2026-08-10",
+      "verdict": "not-a-benchmark",
+      "title": "Architecture-Aware Reinforcement Learning for Communication-Efficient Distributed Quantum Circuit Co"
+    },
+    "2608.07179": {
+      "triagedAt": "2026-08-10",
+      "verdict": "not-a-benchmark",
+      "title": "Aneto: Predicting System Performance by Exploiting Cross-Workload Regularity"
+    },
+    "2608.07304": {
+      "triagedAt": "2026-08-10",
+      "verdict": "not-a-benchmark",
+      "title": "The Token Efficiency Index: A Peer-Benchmarked Composite Indicator for AI Token Efficiency"
+    },
+    "2608.07427": {
+      "triagedAt": "2026-08-10",
+      "verdict": "not-a-benchmark",
+      "title": "A Picture is Worth a Thousand Tokens: How Vision Language Models Cut AI Energy Costs While Improving"
     }
   }
 }
