@@ -860,6 +860,261 @@
       "triagedAt": "2026-08-10",
       "verdict": "not-a-benchmark",
       "title": "A Picture is Worth a Thousand Tokens: How Vision Language Models Cut AI Energy Costs While Improving"
+    },
+    "2608.07733": {
+      "triagedAt": "2026-08-17",
+      "verdict": "not-a-benchmark",
+      "title": "LGNNIC: Acceleration of Large-Scale GNN Training using SmartNICs"
+    },
+    "2608.07822": {
+      "triagedAt": "2026-08-17",
+      "verdict": "not-a-benchmark",
+      "title": "Classical $\\mathrm{SU}(2)$ Models Match or Exceed Shallow Variational Quantum Circuits on Vision Ben"
+    },
+    "2608.08051": {
+      "triagedAt": "2026-08-17",
+      "verdict": "not-a-benchmark",
+      "title": "Quantum Decision Theory for Displacement Detection with Finite-Energy GKP States"
+    },
+    "2608.08152": {
+      "triagedAt": "2026-08-17",
+      "verdict": "not-a-benchmark",
+      "title": "Denoising Diffusion Monte Carlo Electron Densities with Physically Informed Variance Stabilization: "
+    },
+    "2608.08205": {
+      "triagedAt": "2026-08-17",
+      "verdict": "not-a-benchmark",
+      "title": "Out-of-equilibrium inhomogeneous XX chains: Exact results and the hydrodynamic limit"
+    },
+    "2608.08279": {
+      "triagedAt": "2026-08-17",
+      "verdict": "not-a-benchmark",
+      "title": "Energetic Cost of Temporal Information Processing in Quantum Reservoirs"
+    },
+    "2608.08287": {
+      "triagedAt": "2026-08-17",
+      "verdict": "not-a-benchmark",
+      "title": "What Irregularity Costs: CUDA C++, Rust, and Triton on a Hash-Blocked GPU Workload"
+    },
+    "2608.08306": {
+      "triagedAt": "2026-08-17",
+      "verdict": "not-a-benchmark",
+      "title": "Hybrid spatial-temporal graph neural network Powered NDTs:Towards Next-Gen Smart Infrastructure Twin"
+    },
+    "2608.08429": {
+      "triagedAt": "2026-08-17",
+      "verdict": "not-a-benchmark",
+      "title": "Optimal strategies for shadow tomography with limited resources"
+    },
+    "2608.08479": {
+      "triagedAt": "2026-08-17",
+      "verdict": "not-a-benchmark",
+      "title": "SuperNeuroMAT: An Efficient Matrix-based Simulator for Spiking Neural Networks"
+    },
+    "2608.08506": {
+      "triagedAt": "2026-08-17",
+      "verdict": "not-a-benchmark",
+      "title": "Understanding Calibration and Truncation Error Propagation in Training-Free Low-Rank Compression for"
+    },
+    "2608.08668": {
+      "triagedAt": "2026-08-17",
+      "verdict": "not-a-benchmark",
+      "title": "Born-Oppenheimer, Born-Huang, and exact factorization: quantum geometry and error in analytically tr"
+    },
+    "2608.08765": {
+      "triagedAt": "2026-08-17",
+      "verdict": "not-a-benchmark",
+      "title": "Bona: Automatic Management of Dirty Ancilla Borrowing in Quantum Circuits"
+    },
+    "2608.08798": {
+      "triagedAt": "2026-08-17",
+      "verdict": "not-a-benchmark",
+      "title": "Symmetry Constraints Regularize Neural Quantum State Learning"
+    },
+    "2608.08878": {
+      "triagedAt": "2026-08-17",
+      "verdict": "not-a-benchmark",
+      "title": "DistillCache: KL-Guided Adaptive KV-Cache Eviction for Memory-Efficient LLM Inference"
+    },
+    "2608.09496": {
+      "triagedAt": "2026-08-17",
+      "verdict": "not-a-benchmark",
+      "title": "Autoregressive Projective Quantum Monte Carlo: From a Hermitian to a Non-Hermitian Perspective"
+    },
+    "2608.09578": {
+      "triagedAt": "2026-08-17",
+      "verdict": "not-a-benchmark",
+      "title": "Quantum Uncomputation of Clean and Dirty Ancilla Qubits"
+    },
+    "2608.09583": {
+      "triagedAt": "2026-08-17",
+      "verdict": "not-a-benchmark",
+      "title": "A Highly Accurate Fast Decoding Framework for QLDPC codes Accelerated by Noise Perturbation and Ense"
+    },
+    "2608.09661": {
+      "triagedAt": "2026-08-17",
+      "verdict": "not-a-benchmark",
+      "title": "Memory-, Circuit-, and Ansatz-Efficient VQLS for CFD on Hybrid Quantum-HPC Systems"
+    },
+    "2608.09673": {
+      "triagedAt": "2026-08-17",
+      "verdict": "not-a-benchmark",
+      "title": "The Unified Evaluation App for DNA Data Storage Codecs"
+    },
+    "2608.10110": {
+      "triagedAt": "2026-08-17",
+      "verdict": "not-a-benchmark",
+      "title": "Non-equilibrium theory of projected ensembles"
+    },
+    "2608.10365": {
+      "triagedAt": "2026-08-17",
+      "verdict": "not-a-benchmark",
+      "title": "Symmetrized Block-Product Periodic Marginals in Infinite Translation-Invariant Quantum Chains"
+    },
+    "2608.10671": {
+      "triagedAt": "2026-08-17",
+      "verdict": "not-a-benchmark",
+      "title": "Quantum Computing for Industrial Electromagnetics: Applicability and Case Studies in Solving Maxwell"
+    },
+    "2608.10789": {
+      "triagedAt": "2026-08-17",
+      "verdict": "new-benchmark",
+      "title": "Resource-bounded controllability benchmarking of open quantum systems"
+    },
+    "2608.10868": {
+      "triagedAt": "2026-08-17",
+      "verdict": "not-a-benchmark",
+      "title": "Analytical Theory for Anomalous Diffusion in the Anderson Model with Heavy Tails"
+    },
+    "2608.11072": {
+      "triagedAt": "2026-08-17",
+      "verdict": "results-on-existing",
+      "title": "Assessing fidelity-limiting factors and achieving single-qubit gate fidelity beyond 99.999% in drive"
+    },
+    "2608.11373": {
+      "triagedAt": "2026-08-17",
+      "verdict": "new-benchmark",
+      "title": "Benchmarking Quantum and Classical Machine Learning Models on Oncological Data"
+    },
+    "2608.11396": {
+      "triagedAt": "2026-08-17",
+      "verdict": "not-a-benchmark",
+      "title": "Generative Learning for Quantum Measurement Design"
+    },
+    "2608.11569": {
+      "triagedAt": "2026-08-17",
+      "verdict": "not-a-benchmark",
+      "title": "Improved quantum sampling methods for molecular simulations"
+    },
+    "2608.11579": {
+      "triagedAt": "2026-08-17",
+      "verdict": "not-a-benchmark",
+      "title": "Efficient Compilation for Hamiltonian Simulation via Global Binary Symplectic Form Simplification"
+    },
+    "2608.11848": {
+      "triagedAt": "2026-08-17",
+      "verdict": "not-a-benchmark",
+      "title": "A uniform elliptic reduction, an order-matching criterion, and precision benchmarks for the strong-c"
+    },
+    "2608.11850": {
+      "triagedAt": "2026-08-17",
+      "verdict": "not-a-benchmark",
+      "title": "Uniformly Stable Minimal Weyl--Heisenberg Measurements Approaching the SIC Benchmark"
+    },
+    "2608.11884": {
+      "triagedAt": "2026-08-17",
+      "verdict": "not-a-benchmark",
+      "title": "CoQui: A Coordinate-Conditioned Quantum Implicit Generative Adversarial Network for End-to-End Image"
+    },
+    "2608.11934": {
+      "triagedAt": "2026-08-17",
+      "verdict": "not-a-benchmark",
+      "title": "State-resolved quantum transport of vortex electrons in accelerators"
+    },
+    "2608.11993": {
+      "triagedAt": "2026-08-17",
+      "verdict": "not-a-benchmark",
+      "title": "Contextuality in the $n$-qubit Pauli group"
+    },
+    "2608.12178": {
+      "triagedAt": "2026-08-17",
+      "verdict": "not-a-benchmark",
+      "title": "Floquet-Resolved Dissipation Selects Entanglement Beyond Population Spectroscopy"
+    },
+    "2608.12213": {
+      "triagedAt": "2026-08-17",
+      "verdict": "not-a-benchmark",
+      "title": "Parity Mapping for Quantum Optimization on Frustrated Ising Rings"
+    },
+    "2608.12544": {
+      "triagedAt": "2026-08-17",
+      "verdict": "not-a-benchmark",
+      "title": "Coherent temporal filtering of multimode parametric down-conversion using a quantum pulse gate"
+    },
+    "2608.12545": {
+      "triagedAt": "2026-08-17",
+      "verdict": "not-a-benchmark",
+      "title": "Ising-machine-like Driving Condition Restrictions in SSBM and Additional Pseudo-annealing- Driving M"
+    },
+    "2608.12712": {
+      "triagedAt": "2026-08-17",
+      "verdict": "new-benchmark",
+      "title": "Parity Floors in Quantum Denoisers: A Closed-Form Benchmark for Fixed-Map Denoising Networks"
+    },
+    "2608.12803": {
+      "triagedAt": "2026-08-17",
+      "verdict": "new-benchmark",
+      "title": "A Finite-Window Recovery Hierarchy for Local Quantum Memory"
+    },
+    "2608.12938": {
+      "triagedAt": "2026-08-17",
+      "verdict": "not-a-benchmark",
+      "title": "Encoding Circuit Satisfiability in Rydberg Atom Arrays"
+    },
+    "2608.13099": {
+      "triagedAt": "2026-08-17",
+      "verdict": "not-a-benchmark",
+      "title": "Formal Verification of Quantum Ancilla Safety"
+    },
+    "2608.13169": {
+      "triagedAt": "2026-08-17",
+      "verdict": "not-a-benchmark",
+      "title": "Witnessing the architecture of quantum circuits"
+    },
+    "2608.13325": {
+      "triagedAt": "2026-08-17",
+      "verdict": "not-a-benchmark",
+      "title": "Phase information transfer by post-selection in Spin--Mechanical assisted magnetometry"
+    },
+    "2608.13342": {
+      "triagedAt": "2026-08-17",
+      "verdict": "not-a-benchmark",
+      "title": "Quantum-Inspired Phase Bicoherence Spectroscopy: A Framework for Detecting Universal Textural Angula"
+    },
+    "2608.13512": {
+      "triagedAt": "2026-08-17",
+      "verdict": "not-a-benchmark",
+      "title": "Performance Reporting of Mathematical Library Installations with LAAB - An Overview"
+    },
+    "2608.13528": {
+      "triagedAt": "2026-08-17",
+      "verdict": "not-a-benchmark",
+      "title": "Ambient unitaries don't enable shallow group designs"
+    },
+    "2608.13654": {
+      "triagedAt": "2026-08-17",
+      "verdict": "results-on-existing",
+      "title": "Entanglement Negativity in Noisy Quantum Volume Sampling"
+    },
+    "2608.13691": {
+      "triagedAt": "2026-08-17",
+      "verdict": "not-a-benchmark",
+      "title": "Efficient Hamiltonian Truncation: Fast Matrix Construction and Quantum Krylov Diagonalization"
+    },
+    "2608.13780": {
+      "triagedAt": "2026-08-17",
+      "verdict": "not-a-benchmark",
+      "title": "RIVERPlace: Repairing Interconnect Violations with Efficient Retiming and Incremental Placement for "
     }
   }
 }
