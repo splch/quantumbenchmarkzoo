@@ -1115,6 +1115,261 @@
       "triagedAt": "2026-08-17",
       "verdict": "not-a-benchmark",
       "title": "RIVERPlace: Repairing Interconnect Violations with Efficient Retiming and Incremental Placement for "
+    },
+    "2608.14799": {
+      "triagedAt": "2026-08-24",
+      "verdict": "not-a-benchmark",
+      "title": "Porting and Benchmarking Chapel on Emerging RISC-V Hardware: an HPC Viability Study"
+    },
+    "2608.14953": {
+      "triagedAt": "2026-08-24",
+      "verdict": "not-a-benchmark",
+      "title": "T-LLM Compiler: Trusted LLM-based Code Optimization and Verification Framework"
+    },
+    "2608.15329": {
+      "triagedAt": "2026-08-24",
+      "verdict": "not-a-benchmark",
+      "title": "Transitions to super-radiance in ensembles of incoherently pumped emitters"
+    },
+    "2608.15577": {
+      "triagedAt": "2026-08-24",
+      "verdict": "not-a-benchmark",
+      "title": "Qutrit-Native Spatial-Orbital Encoding for Resource-Efficient Quantum Chemistry Simulation"
+    },
+    "2608.15579": {
+      "triagedAt": "2026-08-24",
+      "verdict": "not-a-benchmark",
+      "title": "Kozuchi Agent: A Language-Agnostic Open-Weight Agent for Software Repair"
+    },
+    "2608.15617": {
+      "triagedAt": "2026-08-24",
+      "verdict": "not-a-benchmark",
+      "title": "Benchmarking Quantum Machine Learning for Power-System Attack Detection: Evaluation Choices Decide t"
+    },
+    "2608.15620": {
+      "triagedAt": "2026-08-24",
+      "verdict": "not-a-benchmark",
+      "title": "Finite-energy GKP-QPC architectures for photonic quantum memories and repeaters"
+    },
+    "2608.15718": {
+      "triagedAt": "2026-08-24",
+      "verdict": "not-a-benchmark",
+      "title": "Quantum Kernel k-Means for Credit-Card Fraud Detection:A Controlled Benchmark on Real Transaction Da"
+    },
+    "2608.15760": {
+      "triagedAt": "2026-08-24",
+      "verdict": "not-a-benchmark",
+      "title": "Machine Learning Approaches to Decoding Topological Quantum Codes"
+    },
+    "2608.15806": {
+      "triagedAt": "2026-08-24",
+      "verdict": "not-a-benchmark",
+      "title": "Longitudinal-Field-Driven Transition in a non-integrable Non-Hermitian Transverse-Field Ising Chain "
+    },
+    "2608.15889": {
+      "triagedAt": "2026-08-24",
+      "verdict": "not-a-benchmark",
+      "title": "Resource-Efficient QUBO Formulation for Anchored Currency Arbitrage"
+    },
+    "2608.16028": {
+      "triagedAt": "2026-08-24",
+      "verdict": "not-a-benchmark",
+      "title": "Transport-Noise Witnesses of Electronic Multipartite Entanglement"
+    },
+    "2608.16371": {
+      "triagedAt": "2026-08-24",
+      "verdict": "not-a-benchmark",
+      "title": "Scalable nuclear shell model calculations on noisy quantum computers"
+    },
+    "2608.16512": {
+      "triagedAt": "2026-08-24",
+      "verdict": "not-a-benchmark",
+      "title": "MoMPy: automated construction of moment matrices for semidefinite programming relaxations"
+    },
+    "2608.16670": {
+      "triagedAt": "2026-08-24",
+      "verdict": "not-a-benchmark",
+      "title": "Sensitivity Scaling and Limits of Cavity Enhancement in Miniaturized Optically Pumped Magnetometers"
+    },
+    "2608.17069": {
+      "triagedAt": "2026-08-24",
+      "verdict": "not-a-benchmark",
+      "title": "Dynamic Entanglement-Weighted Pruning for Quantum Federated Unlearning in Supply-Chain Risk Predicti"
+    },
+    "2608.17071": {
+      "triagedAt": "2026-08-24",
+      "verdict": "not-a-benchmark",
+      "title": "KernelArc: A Multi-Agent Framework for GPU Kernel Optimization"
+    },
+    "2608.17139": {
+      "triagedAt": "2026-08-24",
+      "verdict": "not-a-benchmark",
+      "title": "RENESIS: Energy-Aware Synthesis of Adiabatic Logic from Irreversible Netlists"
+    },
+    "2608.17189": {
+      "triagedAt": "2026-08-24",
+      "verdict": "not-a-benchmark",
+      "title": "Fast Nondestructive Readout for High-Clock-Rate Atom Array Quantum Processor"
+    },
+    "2608.17249": {
+      "triagedAt": "2026-08-24",
+      "verdict": "not-a-benchmark",
+      "title": "Low-Depth and Noise-Resilient Quantum State Preparation for Partial Differential Equations via Virtu"
+    },
+    "2608.17582": {
+      "triagedAt": "2026-08-24",
+      "verdict": "not-a-benchmark",
+      "title": "Automating Variational Quantum Sensing through Reinforcement-Learned Circuit Structures"
+    },
+    "2608.17641": {
+      "triagedAt": "2026-08-24",
+      "verdict": "not-a-benchmark",
+      "title": "rl-triton: High-Performance Triton GPU Kernels for Reinforcement Learning Credit Assignment"
+    },
+    "2608.17721": {
+      "triagedAt": "2026-08-24",
+      "verdict": "not-a-benchmark",
+      "title": "M-QAM MIMO Maximum-Likelihood Detection with QAOA: ML-Rate Offline Angle Design and Correlated Infin"
+    },
+    "2608.17750": {
+      "triagedAt": "2026-08-24",
+      "verdict": "not-a-benchmark",
+      "title": "On the Expressive Power of the Transverse-Field Ising Model for Graph Learning"
+    },
+    "2608.18044": {
+      "triagedAt": "2026-08-24",
+      "verdict": "results-on-existing",
+      "title": "CLOPS: Benchmarking System Speed at Utility Scale"
+    },
+    "2608.18049": {
+      "triagedAt": "2026-08-24",
+      "verdict": "not-a-benchmark",
+      "title": "Long-time fermionic quantum transport with controlled full-state error using an adaptive reservoir-m"
+    },
+    "2608.18204": {
+      "triagedAt": "2026-08-24",
+      "verdict": "not-a-benchmark",
+      "title": "Towards Quantum-Dot Detectors as Barcodes for Dark Matter Interactions"
+    },
+    "2608.18341": {
+      "triagedAt": "2026-08-24",
+      "verdict": "not-a-benchmark",
+      "title": "Low-Power, Neuromorphic, Acoustic Anomaly Detection for Persistent Machine Monitoring"
+    },
+    "2608.18420": {
+      "triagedAt": "2026-08-24",
+      "verdict": "not-a-benchmark",
+      "title": "Entropic Rigidity in Quantum Memories: How Geometry and Algebra Control the Onset of Degeneracy Corr"
+    },
+    "2608.18472": {
+      "triagedAt": "2026-08-24",
+      "verdict": "not-a-benchmark",
+      "title": "Unified Strong-Field Dynamics Simulations from Atoms to Heterostructures"
+    },
+    "2608.18699": {
+      "triagedAt": "2026-08-24",
+      "verdict": "not-a-benchmark",
+      "title": "An ultracompact dilution refrigerator for fast quantum device characterization"
+    },
+    "2608.18748": {
+      "triagedAt": "2026-08-24",
+      "verdict": "not-a-benchmark",
+      "title": "Biological-Hybrid Intelligence: A Conceptual Framework for Distributed Biological--Artificial Comput"
+    },
+    "2608.18985": {
+      "triagedAt": "2026-08-24",
+      "verdict": "not-a-benchmark",
+      "title": "RushHour: A Dynamically Reconfigurable Lattice-Surgery Architecture"
+    },
+    "2608.19020": {
+      "triagedAt": "2026-08-24",
+      "verdict": "not-a-benchmark",
+      "title": "Interface Capacity and Architectural Replenishment Determine Entanglement-Generation Speed in Quantu"
+    },
+    "2608.19033": {
+      "triagedAt": "2026-08-24",
+      "verdict": "not-a-benchmark",
+      "title": "Molecular Implementation of the Machine-Learned Skala Exchange-Correlation Functional in CP2K throug"
+    },
+    "2608.19247": {
+      "triagedAt": "2026-08-24",
+      "verdict": "not-a-benchmark",
+      "title": "Phase information beyond entanglement sudden death in coherence-to-entanglement conversion under pos"
+    },
+    "2608.19249": {
+      "triagedAt": "2026-08-24",
+      "verdict": "not-a-benchmark",
+      "title": "Adaptive Error Budget Allocation for Fault-Tolerant Quantum Resource Estimation: A Metaheuristic App"
+    },
+    "2608.19471": {
+      "triagedAt": "2026-08-24",
+      "verdict": "not-a-benchmark",
+      "title": "Exact Multistate Reliability and Upgrade Design for Heterogeneous HBM Systems via Threshold-Pruned B"
+    },
+    "2608.19528": {
+      "triagedAt": "2026-08-24",
+      "verdict": "not-a-benchmark",
+      "title": "Physics-Based versus Data-Driven Classification of Single-Photon Quantum Emitters from Sparse Autoco"
+    },
+    "2608.19532": {
+      "triagedAt": "2026-08-24",
+      "verdict": "not-a-benchmark",
+      "title": "Variational Quantum Circuit Parameterization of SchNet: A Simulator-Based Feasibility Study for Cons"
+    },
+    "2608.19602": {
+      "triagedAt": "2026-08-24",
+      "verdict": "not-a-benchmark",
+      "title": "High fidelity control of superconducting qubits with optical transmitted signal"
+    },
+    "2608.19655": {
+      "triagedAt": "2026-08-24",
+      "verdict": "not-a-benchmark",
+      "title": "Variational Quantum Linear Solver via Block Encoding for the Poisson Equation"
+    },
+    "2608.20111": {
+      "triagedAt": "2026-08-24",
+      "verdict": "not-a-benchmark",
+      "title": "Planning-Oriented End-to-End Autonomous Driving: Architectures, Evaluation, and Emerging Paradigms"
+    },
+    "2608.20283": {
+      "triagedAt": "2026-08-24",
+      "verdict": "not-a-benchmark",
+      "title": "Design and Empirical Evaluation of a Network-Centric, On-Premises Architecture for Earth Observation"
+    },
+    "2608.20593": {
+      "triagedAt": "2026-08-24",
+      "verdict": "not-a-benchmark",
+      "title": "Clifford-efficient sparse state preparation for molecular wavefunctions"
+    },
+    "2608.20657": {
+      "triagedAt": "2026-08-24",
+      "verdict": "not-a-benchmark",
+      "title": "Symmetry Adapted Hierarchical Equations of Motion for Exact Simulations of Large Polariton Systems"
+    },
+    "2608.20658": {
+      "triagedAt": "2026-08-24",
+      "verdict": "not-a-benchmark",
+      "title": "The Claws in Plain Sight: Unauthorized Context Disclosure through LLM Agent Tool Calls"
+    },
+    "2608.20836": {
+      "triagedAt": "2026-08-24",
+      "verdict": "not-a-benchmark",
+      "title": "Revealing Physical Redundancy in the Two-dimensional Fermi-Hubbard Model via Transferable Observable"
+    },
+    "2608.20953": {
+      "triagedAt": "2026-08-24",
+      "verdict": "not-a-benchmark",
+      "title": "Quantization-Aware Healing: A Practical Recipe for Recovering Compressed, 4-Bit LLMs"
+    },
+    "2608.20961": {
+      "triagedAt": "2026-08-24",
+      "verdict": "not-a-benchmark",
+      "title": "TreeWY: Speculative Verification for Gated DeltaNet Hybrids"
+    },
+    "2608.21004": {
+      "triagedAt": "2026-08-24",
+      "verdict": "results-on-existing",
+      "title": "When More Becomes Less: Topology-Reversed Three-Qubit Gate Performance on IBM Quantum Processors"
     }
   }
 }
