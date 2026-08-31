@@ -1370,6 +1370,221 @@
       "triagedAt": "2026-08-24",
       "verdict": "results-on-existing",
       "title": "When More Becomes Less: Topology-Reversed Three-Qubit Gate Performance on IBM Quantum Processors"
+    },
+    "2608.21961": {
+      "triagedAt": "2026-08-31",
+      "verdict": "not-a-benchmark",
+      "title": "Surface-Code Quantum Error Correction for Molecular Tweezer Arrays: Encoding, Layout, and Correlated"
+    },
+    "2608.21983": {
+      "triagedAt": "2026-08-31",
+      "verdict": "not-a-benchmark",
+      "title": "Automating detection of Two-Level Systems in Superconducting Qubits"
+    },
+    "2608.22202": {
+      "triagedAt": "2026-08-31",
+      "verdict": "not-a-benchmark",
+      "title": "Lessons from the Hardware Hacking Competitions: Verification Techniques, Findings, and Insights"
+    },
+    "2608.22808": {
+      "triagedAt": "2026-08-31",
+      "verdict": "not-a-benchmark",
+      "title": "CatchBench: When Can an Agent Failure Be Caught?"
+    },
+    "2608.23025": {
+      "triagedAt": "2026-08-31",
+      "verdict": "not-a-benchmark",
+      "title": "A Unified Quantum Neural Network Framework for Hamiltonian Learning and Emulation of Unknown Quantum"
+    },
+    "2608.23109": {
+      "triagedAt": "2026-08-31",
+      "verdict": "not-a-benchmark",
+      "title": "Physics-Guided Linear Mapper for Quantum Error Mitigation"
+    },
+    "2608.23119": {
+      "triagedAt": "2026-08-31",
+      "verdict": "not-a-benchmark",
+      "title": "Quantum Reservoir Computing with Physics-Informed Correction for Reduced-Order PDE Forecasting"
+    },
+    "2608.23159": {
+      "triagedAt": "2026-08-31",
+      "verdict": "not-a-benchmark",
+      "title": "Taming Spacetime Overhead and Design Complexity in Distributed Fault-Tolerant Superconducting Quantu"
+    },
+    "2608.23285": {
+      "triagedAt": "2026-08-31",
+      "verdict": "not-a-benchmark",
+      "title": "Efficient Computation of QKD Key Rates without Semidefinite Programming"
+    },
+    "2608.24084": {
+      "triagedAt": "2026-08-31",
+      "verdict": "not-a-benchmark",
+      "title": "Lifting connectivity bottlenecks in superconducting quantum processors via enriched native two-qubit"
+    },
+    "2608.24144": {
+      "triagedAt": "2026-08-31",
+      "verdict": "not-a-benchmark",
+      "title": "StabQ: Quantum Program Analysis via Weighted Stabilizer Representations"
+    },
+    "2608.24150": {
+      "triagedAt": "2026-08-31",
+      "verdict": "not-a-benchmark",
+      "title": "Efficient Treatment of Non-Linearity in Quantum Computational Fluid Dynamics Using Hybrid Tensor Net"
+    },
+    "2608.24314": {
+      "triagedAt": "2026-08-31",
+      "verdict": "not-a-benchmark",
+      "title": "Benchmarking LLM Judges for Voice-Agent Evaluation: Reliability, Calibration, and Human Oversight"
+    },
+    "2608.24320": {
+      "triagedAt": "2026-08-31",
+      "verdict": "not-a-benchmark",
+      "title": "QisMC: A Model Checker for QISKIT Program Debugging"
+    },
+    "2608.24370": {
+      "triagedAt": "2026-08-31",
+      "verdict": "new-benchmark",
+      "title": "ABSTRACTS: Amsterdam Benchmark Suite for the Time and Resource Analysis of Clifford+T Simulators"
+    },
+    "2608.24631": {
+      "triagedAt": "2026-08-31",
+      "verdict": "not-a-benchmark",
+      "title": "When Similarity Is Interaction-Driven: Quantum Kernels for Regime-Sensitive Learning"
+    },
+    "2608.24819": {
+      "triagedAt": "2026-08-31",
+      "verdict": "not-a-benchmark",
+      "title": "Reliability Limits and Decoding for Partial Nanopore Protein Rereads With Persistent State"
+    },
+    "2608.25024": {
+      "triagedAt": "2026-08-31",
+      "verdict": "not-a-benchmark",
+      "title": "Hardware-Aware Fermion-to-Qubit Mappings for Simulating the 2D Hubbard Model on Heavy-Hexagon Quantu"
+    },
+    "2608.25027": {
+      "triagedAt": "2026-08-31",
+      "verdict": "not-a-benchmark",
+      "title": "Real-time decoder for a MegaQuOp quantum computer using a single CPU"
+    },
+    "2608.25136": {
+      "triagedAt": "2026-08-31",
+      "verdict": "not-a-benchmark",
+      "title": "Generalized Efficient Quantum Circuit Implementation of Discrete-Time Quantum Walks on Cayley Graphs"
+    },
+    "2608.25484": {
+      "triagedAt": "2026-08-31",
+      "verdict": "not-a-benchmark",
+      "title": "Low-leakage superconducting-qubit measurement with sub-100-ns total duration"
+    },
+    "2608.25503": {
+      "triagedAt": "2026-08-31",
+      "verdict": "results-on-existing",
+      "title": "High-Fidelity Entangled States in a Connectivity-Four Fluxonium Quantum Processor"
+    },
+    "2608.25915": {
+      "triagedAt": "2026-08-31",
+      "verdict": "not-a-benchmark",
+      "title": "Computing key rates for one-sided device-independent quantum key distribution"
+    },
+    "2608.26094": {
+      "triagedAt": "2026-08-31",
+      "verdict": "not-a-benchmark",
+      "title": "MyoMechanix: Biomechanically-Grounded Compositional Skilled Activity Understanding and Coaching"
+    },
+    "2608.26096": {
+      "triagedAt": "2026-08-31",
+      "verdict": "not-a-benchmark",
+      "title": "Torsion balances as operational probes of semiclassical gravity: Matched-filter bounds, torque-diffu"
+    },
+    "2608.26235": {
+      "triagedAt": "2026-08-31",
+      "verdict": "not-a-benchmark",
+      "title": "The Reasoning Tax: Token Economics of LLM Reasoning Across Task Types and Deployment Contexts"
+    },
+    "2608.26368": {
+      "triagedAt": "2026-08-31",
+      "verdict": "not-a-benchmark",
+      "title": "Direct-Operable SIMD Bit-Slicing: A Framework for Memory-Efficient Predicate Evaluation"
+    },
+    "2608.26865": {
+      "triagedAt": "2026-08-31",
+      "verdict": "not-a-benchmark",
+      "title": "Coupled-channel scattering from artificial confinement"
+    },
+    "2608.26894": {
+      "triagedAt": "2026-08-31",
+      "verdict": "not-a-benchmark",
+      "title": "Correcting Connectivity in Arc-Based QUBO Models for Fixed-Fleet Vehicle Routing"
+    },
+    "2608.27029": {
+      "triagedAt": "2026-08-31",
+      "verdict": "not-a-benchmark",
+      "title": "FoldPipe: Bounded Remote Streaming of Native Molecular Shards with Asynchronous Prefetch"
+    },
+    "2608.27099": {
+      "triagedAt": "2026-08-31",
+      "verdict": "new-benchmark",
+      "title": "Towards Reproducible Evaluation of Distributed Quantum Circuit Partitioning Algorithms"
+    },
+    "2608.27216": {
+      "triagedAt": "2026-08-31",
+      "verdict": "not-a-benchmark",
+      "title": "QH-GEM: Quantum-Hydrodynamic Generative Modeling"
+    },
+    "2608.27333": {
+      "triagedAt": "2026-08-31",
+      "verdict": "not-a-benchmark",
+      "title": "Evaluating Quantum Kernel Methods for Track-Based Classification in High-Energy Physics"
+    },
+    "2608.27430": {
+      "triagedAt": "2026-08-31",
+      "verdict": "not-a-benchmark",
+      "title": "Factorized Boolean representations for efficient quantum synthesis"
+    },
+    "2608.27561": {
+      "triagedAt": "2026-08-31",
+      "verdict": "not-a-benchmark",
+      "title": "Pulling strings in real time: flux tube dynamics in (2+1)-d $\\mathbb{Z}_2$-Higgs Gauge Theories"
+    },
+    "2608.27626": {
+      "triagedAt": "2026-08-31",
+      "verdict": "not-a-benchmark",
+      "title": "Quantum SEDONet: Spectrally-Embedded Quantum Deep Operator Networks for Partial Differential Equatio"
+    },
+    "2608.27632": {
+      "triagedAt": "2026-08-31",
+      "verdict": "not-a-benchmark",
+      "title": "Machine Learning-Based Characterisation of the Non-Markovian Dynamics of a Nitrogen-Vacancy Centre"
+    },
+    "2608.27710": {
+      "triagedAt": "2026-08-31",
+      "verdict": "not-a-benchmark",
+      "title": "Adaptation Fidelity of SPEC CPU2026"
+    },
+    "2608.27764": {
+      "triagedAt": "2026-08-31",
+      "verdict": "not-a-benchmark",
+      "title": "Benchmarking Quantum Feature Encoding Strategies for Binary Classification with QSVM"
+    },
+    "2608.28084": {
+      "triagedAt": "2026-08-31",
+      "verdict": "not-a-benchmark",
+      "title": "Comparing Classical and Quantum Machine Learning for Regression in High Energy Physics Collision Dat"
+    },
+    "2608.28097": {
+      "triagedAt": "2026-08-31",
+      "verdict": "not-a-benchmark",
+      "title": "Great Expectations: Benchmarking the Real-World Performance of RVV 1.0 in HPC"
+    },
+    "2608.28235": {
+      "triagedAt": "2026-08-31",
+      "verdict": "new-benchmark",
+      "title": "Direct Adaptive Certification of High-Dimensional Entanglement with Bell Tests"
+    },
+    "2608.28357": {
+      "triagedAt": "2026-08-31",
+      "verdict": "not-a-benchmark",
+      "title": "Variationally Optimized Imaginary-time Polynomial Filters for Ground State Projection"
     }
   }
 }
