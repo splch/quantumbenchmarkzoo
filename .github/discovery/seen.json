@@ -1875,6 +1875,276 @@
       "triagedAt": "2026-09-07",
       "verdict": "not-a-benchmark",
       "title": "Towards Scaling Quantum Fine-Tuning of Foundational Time Series Models for Classification"
+    },
+    "2609.12840": {
+      "triagedAt": "2026-09-21",
+      "verdict": "not-a-benchmark",
+      "title": "State-adapted generalized mean-field projections for Pauli propagation of Heisenberg dynamics"
+    },
+    "2609.12980": {
+      "triagedAt": "2026-09-21",
+      "verdict": "not-a-benchmark",
+      "title": "Transpilation-Aware Runtime Prediction for Noisy Quantum Circuit Simulation"
+    },
+    "2609.13077": {
+      "triagedAt": "2026-09-21",
+      "verdict": "not-a-benchmark",
+      "title": "Exact Fock Amplitudes of the Cubic-Phase Gate on Arbitrary Pure Gaussian States"
+    },
+    "2609.13379": {
+      "triagedAt": "2026-09-21",
+      "verdict": "not-a-benchmark",
+      "title": "Handling Imperfections in Subcircuit Compilation for Linear Optical Quantum Computing"
+    },
+    "2609.13411": {
+      "triagedAt": "2026-09-21",
+      "verdict": "not-a-benchmark",
+      "title": "Tripartite entanglement in chaotic eigenstates"
+    },
+    "2609.13497": {
+      "triagedAt": "2026-09-21",
+      "verdict": "not-a-benchmark",
+      "title": "Scaling equations for Bose-Einstein condensate dynamics across all interaction regimes"
+    },
+    "2609.14070": {
+      "triagedAt": "2026-09-21",
+      "verdict": "not-a-benchmark",
+      "title": "Formulating Multistage Cutting Stock Problems as QUBO"
+    },
+    "2609.14478": {
+      "triagedAt": "2026-09-21",
+      "verdict": "not-a-benchmark",
+      "title": "NAQsim: Full-Stack Architecture Simulation Framework for Fast and Space-Efficient Neutral Atom Quant"
+    },
+    "2609.14529": {
+      "triagedAt": "2026-09-21",
+      "verdict": "not-a-benchmark",
+      "title": "Parameter-Efficient Quantum NLP for Paraphrase Detection: Performance, Robustness, and Entanglement"
+    },
+    "2609.14594": {
+      "triagedAt": "2026-09-21",
+      "verdict": "not-a-benchmark",
+      "title": "When is global evolutionary search useful for variational quantum algorithms? A landscape-first stud"
+    },
+    "2609.14620": {
+      "triagedAt": "2026-09-21",
+      "verdict": "not-a-benchmark",
+      "title": "Dynamical Readout of Measurement Statistics and Emergent Entanglement-Like States in Classical Netwo"
+    },
+    "2609.14762": {
+      "triagedAt": "2026-09-21",
+      "verdict": "not-a-benchmark",
+      "title": "TriCalRAG: A Three-Strategy, Retrieval-Augmented Benchmark for On-Premise LLM-Based Root Cause Analy"
+    },
+    "2609.15099": {
+      "triagedAt": "2026-09-21",
+      "verdict": "not-a-benchmark",
+      "title": "Biorthogonal Time-Dependent Variational Principle for Non-Hermitian Systems"
+    },
+    "2609.15267": {
+      "triagedAt": "2026-09-21",
+      "verdict": "not-a-benchmark",
+      "title": "Feature-Adaptive Fusion in Hybrid Quantum-Classical Neural Networks for Robust Biomedical Image Clas"
+    },
+    "2609.15272": {
+      "triagedAt": "2026-09-21",
+      "verdict": "not-a-benchmark",
+      "title": "Variational Real-Time Dynamics on Reduced Operator Manifolds"
+    },
+    "2609.15345": {
+      "triagedAt": "2026-09-21",
+      "verdict": "not-a-benchmark",
+      "title": "Improving precision scaling via backaction-evading continuous measurement in a driven-dissipative Ke"
+    },
+    "2609.15558": {
+      "triagedAt": "2026-09-21",
+      "verdict": "not-a-benchmark",
+      "title": "Opportunistic ZGC: Leveraging Idle Cores for More Effective Concurrent Garbage Collection"
+    },
+    "2609.15662": {
+      "triagedAt": "2026-09-21",
+      "verdict": "new-benchmark",
+      "title": "Efficient quantum state tomography with two complementary projective measurements"
+    },
+    "2609.15728": {
+      "triagedAt": "2026-09-21",
+      "verdict": "not-a-benchmark",
+      "title": "A Modular, Topology-Aware Software Stack for Entanglement-Based Distributed Quantum Computing"
+    },
+    "2609.15738": {
+      "triagedAt": "2026-09-21",
+      "verdict": "not-a-benchmark",
+      "title": "Disentangling QAOA: From Weakly Entangled Circuits to a Classical QUBO Solver"
+    },
+    "2609.15807": {
+      "triagedAt": "2026-09-21",
+      "verdict": "not-a-benchmark",
+      "title": "Accelerating Transfer-Learning-Based Autotuning with Predictive LLVM IR Performance Ranking"
+    },
+    "2609.15847": {
+      "triagedAt": "2026-09-21",
+      "verdict": "not-a-benchmark",
+      "title": "Proportional-Fair Resource Allocation and Dual-Threshold Early-Exit Inference for Secure Cooperative"
+    },
+    "2609.16108": {
+      "triagedAt": "2026-09-21",
+      "verdict": "not-a-benchmark",
+      "title": "Large-scale quantum simulations of dissipative spin-1/2 Heisenberg chains"
+    },
+    "2609.16119": {
+      "triagedAt": "2026-09-21",
+      "verdict": "not-a-benchmark",
+      "title": "Adaptive detection of Rabi signals under composite hypotheses"
+    },
+    "2609.16142": {
+      "triagedAt": "2026-09-21",
+      "verdict": "not-a-benchmark",
+      "title": "Investigating Interacting Fermionic Models with Locality-Preserving Qubit Encodings"
+    },
+    "2609.16208": {
+      "triagedAt": "2026-09-21",
+      "verdict": "not-a-benchmark",
+      "title": "Link-middle-cut lower bounds for Clifford circuit synthesis"
+    },
+    "2609.16851": {
+      "triagedAt": "2026-09-21",
+      "verdict": "not-a-benchmark",
+      "title": "Understanding the spin coherence of molecular photoexcited triplet states from first principles"
+    },
+    "2609.16929": {
+      "triagedAt": "2026-09-21",
+      "verdict": "not-a-benchmark",
+      "title": "Exact efficient simulation of noisy logical magic states using Clifford stabilizers"
+    },
+    "2609.17063": {
+      "triagedAt": "2026-09-21",
+      "verdict": "not-a-benchmark",
+      "title": "Development of a Physics-Informed Neural Framework, MEOWN, for Rapid Prediction of Muon Stopping Sit"
+    },
+    "2609.17102": {
+      "triagedAt": "2026-09-21",
+      "verdict": "not-a-benchmark",
+      "title": "Large-scale NMR simulation on a trapped-ion quantum computer"
+    },
+    "2609.17294": {
+      "triagedAt": "2026-09-21",
+      "verdict": "not-a-benchmark",
+      "title": "ConteXtuAlity: an open source Python package for contextuality"
+    },
+    "2609.17352": {
+      "triagedAt": "2026-09-21",
+      "verdict": "not-a-benchmark",
+      "title": "Adaptive Relational Learning on Multi-instance Quantum Data with Photonic Processors"
+    },
+    "2609.17439": {
+      "triagedAt": "2026-09-21",
+      "verdict": "new-benchmark",
+      "title": "Evaluating Verified Autonomy in Quantum Engineering"
+    },
+    "2609.17465": {
+      "triagedAt": "2026-09-21",
+      "verdict": "not-a-benchmark",
+      "title": "Quantum Compiler Design for Fault-Tolerant Quantum Computing"
+    },
+    "2609.17706": {
+      "triagedAt": "2026-09-21",
+      "verdict": "not-a-benchmark",
+      "title": "Diagnosing and Restoring the Degraded Fault Distance of Magic State Cultivation"
+    },
+    "2609.17727": {
+      "triagedAt": "2026-09-21",
+      "verdict": "not-a-benchmark",
+      "title": "Scalar quasinormal and quasibound states of weakly magnetized Ernst--Schwarzschild spacetime: a conf"
+    },
+    "2609.17785": {
+      "triagedAt": "2026-09-21",
+      "verdict": "not-a-benchmark",
+      "title": "Exact damping-basis continued fractions for few-atom lasers: collective correlations beyond second-o"
+    },
+    "2609.17789": {
+      "triagedAt": "2026-09-21",
+      "verdict": "not-a-benchmark",
+      "title": "QiT: Quantum-Inspired Transformer for Visual Recognition Task"
+    },
+    "2609.17979": {
+      "triagedAt": "2026-09-21",
+      "verdict": "not-a-benchmark",
+      "title": "Qurrium: A Python package for randomized measurement-based estimation of quantum state properties"
+    },
+    "2609.17991": {
+      "triagedAt": "2026-09-21",
+      "verdict": "not-a-benchmark",
+      "title": "Fourier Analysis of Parametrized Interactive Quantum Classifiers"
+    },
+    "2609.18409": {
+      "triagedAt": "2026-09-21",
+      "verdict": "not-a-benchmark",
+      "title": "Benchmarking indirect quantum control schemes via higher-order quantum operations"
+    },
+    "2609.18761": {
+      "triagedAt": "2026-09-21",
+      "verdict": "not-a-benchmark",
+      "title": "Exact and fast series expansions for quantum models with long-range interactions"
+    },
+    "2609.18841": {
+      "triagedAt": "2026-09-21",
+      "verdict": "not-a-benchmark",
+      "title": "A first introduction to Matrix Product State algorithms for the integration of Lindblad equation"
+    },
+    "2609.18918": {
+      "triagedAt": "2026-09-21",
+      "verdict": "not-a-benchmark",
+      "title": "Graph lattice sums and graph zeta functions for long-range interacting quantum lattice models"
+    },
+    "2609.19308": {
+      "triagedAt": "2026-09-21",
+      "verdict": "not-a-benchmark",
+      "title": "Temporal information processing on a 4,500-qubit quantum annealer"
+    },
+    "2609.19392": {
+      "triagedAt": "2026-09-21",
+      "verdict": "not-a-benchmark",
+      "title": "Transformers as Intrinsic Optimizers for Quantum Approximate Optimization Algorithm"
+    },
+    "2609.19657": {
+      "triagedAt": "2026-09-21",
+      "verdict": "not-a-benchmark",
+      "title": "PrefixBench-H100: Characterizing Prefix Reuse and Time-to-First-Token in H100 LLM Serving"
+    },
+    "2609.19931": {
+      "triagedAt": "2026-09-21",
+      "verdict": "new-benchmark",
+      "title": "Quantum WalkScore: Benchmarking Quantum Computers on the Graph Nodefinding Problem"
+    },
+    "2609.19983": {
+      "triagedAt": "2026-09-21",
+      "verdict": "not-a-benchmark",
+      "title": "Quantum Graph Convolutional Networks: Implementation and Trainability Analysis"
+    },
+    "2609.20148": {
+      "triagedAt": "2026-09-21",
+      "verdict": "not-a-benchmark",
+      "title": "An exact Jordan signature in cumulative-count first-passage statistics"
+    },
+    "2609.20557": {
+      "triagedAt": "2026-09-21",
+      "verdict": "not-a-benchmark",
+      "title": "A quantum representation of $π$ fragmentation functions through variational quantum circuits"
+    },
+    "2609.21544": {
+      "triagedAt": "2026-09-21",
+      "verdict": "not-a-benchmark",
+      "title": "Cross-Platform vs Native Mobile Development: An Empirical Study of Software Quality Trade-offs"
+    },
+    "2609.21625": {
+      "triagedAt": "2026-09-21",
+      "verdict": "not-a-benchmark",
+      "title": "Semiclassical Arrhenius law for quantum-thermal escape rates"
+    },
+    "2609.21846": {
+      "triagedAt": "2026-09-21",
+      "verdict": "not-a-benchmark",
+      "title": "Sine-Gordon Model with Bosonic Tensor Networks: Continuum Matching and Soliton Scattering"
     }
   }
 }
