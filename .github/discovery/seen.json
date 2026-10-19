@@ -3025,6 +3025,251 @@
       "triagedAt": "2026-10-12",
       "verdict": "not-a-benchmark",
       "title": "An Annealing-based Quantum Neural Network with Discrete Wavelet Transforms for Enhanced Air Pollutio"
+    },
+    "2610.14389": {
+      "triagedAt": "2026-10-19",
+      "verdict": "not-a-benchmark",
+      "title": "Measuring the Inference Energy Efficiency of Open-Weight LLMs across Benchmarks, Reasoning Modes, an"
+    },
+    "2610.14533": {
+      "triagedAt": "2026-10-19",
+      "verdict": "not-a-benchmark",
+      "title": "Sample-Size Scalability and Representation Sensitivity of Quantum Machine Learning Models for Higgs "
+    },
+    "2610.14602": {
+      "triagedAt": "2026-10-19",
+      "verdict": "new-benchmark",
+      "title": "Scalability and performance metrics for boson sampling devices"
+    },
+    "2610.14954": {
+      "triagedAt": "2026-10-19",
+      "verdict": "not-a-benchmark",
+      "title": "Partial-coherence weak measurement of polarization qubits with a temporal pointer: theory and experi"
+    },
+    "2610.15083": {
+      "triagedAt": "2026-10-19",
+      "verdict": "not-a-benchmark",
+      "title": "Generative learning of time series with holographic quantum circuit sampling"
+    },
+    "2610.16153": {
+      "triagedAt": "2026-10-19",
+      "verdict": "not-a-benchmark",
+      "title": "Architectural Robustness to Label Noise Using Variational Quantum Circuits for Medical Image Classif"
+    },
+    "2610.16379": {
+      "triagedAt": "2026-10-19",
+      "verdict": "not-a-benchmark",
+      "title": "Benchmarking a randomized quantum algorithm for estimating expectation values of molecular observabl"
+    },
+    "2610.17137": {
+      "triagedAt": "2026-10-19",
+      "verdict": "not-a-benchmark",
+      "title": "Cyclotomic Structure and Exact Recurrences in Floquet Many-Body Quantum Dynamics"
+    },
+    "2610.17219": {
+      "triagedAt": "2026-10-19",
+      "verdict": "not-a-benchmark",
+      "title": "Fermionic non-Gaussianity via computable measures and experimentally accessible bounds"
+    },
+    "2610.17351": {
+      "triagedAt": "2026-10-19",
+      "verdict": "not-a-benchmark",
+      "title": "QGrAT: Quantum Grade-Aware Transformer for Jet Tagging"
+    },
+    "2610.17395": {
+      "triagedAt": "2026-10-19",
+      "verdict": "not-a-benchmark",
+      "title": "A Controlled Null Result for Per-Gate Riemannian Optimization in VQE"
+    },
+    "2610.17470": {
+      "triagedAt": "2026-10-19",
+      "verdict": "not-a-benchmark",
+      "title": "Time-Domain Observables for Resonant Scattering in Quantum Simulations of Lattice Gauge Theory"
+    },
+    "2610.17683": {
+      "triagedAt": "2026-10-19",
+      "verdict": "not-a-benchmark",
+      "title": "GWPTools: An extensible Wolfram Language framework for time-dependent Gaussian wave packet dynamics"
+    },
+    "2610.17722": {
+      "triagedAt": "2026-10-19",
+      "verdict": "not-a-benchmark",
+      "title": "Representation Geometry and Inductive Biases in Quantum Classifiers across Classical Visual Benchmar"
+    },
+    "2610.18000": {
+      "triagedAt": "2026-10-19",
+      "verdict": "results-on-existing",
+      "title": "Development and experimental implementation of noise characterisation techniques on a superconductin"
+    },
+    "2610.18029": {
+      "triagedAt": "2026-10-19",
+      "verdict": "not-a-benchmark",
+      "title": "Lossless Reductions and Hybrid Sampling for Phylogeny Using the Maximum Compatibility Criterion"
+    },
+    "2610.18201": {
+      "triagedAt": "2026-10-19",
+      "verdict": "not-a-benchmark",
+      "title": "How Reliable Are Large Language Models for Soil Organic Carbon Assessment? An Australian Benchmark"
+    },
+    "2610.18245": {
+      "triagedAt": "2026-10-19",
+      "verdict": "not-a-benchmark",
+      "title": "Experimental Benchmarking of a 256-Qubit Room-Temperature NV-Diamond Quantum Processor with an Optic"
+    },
+    "2610.18477": {
+      "triagedAt": "2026-10-19",
+      "verdict": "not-a-benchmark",
+      "title": "Experimental Realization of a C-Shunt Flux-Qubit Coupler for Controlled-Z Gates between Transmons"
+    },
+    "2610.18712": {
+      "triagedAt": "2026-10-19",
+      "verdict": "not-a-benchmark",
+      "title": "PULSUS: Direct Frequency-Domain Multidimensional Spectroscopy Beyond the Impulsive Rotating-Wave App"
+    },
+    "2610.18731": {
+      "triagedAt": "2026-10-19",
+      "verdict": "not-a-benchmark",
+      "title": "Finite-energy two-way assisted capacities: Exact formulas for multimode loss and fading"
+    },
+    "2610.18785": {
+      "triagedAt": "2026-10-19",
+      "verdict": "not-a-benchmark",
+      "title": "Relative-Entropy Geometry and Convergence in Nonconvex Wiretap Optimization"
+    },
+    "2610.18827": {
+      "triagedAt": "2026-10-19",
+      "verdict": "not-a-benchmark",
+      "title": "Gaussian entanglement and quantum communication: geodesic optimization and multimode bounds"
+    },
+    "2610.19268": {
+      "triagedAt": "2026-10-19",
+      "verdict": "not-a-benchmark",
+      "title": "Whose Data, Whose Benchmark? A User-Centric Framework for Auditing Evaluation Resources"
+    },
+    "2610.19299": {
+      "triagedAt": "2026-10-19",
+      "verdict": "not-a-benchmark",
+      "title": "Gap-Priced $|T\\rangle$-States: Dynamic $|T\\rangle$ Post-Selection and Budget-Aware Factory Provision"
+    },
+    "2610.19304": {
+      "triagedAt": "2026-10-19",
+      "verdict": "new-benchmark",
+      "title": "Leakage benchmarking with decohering subgroups in the presence of preparation and measurement errors"
+    },
+    "2610.19544": {
+      "triagedAt": "2026-10-19",
+      "verdict": "not-a-benchmark",
+      "title": "Shot- and Noise-Aware Pauli Correlation Encoding for Max-Cut Experiments on IBM Heron Quantum Proces"
+    },
+    "2610.19676": {
+      "triagedAt": "2026-10-19",
+      "verdict": "not-a-benchmark",
+      "title": "Dynamical Decoupling of Nonclassical States in a Biased-Noise Spin Qudit"
+    },
+    "2610.19751": {
+      "triagedAt": "2026-10-19",
+      "verdict": "not-a-benchmark",
+      "title": "Quantum-enhanced Search for Galactic Dark Photons Using Cat-State Cavities"
+    },
+    "2610.19923": {
+      "triagedAt": "2026-10-19",
+      "verdict": "not-a-benchmark",
+      "title": "Majorana Edge Modes Reshape Kibble-Zurek Scaling in Kitaev Honeycomb Ribbons"
+    },
+    "2610.20005": {
+      "triagedAt": "2026-10-19",
+      "verdict": "not-a-benchmark",
+      "title": "Hyperentanglement in intermediate phase-space planes: benchmarking a photon-pair source for quantum "
+    },
+    "2610.20654": {
+      "triagedAt": "2026-10-19",
+      "verdict": "not-a-benchmark",
+      "title": "The noise cost of reservoir locality in broadband quantum amplifier chains"
+    },
+    "2610.20723": {
+      "triagedAt": "2026-10-19",
+      "verdict": "not-a-benchmark",
+      "title": "Boundary-induced geometrical frustration in a square Rydberg-atom lattice"
+    },
+    "2610.20791": {
+      "triagedAt": "2026-10-19",
+      "verdict": "not-a-benchmark",
+      "title": "Sparse-QITE: Discovering Compact Generators for Quantum Imaginary-Time Evolution via Regularization "
+    },
+    "2610.21075": {
+      "triagedAt": "2026-10-19",
+      "verdict": "not-a-benchmark",
+      "title": "Data-Driven Optimization of Seminumerical Exchange for SIMD CPUs"
+    },
+    "2610.21395": {
+      "triagedAt": "2026-10-19",
+      "verdict": "not-a-benchmark",
+      "title": "When do quantum views help? Complementary classical-quantum representations in multi-view fusion"
+    },
+    "2610.21760": {
+      "triagedAt": "2026-10-19",
+      "verdict": "not-a-benchmark",
+      "title": "Beyond Generation: Using Multimodal LLMs as Detectors of LLM-Generated Deepfake Facial Images"
+    },
+    "2610.21907": {
+      "triagedAt": "2026-10-19",
+      "verdict": "not-a-benchmark",
+      "title": "Selected Stabilizer Subspaces for Compact Many-Body Wave Functions"
+    },
+    "2610.21909": {
+      "triagedAt": "2026-10-19",
+      "verdict": "not-a-benchmark",
+      "title": "Looking Beyond Visibility: Resolving the Temporal Structure of Continuous-Wave Four-Photon Hong-Ou-M"
+    },
+    "2610.21942": {
+      "triagedAt": "2026-10-19",
+      "verdict": "not-a-benchmark",
+      "title": "Jianmu-Q: Bridging Quantum Field Theory and Quantum Hardware with AI Agents"
+    },
+    "2610.22069": {
+      "triagedAt": "2026-10-19",
+      "verdict": "not-a-benchmark",
+      "title": "Generalized $m$-body mean-field projections for classical simulation of $d$-dimensional Heisenberg-p"
+    },
+    "2610.22199": {
+      "triagedAt": "2026-10-19",
+      "verdict": "not-a-benchmark",
+      "title": "Energetics of Fault-Tolerant Spin-Qubit Quantum Computation"
+    },
+    "2610.22207": {
+      "triagedAt": "2026-10-19",
+      "verdict": "not-a-benchmark",
+      "title": "Efficient quantum simulation of unitary gates based on atomic ensembles"
+    },
+    "2610.22284": {
+      "triagedAt": "2026-10-19",
+      "verdict": "not-a-benchmark",
+      "title": "Adding Temperature to the Adiabatic Connection: Hybrid Functionals for Static and Dynamic Correlatio"
+    },
+    "2610.22387": {
+      "triagedAt": "2026-10-19",
+      "verdict": "new-benchmark",
+      "title": "QMBL: the Quantum Many-Body Leaderboard. A live record of published ground-state energies for lattic"
+    },
+    "2610.22886": {
+      "triagedAt": "2026-10-19",
+      "verdict": "new-benchmark",
+      "title": "SemQBench: Benchmarking Decomposition-Aware Runtime Policies for Quantum-HPC Search"
+    },
+    "2610.23316": {
+      "triagedAt": "2026-10-19",
+      "verdict": "not-a-benchmark",
+      "title": "SpinControl: Control Software for Prototyping and Benchmarking of Spin-Qubit Devices and Measurement"
+    },
+    "2610.23398": {
+      "triagedAt": "2026-10-19",
+      "verdict": "not-a-benchmark",
+      "title": "Quantum Sensitivity of $N$-Component Cat States"
+    },
+    "2610.23692": {
+      "triagedAt": "2026-10-19",
+      "verdict": "not-a-benchmark",
+      "title": "Expressivity of IQP Feature-Map Quantum Kernels via Reproducing Kernel Hilbert Spaces"
     }
   }
 }
