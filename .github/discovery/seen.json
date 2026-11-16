@@ -4135,6 +4135,231 @@
       "triagedAt": "2026-11-09",
       "verdict": "not-a-benchmark",
       "title": "Differentiable Digital Twins for Optimization, Calibration, and Characterization of Neutral-Atom- an"
+    },
+    "2611.10398": {
+      "triagedAt": "2026-11-16",
+      "verdict": "not-a-benchmark",
+      "title": "Measuring Tabular Data Formats Cold: A Replicated Cold-Cache Benchmark of Serialization, Scan, and I"
+    },
+    "2611.10527": {
+      "triagedAt": "2026-11-16",
+      "verdict": "not-a-benchmark",
+      "title": "QAOA Inside ADMM: Subproblem Wins Do Not Become Decomposition Wins at Matched Budgets"
+    },
+    "2611.10687": {
+      "triagedAt": "2026-11-16",
+      "verdict": "not-a-benchmark",
+      "title": "Hidden Coherence and Controlled Quasihole Motion in a Fermionic Laughlin State on a Superconducting "
+    },
+    "2611.10688": {
+      "triagedAt": "2026-11-16",
+      "verdict": "not-a-benchmark",
+      "title": "Performance Benchmarking of Federated Learning Frameworks for Medical Image Classification"
+    },
+    "2611.10887": {
+      "triagedAt": "2026-11-16",
+      "verdict": "not-a-benchmark",
+      "title": "Periodic Readout Induces a First-Order Generalization Transition in a Quantum Perceptron"
+    },
+    "2611.10933": {
+      "triagedAt": "2026-11-16",
+      "verdict": "not-a-benchmark",
+      "title": "Qubit representation of the mass observable in quantized Schwarzschild interior"
+    },
+    "2611.11040": {
+      "triagedAt": "2026-11-16",
+      "verdict": "not-a-benchmark",
+      "title": "Advancements in Cloud-Native Systems: A Systematic Mapping Study of Reliability and Scalability acro"
+    },
+    "2611.11245": {
+      "triagedAt": "2026-11-16",
+      "verdict": "not-a-benchmark",
+      "title": "Hardware-Efficient Continuous-Variable Quantum Computation: Finite-$N$ Non-Gaussian Gates in a Floqu"
+    },
+    "2611.11405": {
+      "triagedAt": "2026-11-16",
+      "verdict": "not-a-benchmark",
+      "title": "Industrial RPCVD growth of high-purity 28Si epilayers with 29Si content below 30 ppm for high-fideli"
+    },
+    "2611.11858": {
+      "triagedAt": "2026-11-16",
+      "verdict": "not-a-benchmark",
+      "title": "Rotational Encoding of Objective Functions for Quantum Optimization"
+    },
+    "2611.13079": {
+      "triagedAt": "2026-11-16",
+      "verdict": "not-a-benchmark",
+      "title": "Quantum simulation of real-time bosonic dynamics with binary and unary position encodings on superco"
+    },
+    "2611.13373": {
+      "triagedAt": "2026-11-16",
+      "verdict": "not-a-benchmark",
+      "title": "PriorTilt: Decoding quantum LDPC codes with sparse perturbations of belief propagation priors"
+    },
+    "2611.13630": {
+      "triagedAt": "2026-11-16",
+      "verdict": "not-a-benchmark",
+      "title": "Machine-learning decoders for fusion-based quantum computing in real time"
+    },
+    "2611.13796": {
+      "triagedAt": "2026-11-16",
+      "verdict": "not-a-benchmark",
+      "title": "Analog quantum approximate optimization algorithm for solving the weighted MaxCut problem on three-d"
+    },
+    "2611.14114": {
+      "triagedAt": "2026-11-16",
+      "verdict": "results-on-existing",
+      "title": "Cross-Platform Benchmarking of GHZ-State Generation in Quantum Processors via Cloud Services"
+    },
+    "2611.14204": {
+      "triagedAt": "2026-11-16",
+      "verdict": "not-a-benchmark",
+      "title": "Performance Portability Explained: Insights from accelerating ICON microphysics"
+    },
+    "2611.14368": {
+      "triagedAt": "2026-11-16",
+      "verdict": "not-a-benchmark",
+      "title": "Invariance can prevent overfitting and shortcut learning in Quantum Neural Networks"
+    },
+    "2611.14461": {
+      "triagedAt": "2026-11-16",
+      "verdict": "not-a-benchmark",
+      "title": "Finite-Key Readiness and Authentication-Key Replenishment in QKD-Assisted UAV Edge Computing"
+    },
+    "2611.14588": {
+      "triagedAt": "2026-11-16",
+      "verdict": "not-a-benchmark",
+      "title": "Controlled preparation and unconditional transport on a fluctuating quantum graph"
+    },
+    "2611.14629": {
+      "triagedAt": "2026-11-16",
+      "verdict": "not-a-benchmark",
+      "title": "Quantum Computing Enhanced Search for Wavelike Dark Matter"
+    },
+    "2611.14944": {
+      "triagedAt": "2026-11-16",
+      "verdict": "not-a-benchmark",
+      "title": "CSS Circuits: useful quantum circuits that can be simulated with $O(1)$ cost per gate"
+    },
+    "2611.14986": {
+      "triagedAt": "2026-11-16",
+      "verdict": "not-a-benchmark",
+      "title": "From optimization to construction: Expanding quantum measurement designs"
+    },
+    "2611.15000": {
+      "triagedAt": "2026-11-16",
+      "verdict": "new-benchmark",
+      "title": "QSim-Arena: an evolving developer for quantum simulation advantage"
+    },
+    "2611.15080": {
+      "triagedAt": "2026-11-16",
+      "verdict": "not-a-benchmark",
+      "title": "Structure-Aware Quantum Circuit Equivalence Checking via Sparse Pauli Propagation"
+    },
+    "2611.15104": {
+      "triagedAt": "2026-11-16",
+      "verdict": "not-a-benchmark",
+      "title": "An Architecture for Real-Time Quantum Error Correction with Neutral Atoms"
+    },
+    "2611.15283": {
+      "triagedAt": "2026-11-16",
+      "verdict": "not-a-benchmark",
+      "title": "Device-independent witnesses of genuine multipartite entanglement and nonlocality for GHZ states and"
+    },
+    "2611.15298": {
+      "triagedAt": "2026-11-16",
+      "verdict": "not-a-benchmark",
+      "title": "Quantum Recurrent Architectures for Financial Time Series Prediction"
+    },
+    "2611.15343": {
+      "triagedAt": "2026-11-16",
+      "verdict": "not-a-benchmark",
+      "title": "Hybrid Classical-Quantum Optimization for CVRPTW: A Systems Framework with Provable Feasibility and "
+    },
+    "2611.15365": {
+      "triagedAt": "2026-11-16",
+      "verdict": "not-a-benchmark",
+      "title": "A Unified Benchmarking Study of Variational Quantum Eigensolver Ansatz for Electronic Structure Prob"
+    },
+    "2611.15372": {
+      "triagedAt": "2026-11-16",
+      "verdict": "not-a-benchmark",
+      "title": "LLMRunner: Closed Workload Model Performance Testing Framework for LLM Servings"
+    },
+    "2611.15896": {
+      "triagedAt": "2026-11-16",
+      "verdict": "not-a-benchmark",
+      "title": "U(1)-Symmetric Spin SYK Models: Ordering, Chaos, and Transport"
+    },
+    "2611.16016": {
+      "triagedAt": "2026-11-16",
+      "verdict": "not-a-benchmark",
+      "title": "Quantum Material Generation via Coherent Hamiltonian Search"
+    },
+    "2611.16071": {
+      "triagedAt": "2026-11-16",
+      "verdict": "not-a-benchmark",
+      "title": "Mapping the High-Field Response of Superconducting Nanowire Single-Photon Detectors"
+    },
+    "2611.16376": {
+      "triagedAt": "2026-11-16",
+      "verdict": "not-a-benchmark",
+      "title": "SPEC CPU2026 Under the Microscope: Programs, Phases, and Samples"
+    },
+    "2611.16566": {
+      "triagedAt": "2026-11-16",
+      "verdict": "not-a-benchmark",
+      "title": "Towards Automated Recommendation of Steady-State Detection Algorithms for Software Performance Bench"
+    },
+    "2611.16691": {
+      "triagedAt": "2026-11-16",
+      "verdict": "not-a-benchmark",
+      "title": "Persistent-mediator architecture for universal fault-tolerant quantum computation with color codes"
+    },
+    "2611.16971": {
+      "triagedAt": "2026-11-16",
+      "verdict": "not-a-benchmark",
+      "title": "Improved Low-Cost Quantum Error Mitigation with Benchmarked-Noise Zero-Noise Extrapolation (bnZNE)"
+    },
+    "2611.17262": {
+      "triagedAt": "2026-11-16",
+      "verdict": "not-a-benchmark",
+      "title": "Scalable Pauli propagation through $\\mathbb{F}_2$-linear partitioning"
+    },
+    "2611.17265": {
+      "triagedAt": "2026-11-16",
+      "verdict": "not-a-benchmark",
+      "title": "A deployed four-city entanglement-based QKD network with real-time key delivery, benchmarked against"
+    },
+    "2611.17499": {
+      "triagedAt": "2026-11-16",
+      "verdict": "not-a-benchmark",
+      "title": "Continuous Cuffless Blood Pressure Estimation Using PPG From Methods to Clinical Translation"
+    },
+    "2611.17941": {
+      "triagedAt": "2026-11-16",
+      "verdict": "new-benchmark",
+      "title": "Benchmarking superconducting quantum processors with percolating entanglement quality"
+    },
+    "2611.18030": {
+      "triagedAt": "2026-11-16",
+      "verdict": "not-a-benchmark",
+      "title": "PerfArena: Ranking LLMs by Code Performance"
+    },
+    "2611.18082": {
+      "triagedAt": "2026-11-16",
+      "verdict": "not-a-benchmark",
+      "title": "Hybrid Krotov gradient descent Optimization for Quantum Machine Learning"
+    },
+    "2611.18121": {
+      "triagedAt": "2026-11-16",
+      "verdict": "not-a-benchmark",
+      "title": "Optimizing Drilling Trajectories in Multi-Material Structures Using Quantum Annealers"
+    },
+    "2611.18372": {
+      "triagedAt": "2026-11-16",
+      "verdict": "not-a-benchmark",
+      "title": "Vision-Language-Action Models: A Life-Cycle Survey of Design, Training and Deployment"
     }
   }
 }
